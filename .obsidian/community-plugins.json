@@ -1,5 +1,9 @@
 [
   "obsidian-git",
   "obsidian-markdown-formatting-assistant-plugin",
-  "templater-obsidian"
+  "templater-obsidian",
+  "recent-files-obsidian",
+  "file-explorer-note-count",
+  "calendar",
+  "obsidian-excalidraw-plugin"
 ]
