@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00 Index/git-配置.md",
+                "file": "00 Index/测试.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -115,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00 Index/git-配置.md",
+                "file": "00 Index/测试.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00 Index/git-配置.md",
+                "file": "00 Index/测试.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -155,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00 Index/git-配置.md"
+                "file": "00 Index/测试.md"
               }
             }
           },
@@ -182,8 +182,9 @@
     "direction": "horizontal",
     "width": 276.5
   },
-  "active": "27ab89ffe7be3914",
+  "active": "cab60ce7c44bb28a",
   "lastOpenFiles": [
+    "工作台/环境搭建/git-配置.md",
     "Excalidraw/Drawing 2022-10-30 23.20.33.excalidraw.md",
     "日记/2022-10-30.md",
     "webpack/webpack-import.md",
