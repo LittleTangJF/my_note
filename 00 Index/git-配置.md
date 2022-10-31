@@ -9,7 +9,7 @@
 **2.查看key位置**
 
 ```bash
-cd ～/.ssh
+cd ~/.ssh
 cat id_rsa.pub
 ```
 
