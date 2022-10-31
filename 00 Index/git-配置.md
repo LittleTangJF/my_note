@@ -10,6 +10,7 @@
 
 ```bash
 cd ～/.ssh
+cat id_rsa.pub
 ```
 
 3.ceshi 
