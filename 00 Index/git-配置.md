@@ -3,7 +3,7 @@
 **1.生成ssh-key**
 
 ```bash
-ssh-keygen -t rsa -C "account email"
+ ssh-keygen -o -t rsa -b 4096 -C "18681268108@163.com"
 ```
 
 **2.查看key位置**
