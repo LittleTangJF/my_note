@@ -18,7 +18,57 @@
 
 ###  2、flex-shrink
 
-定义了缩小比例，默认值是 1，含义是如果空间不足，改盒子将缩小
+定义了缩小比例，默认值是 1，含义是如果空间不足(小于视窗的宽度)，改盒子将缩小 到跟视窗一样的宽度
+```js
+// 在视口宽度大于300px时，宽度为300px，少于 300px，该项目的宽度就被压缩成跟视口一样的宽度
 ```
 
+### 3、flex-basis
+
+flex-basis 可以设置和height和width一样的值， 默认值是auto，即本身盒子大小
+
+## 各参数代表含义
+
+### flex： 1
+```css
+div{
+   flex-grow: 1;
+   flex-shrink: 1;
+   flex-basis: 0%;
+}
 ```
+
+### flex: auto
+
+```css
+div{
+   flex-grow: 1;
+   flex-shrink: 1;
+   flex-basis: auto;
+}
+
+```
+
+### 两个长度 flex: 1 1;
+
+```css
+div{
+   flex-grow: 1;
+   flex-shrink: 1;
+   flex-basis: 0;
+}
+
+```
+
+### 一个宽度 flex:  100px;
+
+```css
+div{
+   flex-grow: 1;
+   flex-shrink: 1;
+   flex-basis: 100px;
+}
+
+```
+
+### 
