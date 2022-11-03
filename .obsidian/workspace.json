@@ -72,7 +72,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工作台/前端技术要点/ts要点/高级类型-Record.md",
+                "file": "工作台/前端技术要点/ts要点/特殊类型.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工作台/前端技术要点/ts要点/高级类型-Record.md",
+                "file": "工作台/前端技术要点/ts要点/特殊类型.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -177,7 +177,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工作台/前端技术要点/ts要点/高级类型-Record.md",
+                "file": "工作台/前端技术要点/ts要点/特殊类型.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -194,7 +194,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工作台/前端技术要点/ts要点/高级类型-Record.md",
+                "file": "工作台/前端技术要点/ts要点/特殊类型.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -217,7 +217,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工作台/前端技术要点/ts要点/高级类型-Record.md"
+                "file": "工作台/前端技术要点/ts要点/特殊类型.md"
               }
             }
           },
@@ -247,7 +247,7 @@
   "active": "bd9d9f43d541df4d",
   "lastOpenFiles": [
     "工作台/前端技术要点/ts要点/基础语法.md",
-    "工作台/前端技术要点/ts要点/高级类型-Record.md",
+    "工作台/前端技术要点/ts要点/特殊类型.md",
     "工作台/前端技术要点/css要点/Flex布局.md",
     "工作台/前端技术要点/css要点/css-展开收起.md",
     "Excalidraw/Drawing 2022-11-03 15.04.55.excalidraw.md",
