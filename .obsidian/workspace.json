@@ -62,7 +62,7 @@
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/Drawing 2022-11-03 15.04.55.excalidraw.md"
+                "file": "Excalidraw/request封装.md"
               }
             }
           },
@@ -85,7 +85,7 @@
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/Drawing 2022-11-03 15.04.55.excalidraw.md"
+                "file": "Excalidraw/request封装.md"
               }
             }
           },
@@ -174,7 +174,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Drawing 2022-11-03 15.04.55.excalidraw.md",
+                "file": "Excalidraw/request封装.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -191,7 +191,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2022-11-03 15.04.55.excalidraw.md",
+                "file": "Excalidraw/request封装.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -214,7 +214,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2022-11-03 15.04.55.excalidraw.md"
+                "file": "Excalidraw/request封装.md"
               }
             }
           },
@@ -243,15 +243,15 @@
   },
   "active": "bd9d9f43d541df4d",
   "lastOpenFiles": [
+    "Excalidraw/错误处理封装.md",
+    "Excalidraw/request封装.md",
+    "Excalidraw/Drawing 2022-10-30 23.20.33.excalidraw.md",
     "工作台/前端技术要点/ts要点/特殊类型.md",
     "工作台/前端技术要点/ts要点/基础语法.md",
     "工作台/前端技术要点/css要点/Flex布局.md",
     "工作台/前端技术要点/css要点/css-展开收起.md",
-    "Excalidraw/Drawing 2022-11-03 15.04.55.excalidraw.md",
-    "Excalidraw/Drawing 2022-10-30 23.20.33.excalidraw.md",
     "工作台/前端技术要点/css要点/n行省略.md",
     "工作台/环境搭建/git-配置.md",
-    "00 Index/测试.md",
-    "日记/2022-10-30.md"
+    "00 Index/测试.md"
   ]
 }
