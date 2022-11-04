@@ -233,9 +233,17 @@
               "type": "calendar",
               "state": {}
             }
+          },
+          {
+            "id": "d355ad2af5766051",
+            "type": "leaf",
+            "state": {
+              "type": "side-panel-control-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -243,15 +251,15 @@
   },
   "active": "bd9d9f43d541df4d",
   "lastOpenFiles": [
-    "Excalidraw/错误处理封装.md",
+    "工作台/项目搭建/Taro-项目封装.md",
     "Excalidraw/request封装.md",
+    "Excalidraw/错误处理封装.md",
     "Excalidraw/Drawing 2022-10-30 23.20.33.excalidraw.md",
     "工作台/前端技术要点/ts要点/特殊类型.md",
     "工作台/前端技术要点/ts要点/基础语法.md",
     "工作台/前端技术要点/css要点/Flex布局.md",
     "工作台/前端技术要点/css要点/css-展开收起.md",
     "工作台/前端技术要点/css要点/n行省略.md",
-    "工作台/环境搭建/git-配置.md",
-    "00 Index/测试.md"
+    "工作台/环境搭建/git-配置.md"
   ]
 }
