@@ -34,3 +34,4 @@ nginx -t
 ```js
 /usr/local/etc/nginx/nginx.conf
 ```
+
