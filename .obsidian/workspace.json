@@ -124,7 +124,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工作台/环境搭建/brew - nginx安装.md",
+                "file": "工作台/环境搭建/Nginx - 启动php项目.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -216,7 +216,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工作台/环境搭建/brew - nginx安装.md",
+                "file": "工作台/环境搭建/Nginx - 启动php项目.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -233,7 +233,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工作台/环境搭建/brew - nginx安装.md",
+                "file": "工作台/环境搭建/Nginx - 启动php项目.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -256,7 +256,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工作台/环境搭建/brew - nginx安装.md"
+                "file": "工作台/环境搭建/Nginx - 启动php项目.md"
               }
             }
           },
@@ -293,8 +293,8 @@
   },
   "active": "c96ba64718fd8ca1",
   "lastOpenFiles": [
-    "工作台/环境搭建/brew - php安装.md",
     "工作台/环境搭建/brew - nginx安装.md",
+    "工作台/环境搭建/brew - php安装.md",
     "工作台/环境搭建/Nginx - 启动php项目.md",
     "工作台/环境搭建/git - 配置.md",
     "Excalidraw/request封装.md",

@@ -1,7 +1,7 @@
 ### 修改nginx.conf
 
 ```js
-user tking;
+user tking; // 配置用户
 
 location ~ \.php$ {
 
@@ -21,3 +21,23 @@ location ~ \.php$ {
 ### 权限
 
 简介给权限读写
+
+### 配置js/css/img相关的文件
+
+```js
+#配置当前的图片
+
+location ~ \.(gif|jpg|jpeg)$ {
+
+root /Users/tking/2021work/eyjsc;
+
+}
+
+#配置当前所有以js和css结尾的数据都调用neginx的static文件夹中的内容
+
+location ~ \.(js|css)$ {
+
+root /Users/tking/2021work/eyjsc;
+
+}
+```
