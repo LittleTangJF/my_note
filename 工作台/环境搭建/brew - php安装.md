@@ -2,7 +2,7 @@
 ### 安装
 
 ```js
-brew install php-[version]
+brew install php@[version]
 ```
 
 ### 配置文件

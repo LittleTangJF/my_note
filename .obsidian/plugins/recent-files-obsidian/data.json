@@ -1,20 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "Nginx - 启动php项目",
-      "path": "工作台/环境搭建/Nginx - 启动php项目.md"
-    },
-    {
-      "basename": "git - 配置",
-      "path": "工作台/环境搭建/git - 配置.md"
+      "basename": "brew - nginx安装",
+      "path": "工作台/环境搭建/brew - nginx安装.md"
     },
     {
       "basename": "brew - php安装",
       "path": "工作台/环境搭建/brew - php安装.md"
     },
     {
-      "basename": "brew - nginx安装",
-      "path": "工作台/环境搭建/brew - nginx安装.md"
+      "basename": "Nginx - 启动php项目",
+      "path": "工作台/环境搭建/Nginx - 启动php项目.md"
+    },
+    {
+      "basename": "git - 配置",
+      "path": "工作台/环境搭建/git - 配置.md"
     },
     {
       "basename": "request封装",
