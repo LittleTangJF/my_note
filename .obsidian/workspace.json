@@ -83,9 +83,25 @@
             "id": "bd9d9f43d541df4d",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/request封装.md"
+                "file": "工作台/环境搭建/git-配置.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ed8919ab4a28380f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "工作台/环境搭建/brew - nginx安装.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
             }
           },
@@ -100,7 +116,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -174,7 +190,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/request封装.md",
+                "file": "工作台/环境搭建/brew - nginx安装.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -191,7 +207,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/request封装.md",
+                "file": "工作台/环境搭建/brew - nginx安装.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -214,7 +230,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/request封装.md"
+                "file": "工作台/环境搭建/brew - nginx安装.md"
               }
             }
           },
@@ -249,17 +265,17 @@
     "direction": "horizontal",
     "width": 200
   },
-  "active": "bd9d9f43d541df4d",
+  "active": "ed8919ab4a28380f",
   "lastOpenFiles": [
-    "工作台/项目搭建/Taro-项目封装.md",
+    "工作台/环境搭建/git-配置.md",
     "Excalidraw/request封装.md",
+    "工作台/项目搭建/Taro-项目封装.md",
     "Excalidraw/错误处理封装.md",
     "Excalidraw/Drawing 2022-10-30 23.20.33.excalidraw.md",
     "工作台/前端技术要点/ts要点/特殊类型.md",
     "工作台/前端技术要点/ts要点/基础语法.md",
     "工作台/前端技术要点/css要点/Flex布局.md",
     "工作台/前端技术要点/css要点/css-展开收起.md",
-    "工作台/前端技术要点/css要点/n行省略.md",
-    "工作台/环境搭建/git-配置.md"
+    "工作台/前端技术要点/css要点/n行省略.md"
   ]
 }
