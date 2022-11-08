@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工作台/环境搭建/git-配置.md",
+                "file": "工作台/环境搭建/git - 配置.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工作台/环境搭建/git-配置.md",
+                "file": "工作台/环境搭建/git - 配置.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -111,7 +111,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工作台/环境搭建/Nginx-启动php项目.md",
+                "file": "工作台/环境搭建/brew - nginx安装.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c96ba64718fd8ca1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "工作台/环境搭建/Nginx - 启动php项目.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -129,7 +142,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -203,7 +216,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工作台/环境搭建/Nginx-启动php项目.md",
+                "file": "工作台/环境搭建/Nginx - 启动php项目.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -220,7 +233,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工作台/环境搭建/Nginx-启动php项目.md",
+                "file": "工作台/环境搭建/Nginx - 启动php项目.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -243,7 +256,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工作台/环境搭建/Nginx-启动php项目.md"
+                "file": "工作台/环境搭建/Nginx - 启动php项目.md"
               }
             }
           },
@@ -278,17 +291,17 @@
     "direction": "horizontal",
     "width": 200
   },
-  "active": "22db1509fea13170",
+  "active": "c96ba64718fd8ca1",
   "lastOpenFiles": [
+    "工作台/环境搭建/git - 配置.md",
+    "工作台/环境搭建/brew - php安装.md",
     "工作台/环境搭建/brew - nginx安装.md",
-    "工作台/环境搭建/git-配置.md",
-    "工作台/环境搭建/Nginx-启动php项目.md",
+    "工作台/环境搭建/Nginx - 启动php项目.md",
     "Excalidraw/request封装.md",
     "工作台/项目搭建/Taro-项目封装.md",
     "Excalidraw/错误处理封装.md",
     "Excalidraw/Drawing 2022-10-30 23.20.33.excalidraw.md",
     "工作台/前端技术要点/ts要点/特殊类型.md",
-    "工作台/前端技术要点/ts要点/基础语法.md",
-    "工作台/前端技术要点/css要点/Flex布局.md"
+    "工作台/前端技术要点/ts要点/基础语法.md"
   ]
 }
