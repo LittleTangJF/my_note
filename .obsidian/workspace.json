@@ -132,6 +132,45 @@
             }
           },
           {
+            "id": "bca002cadf63786d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "工作台/环境搭建/npm｜yarn｜pnpm.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "87816f3b4a76d5ba",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "工作台/环境搭建/npm｜yarn｜pnpm.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b1a6f2a2841ec1d5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "工作台/环境搭建/有趣的问题/npm run xxx命令的执行过程.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "1183cf27a3747b35",
             "type": "leaf",
             "state": {
@@ -142,7 +181,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -216,7 +255,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工作台/环境搭建/Nginx - 启动php项目.md",
+                "file": "工作台/环境搭建/有趣的问题/npm run xxx命令的执行过程.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -233,7 +272,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工作台/环境搭建/Nginx - 启动php项目.md",
+                "file": "工作台/环境搭建/有趣的问题/npm run xxx命令的执行过程.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -256,7 +295,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工作台/环境搭建/Nginx - 启动php项目.md"
+                "file": "工作台/环境搭建/有趣的问题/npm run xxx命令的执行过程.md"
               }
             }
           },
@@ -285,23 +324,23 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
     "width": 200
   },
-  "active": "c96ba64718fd8ca1",
+  "active": "b1a6f2a2841ec1d5",
   "lastOpenFiles": [
-    "工作台/环境搭建/brew - nginx安装.md",
+    "工作台/环境搭建/npm｜yarn｜pnpm.md",
     "工作台/环境搭建/brew - php安装.md",
+    "00 Index/未命名.md",
     "工作台/环境搭建/Nginx - 启动php项目.md",
+    "工作台/环境搭建/brew - nginx安装.md",
     "工作台/环境搭建/git - 配置.md",
     "Excalidraw/request封装.md",
     "工作台/项目搭建/Taro-项目封装.md",
     "Excalidraw/错误处理封装.md",
-    "Excalidraw/Drawing 2022-10-30 23.20.33.excalidraw.md",
-    "工作台/前端技术要点/ts要点/特殊类型.md",
-    "工作台/前端技术要点/ts要点/基础语法.md"
+    "Excalidraw/Drawing 2022-10-30 23.20.33.excalidraw.md"
   ]
 }

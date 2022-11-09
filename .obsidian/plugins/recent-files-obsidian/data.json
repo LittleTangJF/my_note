@@ -1,16 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "npm run xxx命令的执行过程",
+      "path": "工作台/环境搭建/有趣的问题/npm run xxx命令的执行过程.md"
+    },
+    {
+      "basename": "npm｜yarn｜pnpm",
+      "path": "工作台/环境搭建/npm｜yarn｜pnpm.md"
+    },
+    {
+      "basename": "brew - php安装",
+      "path": "工作台/环境搭建/brew - php安装.md"
+    },
+    {
+      "basename": "未命名",
+      "path": "00 Index/未命名.md"
+    },
+    {
       "basename": "Nginx - 启动php项目",
       "path": "工作台/环境搭建/Nginx - 启动php项目.md"
     },
     {
       "basename": "brew - nginx安装",
       "path": "工作台/环境搭建/brew - nginx安装.md"
-    },
-    {
-      "basename": "brew - php安装",
-      "path": "工作台/环境搭建/brew - php安装.md"
     },
     {
       "basename": "git - 配置",
