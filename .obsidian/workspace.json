@@ -4,184 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "483d5eece23670b6",
+        "id": "20bf1b6367810e6e",
         "type": "tabs",
         "children": [
           {
-            "id": "99c3dfe741a0ed2c",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "graph",
-              "state": {},
-              "pinned": true
-            }
-          },
-          {
-            "id": "cab60ce7c44bb28a",
+            "id": "ef22c25f8fdb5592",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工作台/环境搭建/git - 配置.md",
+                "file": "00 Index/测试.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "c3b59f264761fe0c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "工作台/前端技术要点/css要点/Flex布局.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "706947e75b4dbebe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "工作台/前端技术要点/css要点/n行省略.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3358ca2736c372fa",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/request封装.md"
-              }
-            }
-          },
-          {
-            "id": "30c396d37d1944f7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "工作台/前端技术要点/ts要点/特殊类型.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bd9d9f43d541df4d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "工作台/环境搭建/git - 配置.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ed8919ab4a28380f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "工作台/环境搭建/brew - nginx安装.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "22db1509fea13170",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "工作台/环境搭建/brew - nginx安装.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c96ba64718fd8ca1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "工作台/环境搭建/Nginx - 启动php项目.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bca002cadf63786d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "工作台/环境搭建/npm｜yarn｜pnpm.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "87816f3b4a76d5ba",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "工作台/环境搭建/npm｜yarn｜pnpm.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b1a6f2a2841ec1d5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "工作台/环境搭建/有趣的问题/npm run xxx命令的执行过程.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1183cf27a3747b35",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2022-10-30 23.20.33.excalidraw.md"
               }
             }
           }
-        ],
-        "currentTab": 12
+        ]
       }
     ],
     "direction": "vertical"
@@ -255,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工作台/环境搭建/有趣的问题/npm run xxx命令的执行过程.md",
+                "file": "00 Index/测试.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -272,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工作台/环境搭建/有趣的问题/npm run xxx命令的执行过程.md",
+                "file": "00 Index/测试.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -295,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工作台/环境搭建/有趣的问题/npm run xxx命令的执行过程.md"
+                "file": "00 Index/测试.md"
               }
             }
           },
@@ -324,23 +163,23 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 298.5
   },
-  "active": "b1a6f2a2841ec1d5",
+  "active": "ef22c25f8fdb5592",
   "lastOpenFiles": [
-    "工作台/环境搭建/npm｜yarn｜pnpm.md",
-    "工作台/环境搭建/brew - php安装.md",
     "00 Index/未命名.md",
-    "工作台/环境搭建/Nginx - 启动php项目.md",
-    "工作台/环境搭建/brew - nginx安装.md",
+    "工作台/环境搭建/有趣的问题/npm run xxx命令的执行过程.md",
+    "Excalidraw/Drawing 2022-10-30 23.20.33.excalidraw.md",
     "工作台/环境搭建/git - 配置.md",
+    "工作台/前端技术要点/css要点/Flex布局.md",
+    "工作台/前端技术要点/css要点/n行省略.md",
     "Excalidraw/request封装.md",
-    "工作台/项目搭建/Taro-项目封装.md",
-    "Excalidraw/错误处理封装.md",
-    "Excalidraw/Drawing 2022-10-30 23.20.33.excalidraw.md"
+    "工作台/前端技术要点/ts要点/特殊类型.md",
+    "工作台/环境搭建/brew - nginx安装.md",
+    "工作台/环境搭建/Nginx - 启动php项目.md"
   ]
 }

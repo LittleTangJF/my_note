@@ -1,36 +1,52 @@
 {
   "recentFiles": [
     {
+      "basename": "测试",
+      "path": "00 Index/测试.md"
+    },
+    {
       "basename": "npm run xxx命令的执行过程",
       "path": "工作台/环境搭建/有趣的问题/npm run xxx命令的执行过程.md"
     },
     {
-      "basename": "npm｜yarn｜pnpm",
-      "path": "工作台/环境搭建/npm｜yarn｜pnpm.md"
-    },
-    {
-      "basename": "brew - php安装",
-      "path": "工作台/环境搭建/brew - php安装.md"
-    },
-    {
-      "basename": "未命名",
-      "path": "00 Index/未命名.md"
-    },
-    {
-      "basename": "Nginx - 启动php项目",
-      "path": "工作台/环境搭建/Nginx - 启动php项目.md"
-    },
-    {
-      "basename": "brew - nginx安装",
-      "path": "工作台/环境搭建/brew - nginx安装.md"
+      "basename": "Drawing 2022-10-30 23.20.33.excalidraw",
+      "path": "Excalidraw/Drawing 2022-10-30 23.20.33.excalidraw.md"
     },
     {
       "basename": "git - 配置",
       "path": "工作台/环境搭建/git - 配置.md"
     },
     {
+      "basename": "Flex布局",
+      "path": "工作台/前端技术要点/css要点/Flex布局.md"
+    },
+    {
+      "basename": "n行省略",
+      "path": "工作台/前端技术要点/css要点/n行省略.md"
+    },
+    {
       "basename": "request封装",
       "path": "Excalidraw/request封装.md"
+    },
+    {
+      "basename": "特殊类型",
+      "path": "工作台/前端技术要点/ts要点/特殊类型.md"
+    },
+    {
+      "basename": "brew - nginx安装",
+      "path": "工作台/环境搭建/brew - nginx安装.md"
+    },
+    {
+      "basename": "Nginx - 启动php项目",
+      "path": "工作台/环境搭建/Nginx - 启动php项目.md"
+    },
+    {
+      "basename": "npm｜yarn｜pnpm",
+      "path": "工作台/环境搭建/npm｜yarn｜pnpm.md"
+    },
+    {
+      "basename": "process.argv",
+      "path": "工作台/环境搭建/node-入门入土/process.argv.md"
     },
     {
       "basename": "Taro-项目封装",
@@ -41,32 +57,16 @@
       "path": "Excalidraw/错误处理封装.md"
     },
     {
-      "basename": "Drawing 2022-10-30 23.20.33.excalidraw",
-      "path": "Excalidraw/Drawing 2022-10-30 23.20.33.excalidraw.md"
-    },
-    {
-      "basename": "特殊类型",
-      "path": "工作台/前端技术要点/ts要点/特殊类型.md"
-    },
-    {
       "basename": "基础语法",
       "path": "工作台/前端技术要点/ts要点/基础语法.md"
-    },
-    {
-      "basename": "Flex布局",
-      "path": "工作台/前端技术要点/css要点/Flex布局.md"
     },
     {
       "basename": "css-展开收起",
       "path": "工作台/前端技术要点/css要点/css-展开收起.md"
     },
     {
-      "basename": "n行省略",
-      "path": "工作台/前端技术要点/css要点/n行省略.md"
-    },
-    {
-      "basename": "测试",
-      "path": "00 Index/测试.md"
+      "basename": "brew - php安装",
+      "path": "工作台/环境搭建/brew - php安装.md"
     }
   ],
   "omittedPaths": [],
