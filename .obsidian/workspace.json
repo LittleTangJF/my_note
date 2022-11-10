@@ -19,8 +19,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f3e044d5a9ee098e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "工作台/前端技术要点/浏览器知识要点/路由.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00 Index/测试.md",
+                "file": "工作台/前端技术要点/浏览器知识要点/路由.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00 Index/测试.md",
+                "file": "工作台/前端技术要点/浏览器知识要点/路由.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -134,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00 Index/测试.md"
+                "file": "工作台/前端技术要点/浏览器知识要点/路由.md"
               }
             }
           },
@@ -169,8 +183,9 @@
     "direction": "horizontal",
     "width": 298.5
   },
-  "active": "ef22c25f8fdb5592",
+  "active": "f3e044d5a9ee098e",
   "lastOpenFiles": [
+    "00 Index/测试.md",
     "00 Index/未命名.md",
     "工作台/环境搭建/有趣的问题/npm run xxx命令的执行过程.md",
     "Excalidraw/Drawing 2022-10-30 23.20.33.excalidraw.md",
@@ -179,7 +194,6 @@
     "工作台/前端技术要点/css要点/n行省略.md",
     "Excalidraw/request封装.md",
     "工作台/前端技术要点/ts要点/特殊类型.md",
-    "工作台/环境搭建/brew - nginx安装.md",
-    "工作台/环境搭建/Nginx - 启动php项目.md"
+    "工作台/环境搭建/brew - nginx安装.md"
   ]
 }
