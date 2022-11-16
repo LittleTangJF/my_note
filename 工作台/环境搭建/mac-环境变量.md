@@ -35,8 +35,10 @@ export NVM_DIR="$HOME/.nvm"
 
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
-  
+# python
 
+alias python="/Library/Frameworks/Python.framework/Versions/3.10/bin/python3"
+alias pip="/Library/Frameworks/Python.framework/Versions/3.10/bin/pip3"
 # proxy
 
 function proxy_off(){
@@ -61,7 +63,6 @@ function proxy_on() {
 
 }
 
-  
 
 # Path to your oh-my-zsh installation.
 
