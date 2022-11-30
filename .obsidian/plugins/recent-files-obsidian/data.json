@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "未命名",
-      "path": "00 Index/未命名.md"
+      "basename": "token",
+      "path": "工作台/前端技术要点/浏览器知识要点/token.md"
     },
     {
       "basename": "基础语法",
-      "path": "工作台/前端技术要点/ts要点/基础语法.md"
+      "path": "工作台/前端技术要点/css要点/ts要点/基础语法.md"
+    },
+    {
+      "basename": "未命名",
+      "path": "00 Index/未命名.md"
     },
     {
       "basename": "虚线方案",
@@ -62,7 +66,7 @@
     },
     {
       "basename": "特殊类型",
-      "path": "工作台/前端技术要点/ts要点/特殊类型.md"
+      "path": "工作台/前端技术要点/css要点/ts要点/特殊类型.md"
     },
     {
       "basename": "npm｜yarn｜pnpm",
