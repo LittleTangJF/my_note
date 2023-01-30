@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "渲染过程",
+      "path": "工作台/前端技术要点/react框架/渲染过程.md"
+    },
+    {
+      "basename": "brew - nginx安装",
+      "path": "工作台/环境搭建/brew - nginx安装.md"
+    },
+    {
+      "basename": "token",
+      "path": "工作台/前端技术要点/浏览器知识要点/token.md"
+    },
+    {
       "basename": "css-展开收起",
       "path": "工作台/前端技术要点/css要点/css-展开收起.md"
     },
@@ -17,10 +29,6 @@
       "path": "工作台/前端技术要点/浏览器知识要点/网络安全.md"
     },
     {
-      "basename": "token",
-      "path": "工作台/前端技术要点/浏览器知识要点/token.md"
-    },
-    {
       "basename": "基础语法",
       "path": "工作台/前端技术要点/ts要点/基础语法.md"
     },
@@ -31,10 +39,6 @@
     {
       "basename": "mac-环境变量",
       "path": "工作台/环境搭建/mac-环境变量.md"
-    },
-    {
-      "basename": "brew - nginx安装",
-      "path": "工作台/环境搭建/brew - nginx安装.md"
     },
     {
       "basename": "Nginx - 启动php项目",
