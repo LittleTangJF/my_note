@@ -17,7 +17,7 @@
 
 ## useContext
 
-语法
+### 语法
 >const context = useContext(ThemeContext);
 
 使用方法，在顶层创建一个context（createContext），Provider包裹，传递value，子组件useContext可以获取到传入的context值
@@ -25,7 +25,7 @@
 
 ## useReducer
 
-语法:
+### 语法:
 > const [state, dispatch] = useReducer(reducer, initialArg, init);接受类型为 `(state, action) => newState 的reducer`
 
 useState的替代方案，当你涉及多个子值的复杂state逻辑时
@@ -40,4 +40,42 @@ useState的替代方案，当你涉及多个子值的复杂state逻辑时
 2. useState更新数据是异步的，而useReducer获取的dispatch方法更新数据是同步的
 
 ## useCallback
+
+### 语法
+>const memoizedCallback = useCallback(() => { doSomething(a, b); }, [a, b]);
+
+传递内联回调和一系列依赖项，useCallback返回一个回忆的memoized，他只会在其中一个依赖项发生改变时才会更改
+
+### 优化
+
+1. 配合使用pureComponent、memo时，可以减少子组件不必要的渲染次数
+2. 当传递给子组件function时（父组件重新渲染会，子组件也会变化），可使用useCallback包裹function
+
+## useMemo
+
+### 语法：
+>const memoizedValue = useMemo(() => computeExpensiveValue(a, b), [a, b]);
+
+**返回一个memoized值**
+传递‘创建’函数和依赖项，useMemo只会在其中一个依赖项发生更改时重新计算memoized值
+
+### 应用：
+
+1. 可以对数据进行缓存，依赖项变化会重新计算
+2. 优化子组件的渲染，比如传递给子组件的是Object，可以用useMemo
+### 注意
+>useCallback(fn, deps) 相当于 useMemo(() => fn, deps)
+
+## useRef
+
+返回一个可变的ref对象
+
+1. 不仅适用于DOM引用，它是一个通用的容器，其current值是可变的，可以保存任何可变值
+2. useRef具有闭包穿透能力
+3. current属性不会导致重新渲染
+
+## useLayoutEffect
+
+
+
 
