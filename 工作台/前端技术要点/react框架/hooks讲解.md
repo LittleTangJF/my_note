@@ -62,7 +62,7 @@ useState的替代方案，当你涉及多个子值的复杂state逻辑时
 ### 应用：
 
 1. 可以对数据进行缓存，依赖项变化会重新计算
-2. 优化子组件的渲染，比如传递给子组件的是Object，可以用useMemo
+2. 优化子组件的渲染，比如传递给子组件的是Object 非基本类型，可以用useMemo
 ### 注意
 >useCallback(fn, deps) 相当于 useMemo(() => fn, deps)
 
