@@ -26,8 +26,18 @@
 ## useReducer
 
 语法:
-> const [state, dispatch] = useReducer(reducer, initialArg, init);
+> const [state, dispatch] = useReducer(reducer, initialArg, init);接受类型为 `(state, action) => newState 的reducer`
 
 useState的替代方案，当你涉及多个子值的复杂state逻辑时
 
+### 优化：延迟初始化
+
+第三个参数init，可以惰性地创建初始化状态，初始化状态设置为init(initialArg), 对于重置状态相应操作非常方便
+
+### 与useState的区别
+
+1. 状态结构复杂使用useReducer更有优势
+2. useState更新数据是异步的，而useReducer获取的dispatch方法更新数据是同步的
+
 ## useCallback
+

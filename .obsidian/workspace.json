@@ -242,7 +242,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -262,7 +262,7 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "58f68a8c5340f29f",
+  "active": "36b3bfe23cc44700",
   "lastOpenFiles": [
     "工作台/前端技术要点/框架浅析/mobx浅析.md",
     "工作台/项目搭建/技术要点/安装和使用mobx.md",
