@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "安装和使用mobx",
-      "path": "工作台/项目搭建/技术要点/安装和使用mobx.md"
+      "basename": "hooks讲解",
+      "path": "工作台/前端技术要点/react框架/hooks讲解.md"
     },
     {
-      "basename": "mobox浅析",
-      "path": "工作台/前端技术要点/框架浅析/mobox浅析.md"
+      "basename": "mobx浅析",
+      "path": "工作台/前端技术要点/框架浅析/mobx浅析.md"
+    },
+    {
+      "basename": "安装和使用mobx",
+      "path": "工作台/项目搭建/技术要点/安装和使用mobx.md"
     },
     {
       "basename": "渲染过程",
