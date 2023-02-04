@@ -77,7 +77,16 @@ useState的替代方案，当你涉及多个子值的复杂state逻辑时
 ## useLayoutEffect
 
 ### 语法
->
+>useLayoutEffect(() => { doSomething });
+
+与useEffect相似都是执行副作用操作，作用是在所有的DOM更新完成后触发，可以用来执行一些与布局相关的副作用，比如获取DOM元素宽高，窗口滚动距离等
+
+>与DOM无关的尽量使用useEffect
+
+## useImperativeHandle
+
+### 语法
+>useImperativeHandle(ref, createHandle, [deps])
 
 
 
