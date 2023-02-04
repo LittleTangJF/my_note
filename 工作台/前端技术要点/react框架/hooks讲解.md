@@ -88,6 +88,11 @@ useState的替代方案，当你涉及多个子值的复杂state逻辑时
 ### 语法
 >useImperativeHandle(ref, createHandle, [deps])
 
+与class组件不同，函数组件是如何调用子组件的状态或者方法呢？
+1. 第一个参数是ref值，可以配合forwardRef使用
+2. 第二个参数是一个函数，返回一个对象，对象中的属性都会被挂载到第一个参数的ref上
+3. 第三个是依赖项，变化时函数重新执行，重新挂载到ref
+
 
 
 
