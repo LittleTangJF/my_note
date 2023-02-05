@@ -58,3 +58,28 @@ export default function logProps(WrappedComponent) {
   
 }
 ```
+
+## 保存变量
+
+`ref` 具有可以 _穿透闭包_ 的能力，可以用来保存非state、props的值
+
+## 保存函数组件实例的属性
+
+```jsx
+class Model {
+    constructor() {
+        console.log('创建 Model');
+        this.data = [];
+    }
+}
+
+function Counter() {
+    const [count, setCount] = useState(0);
+    //const countRef = useRef(new Model()); // 触发问题，多次执行，可以借助state的特性
+     const [model] = useState(() => new Model());
+    const countRef = useRef(model);
+
+    return <p onClick={() => setCount(count + 1)}>clicked {count} times</p>;
+}
+
+```

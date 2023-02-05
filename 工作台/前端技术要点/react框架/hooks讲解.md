@@ -6,7 +6,8 @@
 
 与class中使用setState的异同点
 1. 相同： 一次渲染周期中调用多次setState，数据只会改变一次
-2. 不同： class中setState是合并，而函数组件中setState是替换
+2. 不同1： class中setState是合并，而函数组件中setState是替换
+3. 不同2: 修改state时，useState设置相同的值不会re-render, 而setState会
 知识点：setState是同步还是异步
 
 ## useEffect
@@ -51,6 +52,9 @@ useState的替代方案，当你涉及多个子值的复杂state逻辑时
 
 1. 配合使用pureComponent、memo时，可以减少子组件不必要的渲染次数
 2. 当传递给子组件function时（父组件重新渲染会，子组件也会变化），可使用useCallback包裹function
+### 使用场景
+
+作为其他hooks的依赖时，比如一个接口请求，放在useEffect的依赖项上，会导致无限render，需要用## useCallback包裹
 
 ## useMemo
 
@@ -62,10 +66,16 @@ useState的替代方案，当你涉及多个子值的复杂state逻辑时
 
 ### 应用：
 
-1. 可以对数据进行缓存，依赖项变化会重新计算
+1. 需要进行大量或者复杂运算时，为了提高性能，可以使用 `useMemo` 进行数据缓存
 2. 优化子组件的渲染，比如传递给子组件的是Object 非基本类型，可以用useMemo
 ### 注意
->useCallback(fn, deps) 相当于 useMemo(() => fn, deps)
+
+`useMemo` 和 `useCallback` 的区别
+
+-   `useMemo` 的返回值是一个值，可以是属性，可以是函数（包括组件）
+-   `useCallback` 的返回值只能是函数
+
+因此，`useMemo` 一定程度上可以替代 `useCallback`，等价条件：`useCallback(fn, deps) => useMemo(() => fn, deps)`
 
 ## useRef
 
