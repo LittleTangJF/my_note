@@ -104,6 +104,80 @@ useState的替代方案，当你涉及多个子值的复杂state逻辑时
 2. 第二个参数是一个函数，返回一个对象，对象中的属性都会被挂载到第一个参数的ref上
 3. 第三个是依赖项，变化时函数重新执行，重新挂载到ref
 
+## useDebugValue
+
+### 语法
+>useDebugValue(value) // or useDebugValue(date, date => date.toDateString());
 
 
+作用：1、可用于在开发者工具中显示自定义hook的标签 2、延迟格式化 debug 值
+
+## useDefferredValue  （react18）
+
+[地址](https://codesandbox.io/s/usedeferredvalue-3-demo-forked-w2ig5o)
+### 问题
+
+解决长列表性能问题
+
+作用：就是 **useDeferredValue** 可以让我们延迟渲染不紧急的部分，延迟的渲染会在紧急的部分先出现在浏览器屏幕以后才开始，并且可中断不会阻塞用户输入
+
+## useId（react18）
+
+### 问题
+
+如果应用是`CSR`（客户端渲染），`id`是稳定的，`App`组件没有问题。
+
+但如果应用是`SSR`（服务端渲染），那么`App.tsx`会经历：
+
+1.  `React`在服务端渲染，生成随机`id`（假设为`0.1234`），这一步叫`dehydrate`（脱水）
+2.  `<div id="0.12345">Hello</div>`作为`HTML`传递给客户端，作为首屏内容
+3.  `React`在客户端渲染，生成随机`id`（假设为`0.6789`），这一步叫`hydrate`（注水）
+
+客户端、服务端生成的`id`不匹配！
+
+出了useId ， 但背后的原理却很有意思 —— 每个`id`代表该组件在组件树中的层级结构。
+
+## useTransition （react18）
+[参考](https://juejin.cn/post/7126481115203780638)
+### 语法
+>const [isPending, startTransition] = useTransition();
+
+1. isPending 布尔值: 它指示低优先级状态更新是否仍处于挂起状态
+2. startTransition函数: 您可以将状态更新包装起来告诉 React这是一个低优先级的更新。
+
+## useInsertionEffect（react18）
+
+### 语法：
+>跟useEffect一样
+
+### 解决问题
+useInsertionEffect 的执行时机要比 useLayoutEffect 提前，useLayoutEffect 执行的时候 DOM 已经更新了，但是在 useInsertionEffect 的执行的时候，DOM 还没有更新。本质上 useInsertionEffect 主要是解决 CSS-in-JS 在渲染中注入样式的性能问题。
+
+```jsx
+import React, {useInsertionEffect } from "react";
+
+const App = () => {
+  useInsertionEffect(() => {
+    /* 动态创建 style 标签插入到 head 中 */
+    const style = document.createElement("style");
+    style.innerHTML = `
+         .css-in-js{
+           color: pink;
+           font-size: 12px;
+         }
+       `;
+    console.log("style: " , style);
+    document.head.appendChild(style);
+  }, []);
+
+  return <div className="css-in-js"> useInsertionEffect使用场景 </div>;
+};
+
+export default App;
+```
+
+## useSyncExternalStore（react18）
+
+### 问题：
+当一个 Hooks 返回的数据我们并没有用到时，React 组件仍然会重新渲染。
 
