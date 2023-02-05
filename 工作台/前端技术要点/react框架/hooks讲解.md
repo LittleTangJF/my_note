@@ -1,5 +1,5 @@
 [参考地址](https://github.com/beichensky/Blog/issues/5)
-## hooks链
+## hooks链路图
 
 ![[Pasted image 20230204195027.png]]
 ## useState
@@ -177,7 +177,44 @@ export default App;
 ```
 
 ## useSyncExternalStore（react18）
-
+[参考地址](https://juejin.cn/post/7149140019326746654)
 ### 问题：
-当一个 Hooks 返回的数据我们并没有用到时，React 组件仍然会重新渲染。
+当一个 Hooks 返回的数据我们并没有用到时，React 组件仍然会重新渲染。例子：react-router
+所以我们订阅许多外部的数据源（react-router， 浏览器的 history，window）来改善应用性能
+
+### 语法
+```jsx
+function useSyncExternalStore<Snapshot>(
+  subscribe: (onStoreChange: () => void) => () => void,
+  getSnapshot: () => Snapshot,
+  getServerSnapshot?: () => Snapshot
+): Snapshot;
+```
+1. subcribe: 注册回调函数，每当store更改时调用该回调函数
+2. getSnapshot： 返回store当前值的函数
+3. getServerSnapshot： 返回服务器渲染期间使用的快照的函数
+
+### 解决
+```jsx
+function useHistorySelector(selector) {
+  const history = useHistory();
+  return useSyncExternalStore(history.listen, () =>
+    selector(history)
+  );
+}
+
+function CurrentPathname() {
+  const pathname = useHistorySelector(
+    (history) => history.location.pathname
+  );
+  return <div>{pathname}</div>;
+}
+
+function CurrentHash() {
+  const hash = useHistorySelector(
+    (history) => history.location.hash
+  );
+  return <div>{hash}</div>;
+}
+```
 
