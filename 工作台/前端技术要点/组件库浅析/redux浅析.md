@@ -43,3 +43,15 @@ react单向数据流，props向下传递，state组件内部自行管理状态�
 ### 产生
 如果原始的redux工作流程，产生一个action后会直接触发reducer修改state，reducer又是一个纯函数，也就是不能再reducer中进行异步操作
 
+提供了一些辅助函数
+
+1. takeEvery：**允许多个 fetchData 实例同时启动**，在某个特定时刻，我们可以启动一个新的 fetchData 任务， 尽管之前还有一个或多个 fetchData 尚未结束
+2. takeLatest：**在任何时刻 takeLatest 只允许执行一个 fetchData 任务，并且这个任务是最后被启动的那个，如果之前已经有一个任务在执行，那之前的这个任务会自动被取消**
+
+### API
+
+-   take(pattern)： 监听未来的action
+-   put(action)： 类似dispatch
+-   call(fn, ...args)： **可以调用其他函数的函数**
+-   fork(fn, ...args)： **都是用来调用其他函数的，但是fork函数是非阻塞函数**
+-   select(selector, ...args)： 指示 middleware调用提供的选择器获取Store上的state数据
