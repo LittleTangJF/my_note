@@ -34,5 +34,6 @@ react单向数据流，props向下传递，state组件内部自行管理状态�
 
 ### API
 1. Provider：  这个组件的目的是让所有组件都能够访问到Redux中的数据。
-2. connect: 
-	1. connect(mapStateToProps, mapDispatchToProps)(MyComponent)
+2. connect: connect(mapStateToProps, mapDispatchToProps)(MyComponent)
+	1. mapStateToProps: **把state映射到props中去**
+	2. mapDispatchToProps:**把各种dispatch也变成了props让你可以直接使用**
