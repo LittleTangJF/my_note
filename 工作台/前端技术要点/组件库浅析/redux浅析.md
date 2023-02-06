@@ -21,7 +21,7 @@ react单向数据流，props向下传递，state组件内部自行管理状态�
 	1. 使用createStore方法创建
 	2. 提供subscribe,dispatch,getState方法
 
-## reacte-redux
+## react-redux
 
 提供了两个
 
@@ -37,3 +37,9 @@ react单向数据流，props向下传递，state组件内部自行管理状态�
 2. connect: connect(mapStateToProps, mapDispatchToProps)(MyComponent)
 	1. mapStateToProps: **把state映射到props中去**
 	2. mapDispatchToProps:**把各种dispatch也变成了props让你可以直接使用**
+
+## react-saga
+
+### 产生
+如果原始的redux工作流程，产生一个action后会直接触发reducer修改state，reducer又是一个纯函数，也就是不能再reducer中进行异步操作
+
