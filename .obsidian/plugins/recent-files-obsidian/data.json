@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "redux浅析",
+      "path": "工作台/前端技术要点/组件库浅析/redux浅析.md"
+    },
+    {
+      "basename": "mobx浅析",
+      "path": "工作台/前端技术要点/组件库浅析/mobx浅析.md"
+    },
+    {
       "basename": "hooks讲解",
       "path": "工作台/前端技术要点/react框架/hooks讲解.md"
     },
@@ -15,10 +23,6 @@
     {
       "basename": "渲染过程",
       "path": "工作台/前端技术要点/react框架/渲染过程.md"
-    },
-    {
-      "basename": "mobx浅析",
-      "path": "工作台/前端技术要点/框架浅析/mobx浅析.md"
     },
     {
       "basename": "安装和使用mobx",
