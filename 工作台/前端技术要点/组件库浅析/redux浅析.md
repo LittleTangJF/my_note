@@ -38,6 +38,10 @@ react单向数据流，props向下传递，state组件内部自行管理状态�
 	1. mapStateToProps: **把state映射到props中去**
 	2. mapDispatchToProps:**把各种dispatch也变成了props让你可以直接使用**
 
+## redux-thunk
+
+使我们的组件能异步请求
+
 ## react-saga
 
 ### 产生
