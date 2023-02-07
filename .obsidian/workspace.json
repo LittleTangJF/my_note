@@ -78,7 +78,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工作台/前端技术要点/组件库浅析/redux浅析.md",
+                "file": "工作台/前端技术要点/react框架/常见问题.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -212,7 +212,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工作台/前端技术要点/组件库浅析/redux浅析.md",
+                "file": "工作台/前端技术要点/react框架/常见问题.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -229,7 +229,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工作台/前端技术要点/组件库浅析/redux浅析.md",
+                "file": "工作台/前端技术要点/react框架/常见问题.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -252,7 +252,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工作台/前端技术要点/组件库浅析/redux浅析.md"
+                "file": "工作台/前端技术要点/react框架/常见问题.md"
               }
             }
           },
@@ -303,11 +303,11 @@
   },
   "active": "b8493b736b8a6d32",
   "lastOpenFiles": [
+    "工作台/前端技术要点/组件库浅析/redux浅析.md",
     "工作台/前端技术要点/react框架/hooks讲解.md",
     "工作台/前端技术要点/react框架/渲染过程.md",
     "工作台/前端技术要点/react框架/常见问题.md",
     "工作台/前端技术要点/react框架/Ref常见用法.md",
-    "工作台/前端技术要点/组件库浅析/redux浅析.md",
     "工作台/前端技术要点/组件库浅析/mobx浅析.md",
     "工作台/项目搭建/技术要点/安装和使用mobx.md",
     "工作台/环境搭建/brew - nginx安装.md",

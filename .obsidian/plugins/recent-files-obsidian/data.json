@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "常见问题",
+      "path": "工作台/前端技术要点/react框架/常见问题.md"
+    },
+    {
       "basename": "redux浅析",
       "path": "工作台/前端技术要点/组件库浅析/redux浅析.md"
     },
@@ -11,10 +15,6 @@
     {
       "basename": "渲染过程",
       "path": "工作台/前端技术要点/react框架/渲染过程.md"
-    },
-    {
-      "basename": "常见问题",
-      "path": "工作台/前端技术要点/react框架/常见问题.md"
     },
     {
       "basename": "Ref常见用法",
