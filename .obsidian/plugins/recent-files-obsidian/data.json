@@ -1,12 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "权限设计",
-      "path": "工作台/前端技术要点/设计模式/权限设计.md"
-    },
-    {
       "basename": "常见问题",
       "path": "工作台/前端技术要点/react框架/常见问题.md"
+    },
+    {
+      "basename": "权限设计",
+      "path": "工作台/前端技术要点/设计模式/权限设计.md"
     },
     {
       "basename": "redux浅析",
