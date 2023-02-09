@@ -103,7 +103,11 @@ useState的替代方案，当你涉及多个子值的复杂state逻辑时
 
 ### 语法
 >useImperativeHandle(ref, createHandle, [deps])
-
+### 作用
+useImperativeHandle 可以让你在使用 ref 时自定义暴露给父组件的实例值
+```jsx
+useImperativeHandle(ref, () => ({ handleShowModal, handleCancel, }));
+```
 与class组件不同，函数组件是如何调用子组件的状态或者方法呢？
 1. 第一个参数是ref值，可以配合forwardRef使用
 2. 第二个参数是一个函数，返回一个对象，对象中的属性都会被挂载到第一个参数的ref上
@@ -118,6 +122,11 @@ useState的替代方案，当你涉及多个子值的复杂state逻辑时
 作用：1、可用于在开发者工具中显示自定义hook的标签 2、延迟格式化 debug 值
 
 ## useDefferredValue  （react18）
+
+### 语法
+```jsx
+const deferredValue = useDeferredValue(value);
+```
 
 [地址](https://codesandbox.io/s/usedeferredvalue-3-demo-forked-w2ig5o)
 ### 问题

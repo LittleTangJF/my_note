@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "hooks讲解",
-      "path": "工作台/前端技术要点/react框架/hooks讲解.md"
+      "basename": "Ref常见用法",
+      "path": "工作台/前端技术要点/react框架/Ref常见用法.md"
     },
     {
       "basename": "常见问题",
       "path": "工作台/前端技术要点/react框架/常见问题.md"
+    },
+    {
+      "basename": "hooks讲解",
+      "path": "工作台/前端技术要点/react框架/hooks讲解.md"
     },
     {
       "basename": "权限设计",
@@ -19,10 +23,6 @@
     {
       "basename": "渲染过程",
       "path": "工作台/前端技术要点/react框架/渲染过程.md"
-    },
-    {
-      "basename": "Ref常见用法",
-      "path": "工作台/前端技术要点/react框架/Ref常见用法.md"
     },
     {
       "basename": "mobx浅析",
