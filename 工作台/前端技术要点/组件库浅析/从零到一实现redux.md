@@ -78,8 +78,67 @@ export function createStore(reducer, prevState, ehancer) {
 }
 ```
 
-## 二、combineReducers
+## 二、combineReducers； ## 合并多个 `reducer` 函数
 
-6. 
+-   接受一个对象参数，对象的属性值是 `reducer` 函数
+    
+-   返回一个新的 `reducer` 函数
+    
+-   调用新的 `reducer` 函数的时候，会依次调用原始的 `reducer` 函数，并将各个属性对应的 `state` 合并到一个 `state` 对象上
 
+```jsx
+/**
+ * combineReducers 将多个 reducer 合成一个新的 reducer 函数
+ * @param {object} reducerTarget 包含多个 reducer 的对象
+ */
+export function combineReducers(reducerTarget) {
+  const finalReducer = {};
+
+  // 将 reducerTarget 中值不是 function 的属性过滤掉
+  Object.entries(reducerTarget).forEach(([key, reducer]) => {
+    if (typeof reducer === "function") {
+      finalReducer[key] = reducer;
+    }
+  });
+
+  // 返回一个新的 reducer 函数
+  return (state = {}, action) => {
+    let hasChange = false;
+
+    // 将各个 reducer 对应的 state 值合并到同一个对象中
+    let nextState = {};
+
+    // 遍历所有的 reducer
+    for (const [key, reducer] of Object.entries(finalReducer)) {
+      const prevStateForKey = state[key];
+
+      // 执行 reducer 函数，设置最新的 state 值
+      const nextStateForKey = reducer(prevStateForKey, action);
+      nextState[key] = nextStateForKey;
+
+      hasChange = hasChange || nextStateForKey !== prevStateForKey;
+    }
+    return hasChange ? nextState : state;
+  };
+}
+```
+
+## 三、 `applyMiddleware` ： 应用插件
+
+
+### compose
+
+```js
+function compose(...fun){
+	if(!fun){
+		return
+	}
+	if(fun.length ===1 ){
+		return fun[0]
+	}
+    return fun.reduce((fn1, fn2)=> (...args)=> fn1(fn2(...args)))
+}
+```
+
+回到`applyMiddleware`
 
