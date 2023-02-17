@@ -147,3 +147,39 @@ function compose(...fun){
 
 回到`applyMiddleware`
 
+```jsx
+/**
+ * 应用插件
+ * @param  {...function} middlewares 多个插件
+ */
+export function applyMiddleware(...middlewares) {
+  // 在 createStore 中走 ehancer 时会来到这里
+  return createStore => reducer => {
+    const store = createStore(reducer);
+    let dispatch = store.dispatch;
+
+    /**
+     * 执行插件函数，将 getState 和 被插件包装后的 dispatch 传给插件
+     * 这里为了避免多个插件使用同一个 dispatch 互相影响，所有使用箭头函数包裹了一层
+     *
+     * 插件执行完毕后，将执行结果合并成一个执行链，是一个函数的数组
+     *
+     * 将执行链中的函数通过 compose 合成，生成一个新的函数，传入 dispatch 并执行，获取到一个被插件包装后的 dispatch
+     */
+    const middleParams = {
+      getState: store.getState,
+      dispatch: (...args) => dispatch(...args)
+    };
+    const middlewareChains = middlewares.map(middleware =>
+      middleware(middleParams)
+    );
+    dispatch = compose(...middlewareChains)(dispatch);
+
+    // 将 store 返回出去
+    return {
+      ...store,
+      dispatch
+    };
+  };
+}
+```
