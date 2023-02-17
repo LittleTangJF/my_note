@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工作台/前端技术要点/react框架/生命周期详解.md",
+                "file": "工作台/前端技术要点/组件库浅析/redux浅析.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工作台/前端技术要点/react框架/生命周期详解.md",
+                "file": "工作台/前端技术要点/组件库浅析/redux浅析.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -203,7 +203,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -277,7 +277,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工作台/前端技术要点/react框架/生命周期详解.md",
+                "file": "工作台/前端技术要点/组件库浅析/redux浅析.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -294,7 +294,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工作台/前端技术要点/react框架/生命周期详解.md",
+                "file": "工作台/前端技术要点/组件库浅析/redux浅析.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -317,7 +317,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工作台/前端技术要点/react框架/生命周期详解.md"
+                "file": "工作台/前端技术要点/组件库浅析/redux浅析.md"
               }
             }
           },
@@ -366,17 +366,17 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "17be0f53f0e4f356",
+  "active": "098f7e5d54ad9944",
   "lastOpenFiles": [
-    "工作台/前端技术要点/浏览器知识要点/网络问题.md",
     "工作台/前端技术要点/react框架/生命周期详解.md",
+    "工作台/前端技术要点/组件库浅析/redux浅析.md",
+    "工作台/前端技术要点/浏览器知识要点/网络问题.md",
     "工作台/前端技术要点/浏览器知识要点/网络请求.md",
     "工作台/前端技术要点/设计模式/前端的发展的演变.md",
     "工作台/前端技术要点/react框架/渲染过程.md",
     "工作台/前端技术要点/浏览器知识要点/网络安全.md",
     "工作台/前端技术要点/react框架/Ref常见用法.md",
     "工作台/前端技术要点/react框架/常见问题.md",
-    "工作台/前端技术要点/react框架/hooks讲解.md",
-    "工作台/前端技术要点/设计模式/权限设计.md"
+    "工作台/前端技术要点/react框架/hooks讲解.md"
   ]
 }

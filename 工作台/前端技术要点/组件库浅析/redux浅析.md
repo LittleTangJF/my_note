@@ -13,13 +13,62 @@ react单向数据流，props向下传递，state组件内部自行管理状态�
 
 ### API
 
-1. action
+1. action(描述更新对象)
 	1. action是个对象，必须有个type参数，定义action的类型
+	2. 使用： store.dispatch(action), 将action传给store
 2. reducer
 	1. 可以使用一个reducer，也可以将多个reducer合并成一个--combineReducers()
+	2. 使用：接受两个参数state， action（dispatch传过来的对象）
 3. store
-	1. 使用createStore方法创建
+	1. 使用createStore(reducer)方法创建
 	2. 提供subscribe,dispatch,getState方法
+
+### 其他方法
+
+ #### combineReducers高阶函数
+ 合并reducer
+ ```jsx
+ const reducer = combineReducers({
+  count: counterReducer,
+  todos: todoReducer
+});
+
+```
+
+#### applyMiddleware
+应用插件，用来扩展redux的功能
+
+例如
+	需要异步执行才能完成才进行state更新的操作，可以使用rendx-thunk插件
+```jsx
+import thunk from "redux-thunk";
+// ...
+
+// 应用插件
+const ehancer = applyMiddleware(thunk, logger);
+
+// 创建 store
+const store = createStore(reducer, ehancer);
+
+export default store;
+
+```
+
+#### ActionCreator: action 创建函数
+
+是一种思想和实现，通过调用一个函数生成一个对应的action
+
+#### bindActionCreators
+
+个函数是将 `dispatch` 绑定到了 `actionCreator` 方法上，之后只要我们执行 `actionCreator` 就会触发 `store` 更新了，不用每次都 `dispacth` 了。
+
+```jsx
+// 生成包装后的 actionCreator，执行之后就会触发 store 数据的更新
+const { increment, decrement, getAsyncTodos, addTodo } = bindActionCreators(
+  actionCreators,
+  store.dispatch
+);
+```
 
 ## react-redux
 

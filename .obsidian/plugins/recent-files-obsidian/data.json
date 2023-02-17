@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "redux浅析",
+      "path": "工作台/前端技术要点/组件库浅析/redux浅析.md"
+    },
+    {
       "basename": "生命周期详解",
       "path": "工作台/前端技术要点/react框架/生命周期详解.md"
     },
@@ -39,10 +43,6 @@
     {
       "basename": "权限设计",
       "path": "工作台/前端技术要点/设计模式/权限设计.md"
-    },
-    {
-      "basename": "redux浅析",
-      "path": "工作台/前端技术要点/组件库浅析/redux浅析.md"
     },
     {
       "basename": "mobx浅析",
