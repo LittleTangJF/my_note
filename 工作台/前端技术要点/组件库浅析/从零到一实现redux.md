@@ -137,6 +137,11 @@ function compose(...fun){
 		return fun[0]
 	}
     return fun.reduce((fn1, fn2)=> (...args)=> fn1(fn2(...args)))
+    // fun.reduce((fn1, fn2)=>{
+	// return (...args)=>{
+	//   return fn1(fn2(...args))
+	// }
+    //})
 }
 ```
 
