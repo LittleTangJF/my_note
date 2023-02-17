@@ -183,3 +183,32 @@ export function applyMiddleware(...middlewares) {
   };
 }
 ```
+
+## 四、`bindActionCreators`
+
+-   `actionCreator`: 是一个函数，返回值是 `action` 对象
+-   `dispatcher`: 是一个函数，执行后会直接派发 `action`，触发 `reducer` 更新，不需要再通过 `dispatch` 转一次
+
+```jsx
+/**
+ * 将 actionCreator 使用 dispatch 进行包裹，生成一个可以直接触发更新的 dispatcher
+ * @param {function} func actionCreator 函数
+ * @param {function} dispatch
+ */
+export function bindActionCreator(func, dispatch) {
+  return (...args) => dispatch(func(...args));
+}
+
+/**
+ * 将 actionCreators 中的 actionCreator 使用 dispatch 进行包裹，返回包含 多个 dispatcher 的对象
+ * @param {object} actionCreators 包含多个 actionCreator 的对象
+ * @param {function} dispatch
+ */
+export function bindActionCreators(actionCreators, dispatch) {
+  const dispatchers = {};
+  Object.entries(actionCreators).forEach(([key, actionCreator]) => {
+    dispatchers[key] = bindActionCreator(actionCreator, dispatch);
+  });
+  return dispatchers;
+}
+```

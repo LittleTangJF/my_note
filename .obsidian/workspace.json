@@ -65,7 +65,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工作台/前端技术要点/组件库浅析/从零到一实现redux.md",
+                "file": "工作台/前端技术要点/组件库浅析/redux浅析.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4d86070ebe525297",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "工作台/前端技术要点/组件库浅析/从零到一实现react-redux.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -216,7 +229,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -274,7 +287,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 257.5
   },
   "right": {
     "id": "7c77bd564774ef48",
@@ -290,7 +303,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工作台/前端技术要点/组件库浅析/从零到一实现redux.md",
+                "file": "工作台/前端技术要点/组件库浅析/从零到一实现react-redux.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -307,7 +320,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工作台/前端技术要点/组件库浅析/从零到一实现redux.md",
+                "file": "工作台/前端技术要点/组件库浅析/从零到一实现react-redux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -330,7 +343,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工作台/前端技术要点/组件库浅析/从零到一实现redux.md"
+                "file": "工作台/前端技术要点/组件库浅析/从零到一实现react-redux.md"
               }
             }
           },
@@ -379,10 +392,10 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "c6ec8e0a809c6240",
+  "active": "4d86070ebe525297",
   "lastOpenFiles": [
-    "工作台/前端技术要点/组件库浅析/mobx浅析.md",
     "工作台/前端技术要点/组件库浅析/redux浅析.md",
+    "工作台/前端技术要点/组件库浅析/mobx浅析.md",
     "工作台/前端技术要点/组件库浅析/从零到一实现redux.md",
     "工作台/前端技术要点/react框架/生命周期详解.md",
     "工作台/前端技术要点/浏览器知识要点/网络问题.md",
