@@ -72,7 +72,8 @@ const { increment, decrement, getAsyncTodos, addTodo } = bindActionCreators(
 
 ## react-redux
 
-提供了两个
+
+提供了两个API
 
 将store直接集成到顶层的props里，
 ```jsx
@@ -83,9 +84,16 @@ const { increment, decrement, getAsyncTodos, addTodo } = bindActionCreators(
 
 ### API
 1. Provider：  这个组件的目的是让所有组件都能够访问到Redux中的数据。
-2. connect: connect(mapStateToProps, mapDispatchToProps)(MyComponent)
+2. connect: connect(mapStateToProps, mapDispatchToProps)(MyComponent) 返回一个高阶组件，用来连接React组件和store，返回一个新的已与store链接的组件
 	1. mapStateToProps: **把state映射到props中去**
 	2. mapDispatchToProps:**把各种dispatch也变成了props让你可以直接使用**
+
+至于用 `connect` 还是 `hook` 的方式
+
+```jsx
+import { useDispatch, useSelector } from "react-redux";
+```
+
 
 ## redux-thunk
 

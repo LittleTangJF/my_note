@@ -60,6 +60,19 @@
             }
           },
           {
+            "id": "c6ec8e0a809c6240",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "工作台/前端技术要点/组件库浅析/从零到一实现redux.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "911c10a1b6b2bd2f",
             "type": "leaf",
             "state": {
@@ -203,7 +216,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -277,7 +290,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工作台/前端技术要点/组件库浅析/redux浅析.md",
+                "file": "工作台/前端技术要点/组件库浅析/从零到一实现redux.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -294,7 +307,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工作台/前端技术要点/组件库浅析/redux浅析.md",
+                "file": "工作台/前端技术要点/组件库浅析/从零到一实现redux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -317,7 +330,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工作台/前端技术要点/组件库浅析/redux浅析.md"
+                "file": "工作台/前端技术要点/组件库浅析/从零到一实现redux.md"
               }
             }
           },
@@ -366,10 +379,10 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "098f7e5d54ad9944",
+  "active": "c6ec8e0a809c6240",
   "lastOpenFiles": [
-    "工作台/前端技术要点/react框架/生命周期详解.md",
     "工作台/前端技术要点/组件库浅析/redux浅析.md",
+    "工作台/前端技术要点/react框架/生命周期详解.md",
     "工作台/前端技术要点/浏览器知识要点/网络问题.md",
     "工作台/前端技术要点/浏览器知识要点/网络请求.md",
     "工作台/前端技术要点/设计模式/前端的发展的演变.md",
