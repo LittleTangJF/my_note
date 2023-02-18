@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "react18新特性",
+      "path": "工作台/前端技术要点/react框架/react18新特性.md"
+    },
+    {
+      "basename": "总结",
+      "path": "工作台/前端技术要点/ts要点/总结.md"
+    },
+    {
+      "basename": "关键字",
+      "path": "工作台/前端技术要点/ts要点/关键字.md"
+    },
+    {
+      "basename": "映射类型",
+      "path": "工作台/前端技术要点/ts要点/映射类型.md"
+    },
+    {
       "basename": "通熟易懂React Fiber",
       "path": "工作台/前端技术要点/react框架/通熟易懂React Fiber.md"
     },
@@ -89,10 +105,6 @@
       "path": "工作台/前端技术要点/css要点/虚线方案.md"
     },
     {
-      "basename": "基础语法",
-      "path": "工作台/前端技术要点/ts要点/基础语法.md"
-    },
-    {
       "basename": "mac-环境变量",
       "path": "工作台/环境搭建/mac-环境变量.md"
     },
@@ -131,10 +143,6 @@
     {
       "basename": "request封装",
       "path": "Excalidraw/request封装.md"
-    },
-    {
-      "basename": "特殊类型",
-      "path": "工作台/前端技术要点/ts要点/特殊类型.md"
     },
     {
       "basename": "npm｜yarn｜pnpm",

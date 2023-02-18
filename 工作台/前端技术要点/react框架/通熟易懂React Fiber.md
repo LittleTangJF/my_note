@@ -54,6 +54,8 @@ alternate: Fiber | null, // diff 的变化记录在这个节点上 ... }
 
 ### 知识点深入
 
+[参考地址](https://cloud.tencent.com/developer/article/1882296)
+
 一个react组件的渲染主要经历两个阶段
 
 1. 调度阶段reconciler： 
@@ -64,6 +66,22 @@ alternate: Fiber | null, // diff 的变化记录在这个节点上 ... }
 	1. 遍历更新的队列，通过调用宿主环境的API，实际更新渲染对应的元素
 	2. 宿主环境如DOM、Native等，通常有自己命令式的API，而react就是他上面的一层
 
+Fiber 的主要工作流程：
 
-	4. 
+-   `ReactDOM.render()` 引导 React 启动或调用 `setState()` 的时候开始创建或更新 Fiber 树。
+-   从根节点开始遍历 Fiber Node Tree， 并且构建 WokeInProgress Tree（reconciliation 阶段）。
+    -   本阶段可以暂停、终止、和重启，会导致 react 相关生命周期重复执行。
+    -   React 会生成两棵树，一棵是代表当前状态的 current tree，一棵是待更新的 workInProgress tree。
+    -   遍历 current tree，重用或更新 Fiber Node 到 workInProgress tree，workInProgress tree 完成后会替换 current tree。
+    -   每更新一个节点，同时生成该节点对应的 Effect List。
+    -   为每个节点创建更新任务。
+-   将创建的更新任务加入任务队列，等待调度。
+    -   调度由 scheduler 模块完成，其核心职责是执行回调。
+    -   scheduler 模块实现了跨平台兼容的 requestIdleCallback。
+    -   每处理完一个 Fiber Node 的更新，可以中断、挂起，或恢复。
+-   根据 Effect List 更新 DOM （commit 阶段）。
+    -   React 会遍历 Effect List 将所有变更一次性更新到 DOM 上。
+    -   这一阶段的工作会导致用户可见的变化。因此该过程不可中断，必须一直执行直到更新完成。
 
+
+![[Pasted image 20230218215649.png]]

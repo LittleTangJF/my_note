@@ -26,7 +26,33 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工作台/前端技术要点/react框架/通熟易懂React Fiber.md",
+                "file": "工作台/前端技术要点/ts要点/总结.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a0ed7bbe37eb02ab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "工作台/前端技术要点/react框架/react18新特性.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ac4123eba7bc05c4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "工作台/前端技术要点/ts要点/映射类型.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -108,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工作台/前端技术要点/react框架/通熟易懂React Fiber.md",
+                "file": "工作台/前端技术要点/react框架/react18新特性.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工作台/前端技术要点/react框架/通熟易懂React Fiber.md",
+                "file": "工作台/前端技术要点/react框架/react18新特性.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -148,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工作台/前端技术要点/react框架/通熟易懂React Fiber.md"
+                "file": "工作台/前端技术要点/react框架/react18新特性.md"
               }
             }
           },
@@ -197,17 +223,17 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "e2db83f99e6c6569",
+  "active": "a0ed7bbe37eb02ab",
   "lastOpenFiles": [
+    "工作台/前端技术要点/ts要点/总结.md",
+    "工作台/前端技术要点/ts要点/关键字.md",
+    "工作台/前端技术要点/ts要点/映射类型.md",
+    "工作台/前端技术要点/react框架/通熟易懂React Fiber.md",
     "工作台/前端技术要点/组件库浅析/从零到一实现redux.md",
     "工作台/前端技术要点/组件库浅析/从零到一实现react-redux.md",
     "工作台/前端技术要点/react框架/hooks讲解.md",
     "工作台/前端技术要点/浏览器知识要点/token.md",
     "00 Index/未命名.md",
-    "工作台/项目搭建/技术要点/安装和使用mobx.md",
-    "工作台/前端技术要点/浏览器知识要点/网络问题.md",
-    "工作台/前端技术要点/浏览器知识要点/网络安全.md",
-    "工作台/前端技术要点/react框架/Ref常见用法.md",
-    "工作台/前端技术要点/react框架/常见问题.md"
+    "工作台/项目搭建/技术要点/安装和使用mobx.md"
   ]
 }
