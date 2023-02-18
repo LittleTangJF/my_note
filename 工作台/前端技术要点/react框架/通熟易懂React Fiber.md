@@ -1,11 +1,11 @@
 
 ## 渲染过程
 
-### fiber
+### fiber （fiber reconcilder）
 
 ![[Pasted image 20230218155943.png]]
 
-### 树形结构的过程
+### 树形结构的过程（stack reconcilder）栈调度器。react 16前
 ![[Pasted image 20230218160017.png]]
 
 ## Diff策略
@@ -15,6 +15,11 @@
 3. 第三点：通过key来标记改节点，保持渲染稳定性，使用唯一key时，同样的节点不会进行更新
 
 ## Fiber思想
+
+是react 16引入的新架构，将原本不可中断的更新，改成了异步可中断的更新；将原本一个耗时大任务做了时间分片，拆分成一个个小任务，在浏览器空闲的时间执行；此外，添加了优先级的概念，将一些重要的任务优先执行，比如用户交互响应函数
+1. 增加异步可中断操作
+2. 增加优先级
+3. 大任务分片
 
 将树形结构转化为链表结构
 
@@ -31,5 +36,34 @@
 
 ### `requestIdleCallback` 判断浏览器是否处于空闲
 
-### 初始化
+
+## Fiber reconcilder 如何工作
+
+js单线程，任务过程，阻塞，所以要任务分片，给其他任务执行机会，线程不会被独占-----数据结构fiber node tree
+
+```jsx
+{ tag: TypeOfWork, // 标识 fiber 类型 
+type: 'div', // 和 fiber 相关的组件类型 
+return: Fiber | null, // 父节点 
+child: Fiber | null, // 子节点 
+sibling: Fiber | null, // 同级节点 
+alternate: Fiber | null, // diff 的变化记录在这个节点上 ... }
+```
+
+
+
+### 知识点深入
+
+一个react组件的渲染主要经历两个阶段
+
+1. 调度阶段reconciler： 
+	1. 新的数据生产新的树
+	2. diff算法，遍历旧的树快速找出要更新/替换的元素，放到更新队列中
+	3. 得到新的更新队列
+2. 渲染阶段renderer：
+	1. 遍历更新的队列，通过调用宿主环境的API，实际更新渲染对应的元素
+	2. 宿主环境如DOM、Native等，通常有自己命令式的API，而react就是他上面的一层
+
+
+	4. 
 
