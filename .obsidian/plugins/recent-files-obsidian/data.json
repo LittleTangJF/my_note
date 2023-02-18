@@ -1,40 +1,36 @@
 {
   "recentFiles": [
     {
-      "basename": "从零到一实现react-redux",
-      "path": "工作台/前端技术要点/组件库浅析/从零到一实现react-redux.md"
-    },
-    {
-      "basename": "redux浅析",
-      "path": "工作台/前端技术要点/组件库浅析/redux浅析.md"
-    },
-    {
-      "basename": "mobx浅析",
-      "path": "工作台/前端技术要点/组件库浅析/mobx浅析.md"
+      "basename": "通熟易懂React Fiber",
+      "path": "工作台/前端技术要点/react框架/通熟易懂React Fiber.md"
     },
     {
       "basename": "从零到一实现redux",
       "path": "工作台/前端技术要点/组件库浅析/从零到一实现redux.md"
     },
     {
-      "basename": "生命周期详解",
-      "path": "工作台/前端技术要点/react框架/生命周期详解.md"
+      "basename": "从零到一实现react-redux",
+      "path": "工作台/前端技术要点/组件库浅析/从零到一实现react-redux.md"
+    },
+    {
+      "basename": "hooks讲解",
+      "path": "工作台/前端技术要点/react框架/hooks讲解.md"
+    },
+    {
+      "basename": "token",
+      "path": "工作台/前端技术要点/浏览器知识要点/token.md"
+    },
+    {
+      "basename": "未命名",
+      "path": "00 Index/未命名.md"
+    },
+    {
+      "basename": "安装和使用mobx",
+      "path": "工作台/项目搭建/技术要点/安装和使用mobx.md"
     },
     {
       "basename": "网络问题",
       "path": "工作台/前端技术要点/浏览器知识要点/网络问题.md"
-    },
-    {
-      "basename": "网络请求",
-      "path": "工作台/前端技术要点/浏览器知识要点/网络请求.md"
-    },
-    {
-      "basename": "前端的发展的演变",
-      "path": "工作台/前端技术要点/设计模式/前端的发展的演变.md"
-    },
-    {
-      "basename": "渲染过程",
-      "path": "工作台/前端技术要点/react框架/渲染过程.md"
     },
     {
       "basename": "网络安全",
@@ -49,24 +45,36 @@
       "path": "工作台/前端技术要点/react框架/常见问题.md"
     },
     {
-      "basename": "hooks讲解",
-      "path": "工作台/前端技术要点/react框架/hooks讲解.md"
-    },
-    {
-      "basename": "权限设计",
-      "path": "工作台/前端技术要点/设计模式/权限设计.md"
-    },
-    {
-      "basename": "安装和使用mobx",
-      "path": "工作台/项目搭建/技术要点/安装和使用mobx.md"
+      "basename": "mobx浅析",
+      "path": "工作台/前端技术要点/组件库浅析/mobx浅析.md"
     },
     {
       "basename": "brew - nginx安装",
       "path": "工作台/环境搭建/brew - nginx安装.md"
     },
     {
-      "basename": "token",
-      "path": "工作台/前端技术要点/浏览器知识要点/token.md"
+      "basename": "网络请求",
+      "path": "工作台/前端技术要点/浏览器知识要点/网络请求.md"
+    },
+    {
+      "basename": "redux浅析",
+      "path": "工作台/前端技术要点/组件库浅析/redux浅析.md"
+    },
+    {
+      "basename": "生命周期详解",
+      "path": "工作台/前端技术要点/react框架/生命周期详解.md"
+    },
+    {
+      "basename": "前端的发展的演变",
+      "path": "工作台/前端技术要点/设计模式/前端的发展的演变.md"
+    },
+    {
+      "basename": "渲染过程",
+      "path": "工作台/前端技术要点/react框架/渲染过程.md"
+    },
+    {
+      "basename": "权限设计",
+      "path": "工作台/前端技术要点/设计模式/权限设计.md"
     },
     {
       "basename": "css-展开收起",
@@ -83,10 +91,6 @@
     {
       "basename": "基础语法",
       "path": "工作台/前端技术要点/ts要点/基础语法.md"
-    },
-    {
-      "basename": "未命名",
-      "path": "00 Index/未命名.md"
     },
     {
       "basename": "mac-环境变量",

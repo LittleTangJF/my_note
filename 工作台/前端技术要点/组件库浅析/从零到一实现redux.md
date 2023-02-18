@@ -1,4 +1,4 @@
-
+[参考地址](https://github.com/beichensky/Blog/issues/9)
 ## 核心方法：
 
 1. createStore： 创建store

@@ -1,4 +1,4 @@
-
+[参考地址](https://github.com/beichensky/Blog/issues/10)
 ## 核心API
 
 包含以下核心 `API`
@@ -14,7 +14,7 @@
 
 1. 创建context
 ```jsx
-const StoreContext = React.createContext();
+const StoreContext = React.createContext(); 
 ```
 2. 创建Provider组件
 ```jsx
