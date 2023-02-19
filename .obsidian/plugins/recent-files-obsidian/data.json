@@ -5,6 +5,10 @@
       "path": "工作台/前端技术要点/react框架/react18新特性.md"
     },
     {
+      "basename": "常见问题",
+      "path": "工作台/前端技术要点/react框架/常见问题.md"
+    },
+    {
       "basename": "总结",
       "path": "工作台/前端技术要点/ts要点/总结.md"
     },
@@ -55,10 +59,6 @@
     {
       "basename": "Ref常见用法",
       "path": "工作台/前端技术要点/react框架/Ref常见用法.md"
-    },
-    {
-      "basename": "常见问题",
-      "path": "工作台/前端技术要点/react框架/常见问题.md"
     },
     {
       "basename": "mobx浅析",
