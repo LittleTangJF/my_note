@@ -29,3 +29,11 @@ nginx是一个高性能的反向代理服务器
 -   `location`：配置请求的路由，以及各种页面的处理情况。
 -   `upstream`：配置后端服务器具体地址，负载均衡配置不可或缺的部分。
 
+![[Pasted image 20230220115058.png]]
+
+## 解决跨域
+
+```nginx
+location / { proxy_pass dev.server.com; }
+```
+
