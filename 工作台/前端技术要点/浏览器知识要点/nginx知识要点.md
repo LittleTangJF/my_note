@@ -1,4 +1,4 @@
-
+[参考地址](https://juejin.cn/post/6844903793918738440)
 -   解决跨域
 -   请求过滤
 -   配置gzip
@@ -37,3 +37,41 @@ nginx是一个高性能的反向代理服务器
 location / { proxy_pass dev.server.com; }
 ```
 
+## 配置gzip
+
+```nginx
+    gzip                    on;
+    gzip_http_version       1.1;    //这导致HTTP1.0中开启持久链接和使用`GZip`只能二选一
+    gzip_comp_level         5;
+    gzip_min_length         1000;
+    gzip_types text/csv text/xml text/css text/plain text/javascript application/javascript application/x-javascript application/json application/xml;
+```
+
+## 负载均衡
+
+通过配置项指定策略
+1. **最快响应时间策略**
+2. **最小连接数策略**
+3. 
+4. **轮询策略**
+5. **客户端ip绑定**
+
+```nginx
+upstream balanceServer {
+    server 10.1.22.33:12345;
+    server 10.1.22.34:12345;
+    server 10.1.22.35:12345;
+}
+```
+
+
+## 静态资源服务器
+
+```nginx
+location ~* \.(png|gif|jpg|jpeg)$ {
+    root    /root/static/;  
+    autoindex on;
+    access_log  off;
+    expires     10h;# 设置过期时间为10小时          
+}
+```
