@@ -60,6 +60,19 @@
             }
           },
           {
+            "id": "087e4bd54cf55fb0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "工作台/面试.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "ac4123eba7bc05c4",
             "type": "leaf",
             "state": {
@@ -73,7 +86,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -147,7 +160,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工作台/前端技术要点/浏览器知识要点/nginx知识要点.md",
+                "file": "工作台/面试.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +177,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工作台/前端技术要点/浏览器知识要点/nginx知识要点.md",
+                "file": "工作台/面试.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -187,7 +200,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工作台/前端技术要点/浏览器知识要点/nginx知识要点.md"
+                "file": "工作台/面试.md"
               }
             }
           },
@@ -236,8 +249,9 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "0c0c6b5613693b62",
+  "active": "087e4bd54cf55fb0",
   "lastOpenFiles": [
+    "工作台/前端技术要点/浏览器知识要点/nginx知识要点.md",
     "工作台/前端技术要点/react框架/react18新特性.md",
     "工作台/前端技术要点/react框架/常见问题.md",
     "工作台/前端技术要点/ts要点/总结.md",
@@ -246,7 +260,6 @@
     "工作台/前端技术要点/react框架/通熟易懂React Fiber.md",
     "工作台/前端技术要点/组件库浅析/从零到一实现redux.md",
     "工作台/前端技术要点/组件库浅析/从零到一实现react-redux.md",
-    "工作台/前端技术要点/react框架/hooks讲解.md",
-    "工作台/前端技术要点/浏览器知识要点/token.md"
+    "工作台/前端技术要点/react框架/hooks讲解.md"
   ]
 }
