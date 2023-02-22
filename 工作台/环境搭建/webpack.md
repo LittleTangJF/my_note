@@ -14,6 +14,13 @@ webpack运行流程是一个串行的过程，从启动到结束会依次执行�
 
 在以上过程中，`Webpack` 会在特定的时间点广播出特定的事件，插件在监听到感兴趣的事件后会执行特定的逻辑，并且插件可以调用 Webpack 提供的 API 改变 Webpack 的运行结果。
 
+## 处理第三方库
+
+处理第三方库有多种方式，externals、CommonsChunkPlugin、splitChunks、DllPlugin/DLLReferencePlugin 。我们先说说各种的优劣势
+
+-  externals： 操作不是很灵活，需要设置多步，并且会出现意想不到的情况。
+-  splitChunks： 使用SplitChunksPlugin是Webpack 4的默认行为
+-  DllPlugin/DLLReferencePlugin： 这个依赖库不会跟着你的业务代码一起被 重新打包，只有当依赖自身发生版本变化时才会重新打包。会有一些bug但是我在操作的时候遇到一个很奇葩的坑，element-ui被dllPlugins之后，el-table不生效，是的不生效，页面也么有报错，样式都还存在，但是就是页面展示不出来table。
 ## source map## 是什么？生产环境怎么用？
 
 `source map` 是将编译、打包、压缩后的代码映射回源代码的过程。打包压缩后的代码不具备良好的可读性，想要调试源码就需要 soucre map。
@@ -64,4 +71,7 @@ Loader 支持链式调用，所以开发上需要严格遵循“单一职责”�
 -   转换：访问 AST 的节点进行变换操作生产新的 AST
     -   [Taro](https://link.juejin.cn?target=https%3A%2F%2Fgithub.com%2FNervJS%2Ftaro%2Fblob%2Fmaster%2Fpackages%2Ftaro-transformer-wx%2Fsrc%2Findex.ts%23L15 "https://github.com/NervJS/taro/blob/master/packages/taro-transformer-wx/src/index.ts#L15")就是利用 babel 完成的小程序语法转换
 -   生成：以新的 AST 为基础生成代码
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+
+
+## webpack5
+
