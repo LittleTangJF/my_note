@@ -42,3 +42,26 @@ Webpack开启监听模式，有两种方式：
 -   `Chunkhash`：和 Webpack 打包的 chunk 有关，不同的 entry 会生出不同的 chunkhash
     
 -   `Contenthash`：根据文件内容来定义 hash，文件内容不变，则 contenthash 不变
+
+## 是否写过Plugin？简单描述一下编写Plugin的思路？
+
+webpack在运行的生命周期中会广播出许多事件，Plugin 可以监听这些事件，在特定的阶段钩入想要添加的自定义功能。Webpack 的 Tapable 事件流机制保证了插件的有序性，使得整个系统扩展性良好。
+
+## 是否写过Loader？简单描述一下编写loader的思路？
+
+Loader 支持链式调用，所以开发上需要严格遵循“单一职责”，每个 Loader 只负责自己需要负责的事情。
+
+1.  创建Loader文件：创建一个新的JavaScript文件，并导出一个函数。这个函数接收一个参数，即要转换的源代码内容。在函数内部，可以对源代码进行各种处理和转换，例如解析CSS文件、压缩代码、转换图片等。
+2. 返回结果：Loader函数必须返回一个JavaScript字符串或一个JavaScript对象。返回的结果将被Webpack继续处理和打包。例如，如果编写的Loader用于处理CSS文件，则需要返回一个包含CSS样式的JavaScript字符串
+
+## 聊一聊Babel原理吧
+
+大多数JavaScript Parser遵循 `estree` 规范，Babel 最初基于 `acorn` 项目(轻量级现代 JavaScript 解析器) Babel大概分为三大部分：
+
+-   解析：将代码转换成 AST
+    -   词法分析：将代码(字符串)分割为token流，即语法单元成的数组
+    -   语法分析：分析token流(上面生成的数组)并生成 AST
+-   转换：访问 AST 的节点进行变换操作生产新的 AST
+    -   [Taro](https://link.juejin.cn?target=https%3A%2F%2Fgithub.com%2FNervJS%2Ftaro%2Fblob%2Fmaster%2Fpackages%2Ftaro-transformer-wx%2Fsrc%2Findex.ts%23L15 "https://github.com/NervJS/taro/blob/master/packages/taro-transformer-wx/src/index.ts#L15")就是利用 babel 完成的小程序语法转换
+-   生成：以新的 AST 为基础生成代码
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
