@@ -16,3 +16,29 @@ webpack运行流程是一个串行的过程，从启动到结束会依次执行�
 
 ## source map## 是什么？生产环境怎么用？
 
+`source map` 是将编译、打包、压缩后的代码映射回源代码的过程。打包压缩后的代码不具备良好的可读性，想要调试源码就需要 soucre map。
+
+## 文件监听原理呢？
+
+发现源码发生变化时，自动重新构建出新的输出文件。
+
+Webpack开启监听模式，有两种方式：
+
+-   启动 webpack 命令时，带上 --watch 参数
+
+## 说一下 Webpack 的热更新原理吧
+
+关键： Hot Module Replacement 、 WDS 、 Websocket
+
+1. 本地资源变化，WDS向浏览器推送更新
+2. 客户端对比差异，想WDS发送ajax请求获取文件内容
+3. 继续发起jsonp请求该chunk的增量更新
+4. 接下来就是Hot Module plugin来处理给更新
+5. 
+## 文件指纹是什么？怎么用？
+
+-   `Hash`：和整个项目的构建相关，只要项目文件有修改，整个项目构建的 hash 值就会更改
+    
+-   `Chunkhash`：和 Webpack 打包的 chunk 有关，不同的 entry 会生出不同的 chunkhash
+    
+-   `Contenthash`：根据文件内容来定义 hash，文件内容不变，则 contenthash 不变
