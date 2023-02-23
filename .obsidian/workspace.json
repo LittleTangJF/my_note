@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工作台/前端技术要点/ts要点/总结.md",
+                "file": "工作台/各种面试题.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -112,7 +112,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -275,8 +275,10 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "d805f957c2d8d951",
+  "active": "e2db83f99e6c6569",
   "lastOpenFiles": [
+    "工作台/前端技术要点/ts要点/总结.md",
+    "工作台/各种面试题.md",
     "工作台/项目搭建/技术要点/安装和使用mobx.md",
     "工作台/前端技术要点/组件库浅析/mobx浅析.md",
     "工作台/面试技术难点.md",
@@ -284,8 +286,6 @@
     "工作台/前端技术要点/浏览器知识要点/nginx知识要点.md",
     "工作台/前端技术要点/react框架/react18新特性.md",
     "工作台/前端技术要点/react框架/常见问题.md",
-    "工作台/前端技术要点/ts要点/总结.md",
-    "工作台/前端技术要点/ts要点/关键字.md",
-    "工作台/前端技术要点/ts要点/映射类型.md"
+    "工作台/前端技术要点/ts要点/关键字.md"
   ]
 }
