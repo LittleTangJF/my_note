@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工作台/各种面试题2.md",
+                "file": "工作台/各种面试题.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工作台/各种面试题2.md",
+                "file": "工作台/各种面试题.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工作台/各种面试题2.md",
+                "file": "工作台/各种面试题.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工作台/各种面试题2.md"
+                "file": "工作台/各种面试题.md"
               }
             }
           },
@@ -199,8 +199,8 @@
   },
   "active": "bb16f6ee496c6244",
   "lastOpenFiles": [
-    "工作台/各种面试题.md",
     "工作台/各种面试题2.md",
+    "工作台/各种面试题.md",
     "工作台/面试技术难点.md",
     "工作台/前端技术要点/ts要点/映射类型.md",
     "工作台/前端技术要点/组件库浅析/从零到一实现redux.md",
