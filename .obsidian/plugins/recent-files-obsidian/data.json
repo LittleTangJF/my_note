@@ -5,6 +5,30 @@
       "path": "工作台/各种面试题.md"
     },
     {
+      "basename": "面试技术难点",
+      "path": "工作台/面试技术难点.md"
+    },
+    {
+      "basename": "映射类型",
+      "path": "工作台/前端技术要点/ts要点/映射类型.md"
+    },
+    {
+      "basename": "从零到一实现redux",
+      "path": "工作台/前端技术要点/组件库浅析/从零到一实现redux.md"
+    },
+    {
+      "basename": "react18新特性",
+      "path": "工作台/前端技术要点/react框架/react18新特性.md"
+    },
+    {
+      "basename": "nginx知识要点",
+      "path": "工作台/前端技术要点/浏览器知识要点/nginx知识要点.md"
+    },
+    {
+      "basename": "安装和使用mobx",
+      "path": "工作台/项目搭建/技术要点/安装和使用mobx.md"
+    },
+    {
       "basename": "性能优化面试题",
       "path": "工作台/性能优化面试题.md"
     },
@@ -17,28 +41,12 @@
       "path": "工作台/前端技术要点/ts要点/总结.md"
     },
     {
-      "basename": "安装和使用mobx",
-      "path": "工作台/项目搭建/技术要点/安装和使用mobx.md"
-    },
-    {
       "basename": "mobx浅析",
       "path": "工作台/前端技术要点/组件库浅析/mobx浅析.md"
     },
     {
-      "basename": "面试技术难点",
-      "path": "工作台/面试技术难点.md"
-    },
-    {
       "basename": "webpack",
       "path": "工作台/环境搭建/webpack.md"
-    },
-    {
-      "basename": "nginx知识要点",
-      "path": "工作台/前端技术要点/浏览器知识要点/nginx知识要点.md"
-    },
-    {
-      "basename": "react18新特性",
-      "path": "工作台/前端技术要点/react框架/react18新特性.md"
     },
     {
       "basename": "常见问题",
@@ -49,16 +57,8 @@
       "path": "工作台/前端技术要点/ts要点/关键字.md"
     },
     {
-      "basename": "映射类型",
-      "path": "工作台/前端技术要点/ts要点/映射类型.md"
-    },
-    {
       "basename": "通熟易懂React Fiber",
       "path": "工作台/前端技术要点/react框架/通熟易懂React Fiber.md"
-    },
-    {
-      "basename": "从零到一实现redux",
-      "path": "工作台/前端技术要点/组件库浅析/从零到一实现redux.md"
     },
     {
       "basename": "从零到一实现react-redux",
