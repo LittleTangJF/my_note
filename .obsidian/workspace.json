@@ -138,6 +138,45 @@
             }
           },
           {
+            "id": "40948c7874292851",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "工作台/面试题目录.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9f615d745d8b570f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "工作台/面试题目录.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3ef17574ea1cdba7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00 Index/闭包.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "bb16f6ee496c6244",
             "type": "leaf",
             "state": {
@@ -151,7 +190,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -225,7 +264,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工作台/面试题目录.md",
+                "file": "00 Index/闭包.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -242,7 +281,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工作台/面试题目录.md",
+                "file": "00 Index/闭包.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -265,7 +304,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工作台/面试题目录.md"
+                "file": "00 Index/闭包.md"
               }
             }
           },
@@ -314,18 +353,20 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "7cd93de65c44014f",
+  "active": "3ef17574ea1cdba7",
   "lastOpenFiles": [
-    "00 Index/ajax、fetch等网络请求.md",
     "工作台/面试题目录.md",
+    "工作台/各种面试题/各种面试题2.md",
+    "工作台/各种面试题/各种面试题.md",
+    "00 Index/闭包.md",
+    "00 Index/js数据类型.md",
     "00 Index/cookie、sessionStorage、localStorage区别.md",
+    "00 Index/ajax、fetch等网络请求.md",
     "00 Index/盒模型.md",
     "00 Index/CSS尺寸单位.md",
     "00 Index/HTML语义化.md",
     "00 Index/样式优先级规则.md",
     "00 Index/说说BFC.md",
-    "工作台/各种面试题/各种面试题2.md",
-    "工作台/各种面试题/各种面试题.md",
     "工作台/前端技术要点/设计模式/原型链.md",
     "工作台/各种面试题",
     "工作台/面试技术难点.md",
