@@ -1,8 +1,44 @@
 {
   "recentFiles": [
     {
+      "basename": "Eavent loop",
+      "path": "00 Index/Eavent loop.md"
+    },
+    {
       "basename": "面试题目录",
       "path": "工作台/面试题目录.md"
+    },
+    {
+      "basename": "map和forEach",
+      "path": "00 Index/map和forEach.md"
+    },
+    {
+      "basename": "this指向",
+      "path": "00 Index/this指向.md"
+    },
+    {
+      "basename": "call、apply、bind",
+      "path": "00 Index/call、apply、bind.md"
+    },
+    {
+      "basename": "各种面试题",
+      "path": "工作台/各种面试题/各种面试题.md"
+    },
+    {
+      "basename": "各种面试题2",
+      "path": "工作台/各种面试题/各种面试题2.md"
+    },
+    {
+      "basename": "箭头函数",
+      "path": "00 Index/箭头函数.md"
+    },
+    {
+      "basename": "null和undefined",
+      "path": "00 Index/null和undefined.md"
+    },
+    {
+      "basename": "数组去重",
+      "path": "00 Index/数组去重.md"
     },
     {
       "basename": "判断变量类型",
@@ -19,14 +55,6 @@
     {
       "basename": "闭包",
       "path": "00 Index/闭包.md"
-    },
-    {
-      "basename": "各种面试题2",
-      "path": "工作台/各种面试题/各种面试题2.md"
-    },
-    {
-      "basename": "各种面试题",
-      "path": "工作台/各种面试题/各种面试题.md"
     },
     {
       "basename": "js数据类型",
@@ -171,26 +199,6 @@
     {
       "basename": "css-展开收起",
       "path": "工作台/前端技术要点/css要点/css-展开收起.md"
-    },
-    {
-      "basename": "Flex布局",
-      "path": "工作台/前端技术要点/css要点/Flex布局.md"
-    },
-    {
-      "basename": "虚线方案",
-      "path": "工作台/前端技术要点/css要点/虚线方案.md"
-    },
-    {
-      "basename": "mac-环境变量",
-      "path": "工作台/环境搭建/mac-环境变量.md"
-    },
-    {
-      "basename": "Nginx - 启动php项目",
-      "path": "工作台/环境搭建/Nginx - 启动php项目.md"
-    },
-    {
-      "basename": "git - 配置",
-      "path": "工作台/环境搭建/git - 配置.md"
     }
   ],
   "omittedPaths": [],
