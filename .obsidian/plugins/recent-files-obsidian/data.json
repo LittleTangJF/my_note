@@ -1,12 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "说说BFC",
-      "path": "00 Index/说说BFC.md"
-    },
-    {
       "basename": "面试题目录",
       "path": "工作台/面试题目录.md"
+    },
+    {
+      "basename": "盒模型",
+      "path": "00 Index/盒模型.md"
+    },
+    {
+      "basename": "CSS尺寸单位",
+      "path": "00 Index/CSS尺寸单位.md"
+    },
+    {
+      "basename": "HTML语义化",
+      "path": "00 Index/HTML语义化.md"
+    },
+    {
+      "basename": "样式优先级规则",
+      "path": "00 Index/样式优先级规则.md"
+    },
+    {
+      "basename": "说说BFC",
+      "path": "00 Index/说说BFC.md"
     },
     {
       "basename": "各种面试题2",
@@ -183,18 +199,6 @@
     {
       "basename": "npm｜yarn｜pnpm",
       "path": "工作台/环境搭建/npm｜yarn｜pnpm.md"
-    },
-    {
-      "basename": "process.argv",
-      "path": "工作台/环境搭建/node-入门入土/process.argv.md"
-    },
-    {
-      "basename": "Taro-项目封装",
-      "path": "工作台/项目搭建/Taro-项目封装.md"
-    },
-    {
-      "basename": "错误处理封装",
-      "path": "Excalidraw/错误处理封装.md"
     }
   ],
   "omittedPaths": [],
