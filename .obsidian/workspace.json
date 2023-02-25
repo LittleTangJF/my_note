@@ -169,7 +169,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00 Index/闭包.md",
+                "file": "工作台/面试题目录.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "edb37dda37c0f0ab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00 Index/跨域.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -190,7 +203,7 @@
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -264,7 +277,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00 Index/闭包.md",
+                "file": "00 Index/跨域.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -281,7 +294,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00 Index/闭包.md",
+                "file": "00 Index/跨域.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -304,7 +317,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00 Index/闭包.md"
+                "file": "00 Index/跨域.md"
               }
             }
           },
@@ -353,12 +366,17 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "3ef17574ea1cdba7",
+  "active": "edb37dda37c0f0ab",
   "lastOpenFiles": [
     "工作台/面试题目录.md",
+    "00 Index/未命名.md",
+    "00 Index/测试.md",
+    "00 Index/跨域.md",
+    "00 Index/判断变量类型.md",
+    "00 Index/promise.md",
+    "00 Index/闭包.md",
     "工作台/各种面试题/各种面试题2.md",
     "工作台/各种面试题/各种面试题.md",
-    "00 Index/闭包.md",
     "00 Index/js数据类型.md",
     "00 Index/cookie、sessionStorage、localStorage区别.md",
     "00 Index/ajax、fetch等网络请求.md",
