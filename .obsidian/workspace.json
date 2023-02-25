@@ -112,6 +112,32 @@
             }
           },
           {
+            "id": "d831eee35a81c756",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "工作台/面试题目录.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7cd93de65c44014f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "工作台/面试题目录.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "bb16f6ee496c6244",
             "type": "leaf",
             "state": {
@@ -125,7 +151,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -288,10 +314,12 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "43020ff431453e29",
+  "active": "7cd93de65c44014f",
   "lastOpenFiles": [
-    "00 Index/盒模型.md",
+    "00 Index/ajax、fetch等网络请求.md",
     "工作台/面试题目录.md",
+    "00 Index/cookie、sessionStorage、localStorage区别.md",
+    "00 Index/盒模型.md",
     "00 Index/CSS尺寸单位.md",
     "00 Index/HTML语义化.md",
     "00 Index/样式优先级规则.md",

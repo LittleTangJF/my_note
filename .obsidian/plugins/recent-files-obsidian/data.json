@@ -5,6 +5,14 @@
       "path": "工作台/面试题目录.md"
     },
     {
+      "basename": "ajax、fetch等网络请求",
+      "path": "00 Index/ajax、fetch等网络请求.md"
+    },
+    {
+      "basename": "cookie、sessionStorage、localStorage区别",
+      "path": "00 Index/cookie、sessionStorage、localStorage区别.md"
+    },
+    {
       "basename": "盒模型",
       "path": "00 Index/盒模型.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "n行省略",
       "path": "工作台/前端技术要点/css要点/n行省略.md"
-    },
-    {
-      "basename": "request封装",
-      "path": "Excalidraw/request封装.md"
-    },
-    {
-      "basename": "npm｜yarn｜pnpm",
-      "path": "工作台/环境搭建/npm｜yarn｜pnpm.md"
     }
   ],
   "omittedPaths": [],
