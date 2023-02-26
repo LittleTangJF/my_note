@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工作台/面试题目录.md",
+                "file": "00 Index/js继承.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -46,7 +46,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -120,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工作台/面试题目录.md",
+                "file": "00 Index/js继承.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工作台/面试题目录.md",
+                "file": "00 Index/js继承.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -160,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工作台/面试题目录.md"
+                "file": "00 Index/js继承.md"
               }
             }
           },
@@ -209,10 +210,10 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "bb16f6ee496c6244",
+  "active": "148e73f3e71563c8",
   "lastOpenFiles": [
-    "00 Index/js继承.md",
     "工作台/面试题目录.md",
+    "00 Index/js继承.md",
     "00 Index/垃圾回收机制.md",
     "工作台/前端技术要点/设计模式/原型链.md",
     "00 Index/cookie、sessionStorage、localStorage区别.md",
