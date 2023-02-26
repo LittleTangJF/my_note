@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "js继承",
-      "path": "00 Index/js继承.md"
+      "basename": "defer盒async",
+      "path": "00 Index/defer盒async.md"
     },
     {
       "basename": "面试题目录",
       "path": "工作台/面试题目录.md"
+    },
+    {
+      "basename": "js继承",
+      "path": "00 Index/js继承.md"
     },
     {
       "basename": "垃圾回收机制",
@@ -195,10 +199,6 @@
     {
       "basename": "前端的发展的演变",
       "path": "工作台/前端技术要点/设计模式/前端的发展的演变.md"
-    },
-    {
-      "basename": "渲染过程",
-      "path": "工作台/前端技术要点/react框架/渲染过程.md"
     }
   ],
   "omittedPaths": [],
