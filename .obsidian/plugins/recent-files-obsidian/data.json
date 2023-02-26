@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "浏览器渲染页面",
-      "path": "00 Index/浏览器渲染页面.md"
+      "basename": "保持实时通信",
+      "path": "00 Index/保持实时通信.md"
     },
     {
       "basename": "面试题目录",
       "path": "工作台/面试题目录.md"
+    },
+    {
+      "basename": "浏览器渲染页面",
+      "path": "00 Index/浏览器渲染页面.md"
     },
     {
       "basename": "各种面试题",
@@ -195,10 +199,6 @@
     {
       "basename": "Ref常见用法",
       "path": "工作台/前端技术要点/react框架/Ref常见用法.md"
-    },
-    {
-      "basename": "brew - nginx安装",
-      "path": "工作台/环境搭建/brew - nginx安装.md"
     }
   ],
   "omittedPaths": [],

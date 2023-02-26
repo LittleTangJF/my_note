@@ -34,12 +34,12 @@
             }
           },
           {
-            "id": "55c7b310ab8bbaa2",
+            "id": "17ff80e65b06c842",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00 Index/浏览器渲染页面.md",
+                "file": "00 Index/保持实时通信.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00 Index/浏览器渲染页面.md",
+                "file": "00 Index/保持实时通信.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00 Index/浏览器渲染页面.md",
+                "file": "00 Index/保持实时通信.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00 Index/浏览器渲染页面.md"
+                "file": "00 Index/保持实时通信.md"
               }
             }
           },
@@ -223,9 +223,10 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "55c7b310ab8bbaa2",
+  "active": "17ff80e65b06c842",
   "lastOpenFiles": [
     "工作台/面试题目录.md",
+    "00 Index/保持实时通信.md",
     "00 Index/浏览器渲染页面.md",
     "工作台/各种面试题/各种面试题.md",
     "00 Index/原型链和原型.md",
@@ -250,7 +251,6 @@
     "00 Index/跨域.md",
     "00 Index/未命名.md",
     "00 Index/测试.md",
-    "00 Index/promise.md",
     "工作台/各种面试题"
   ]
 }
