@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "Eavent loop",
-      "path": "00 Index/Eavent loop.md"
+      "basename": "垃圾回收机制",
+      "path": "00 Index/垃圾回收机制.md"
     },
     {
       "basename": "面试题目录",
       "path": "工作台/面试题目录.md"
+    },
+    {
+      "basename": "原型链",
+      "path": "工作台/前端技术要点/设计模式/原型链.md"
+    },
+    {
+      "basename": "cookie、sessionStorage、localStorage区别",
+      "path": "00 Index/cookie、sessionStorage、localStorage区别.md"
+    },
+    {
+      "basename": "Eavent loop",
+      "path": "00 Index/Eavent loop.md"
     },
     {
       "basename": "map和forEach",
@@ -61,10 +73,6 @@
       "path": "00 Index/js数据类型.md"
     },
     {
-      "basename": "cookie、sessionStorage、localStorage区别",
-      "path": "00 Index/cookie、sessionStorage、localStorage区别.md"
-    },
-    {
       "basename": "ajax、fetch等网络请求",
       "path": "00 Index/ajax、fetch等网络请求.md"
     },
@@ -87,10 +95,6 @@
     {
       "basename": "说说BFC",
       "path": "00 Index/说说BFC.md"
-    },
-    {
-      "basename": "原型链",
-      "path": "工作台/前端技术要点/设计模式/原型链.md"
     },
     {
       "basename": "面试技术难点",
@@ -195,10 +199,6 @@
     {
       "basename": "权限设计",
       "path": "工作台/前端技术要点/设计模式/权限设计.md"
-    },
-    {
-      "basename": "css-展开收起",
-      "path": "工作台/前端技术要点/css要点/css-展开收起.md"
     }
   ],
   "omittedPaths": [],

@@ -8,298 +8,25 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b797f1a32a909889",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "工作台/前端技术要点/设计模式/原型链.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "074a5192afbdde34",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "工作台/面试题目录.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "480242aca46162ac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "工作台/面试题目录.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ed53ec9ee4d4c038",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "工作台/面试题目录.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2c57987e3fc9abc0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "工作台/面试题目录.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "79fb1c022ec8f1ef",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "工作台/面试题目录.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bf955ae4194e3362",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "工作台/面试题目录.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "43020ff431453e29",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "工作台/面试题目录.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d831eee35a81c756",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "工作台/面试题目录.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7cd93de65c44014f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "工作台/面试题目录.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "40948c7874292851",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "工作台/面试题目录.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9f615d745d8b570f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "工作台/面试题目录.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3ef17574ea1cdba7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "工作台/面试题目录.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "edb37dda37c0f0ab",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "工作台/面试题目录.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b0e4d69e19c5f13a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "工作台/面试题目录.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "38262ccb3454e887",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "工作台/面试题目录.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f9e5bcb20a30ab4f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "工作台/面试题目录.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "289b787c503c9fc1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "工作台/面试题目录.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2cbc5c1e6247779a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "工作台/面试题目录.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "82f430eabf0bfb10",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "工作台/面试题目录.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9ba0e9555713c1c5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "工作台/面试题目录.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7769df7c13aff59e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00 Index/Eavent loop.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "bb16f6ee496c6244",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工作台/前端技术要点/设计模式/原型链.md",
+                "file": "工作台/面试题目录.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "45d53480062c8098",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00 Index/垃圾回收机制.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -307,7 +34,7 @@
             }
           }
         ],
-        "currentTab": 21
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -381,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00 Index/Eavent loop.md",
+                "file": "00 Index/垃圾回收机制.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -398,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00 Index/Eavent loop.md",
+                "file": "00 Index/垃圾回收机制.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -421,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00 Index/Eavent loop.md"
+                "file": "00 Index/垃圾回收机制.md"
               }
             }
           },
@@ -470,9 +197,12 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "7769df7c13aff59e",
+  "active": "45d53480062c8098",
   "lastOpenFiles": [
     "工作台/面试题目录.md",
+    "00 Index/垃圾回收机制.md",
+    "工作台/前端技术要点/设计模式/原型链.md",
+    "00 Index/cookie、sessionStorage、localStorage区别.md",
     "00 Index/Eavent loop.md",
     "00 Index/map和forEach.md",
     "00 Index/this指向.md",
@@ -489,15 +219,12 @@
     "00 Index/promise.md",
     "00 Index/闭包.md",
     "00 Index/js数据类型.md",
-    "00 Index/cookie、sessionStorage、localStorage区别.md",
     "00 Index/ajax、fetch等网络请求.md",
     "00 Index/盒模型.md",
     "00 Index/CSS尺寸单位.md",
     "00 Index/HTML语义化.md",
     "00 Index/样式优先级规则.md",
     "00 Index/说说BFC.md",
-    "工作台/前端技术要点/设计模式/原型链.md",
-    "工作台/各种面试题",
-    "工作台/面试技术难点.md"
+    "工作台/各种面试题"
   ]
 }
