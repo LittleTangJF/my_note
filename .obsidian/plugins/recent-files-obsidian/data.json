@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "垃圾回收机制",
-      "path": "00 Index/垃圾回收机制.md"
-    },
-    {
       "basename": "面试题目录",
       "path": "工作台/面试题目录.md"
+    },
+    {
+      "basename": "js继承",
+      "path": "00 Index/js继承.md"
+    },
+    {
+      "basename": "垃圾回收机制",
+      "path": "00 Index/垃圾回收机制.md"
     },
     {
       "basename": "原型链",
@@ -195,10 +199,6 @@
     {
       "basename": "渲染过程",
       "path": "工作台/前端技术要点/react框架/渲染过程.md"
-    },
-    {
-      "basename": "权限设计",
-      "path": "工作台/前端技术要点/设计模式/权限设计.md"
     }
   ],
   "omittedPaths": [],

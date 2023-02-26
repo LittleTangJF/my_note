@@ -26,15 +26,27 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00 Index/垃圾回收机制.md",
+                "file": "工作台/面试题目录.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "148e73f3e71563c8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00 Index/js继承.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -108,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00 Index/垃圾回收机制.md",
+                "file": "工作台/面试题目录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00 Index/垃圾回收机制.md",
+                "file": "工作台/面试题目录.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -148,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00 Index/垃圾回收机制.md"
+                "file": "工作台/面试题目录.md"
               }
             }
           },
@@ -197,8 +209,9 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "45d53480062c8098",
+  "active": "bb16f6ee496c6244",
   "lastOpenFiles": [
+    "00 Index/js继承.md",
     "工作台/面试题目录.md",
     "00 Index/垃圾回收机制.md",
     "工作台/前端技术要点/设计模式/原型链.md",
@@ -224,7 +237,6 @@
     "00 Index/CSS尺寸单位.md",
     "00 Index/HTML语义化.md",
     "00 Index/样式优先级规则.md",
-    "00 Index/说说BFC.md",
     "工作台/各种面试题"
   ]
 }
