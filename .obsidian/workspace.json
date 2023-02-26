@@ -34,12 +34,12 @@
             }
           },
           {
-            "id": "43fa64b19f9ad40b",
+            "id": "55c7b310ab8bbaa2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00 Index/defer盒async.md",
+                "file": "00 Index/浏览器渲染页面.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -47,12 +47,12 @@
             }
           },
           {
-            "id": "148e73f3e71563c8",
+            "id": "9b1031375b83d97c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工作台/面试题目录.md",
+                "file": "00 Index/原型链和原型.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00 Index/defer盒async.md",
+                "file": "00 Index/浏览器渲染页面.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00 Index/defer盒async.md",
+                "file": "00 Index/浏览器渲染页面.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00 Index/defer盒async.md"
+                "file": "00 Index/浏览器渲染页面.md"
               }
             }
           },
@@ -223,34 +223,34 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "43fa64b19f9ad40b",
+  "active": "55c7b310ab8bbaa2",
   "lastOpenFiles": [
     "工作台/面试题目录.md",
-    "00 Index/defer盒async.md",
+    "00 Index/浏览器渲染页面.md",
+    "工作台/各种面试题/各种面试题.md",
+    "00 Index/原型链和原型.md",
     "00 Index/js继承.md",
-    "00 Index/垃圾回收机制.md",
     "工作台/前端技术要点/设计模式/原型链.md",
+    "00 Index/判断变量类型.md",
+    "工作台/各种面试题/各种面试题2.md",
+    "00 Index/CSS尺寸单位.md",
+    "00 Index/defer和async.md",
+    "00 Index/伪数组和数组.md",
+    "00 Index/new.md",
+    "00 Index/回流（重排）和重绘.md",
+    "00 Index/垃圾回收机制.md",
     "00 Index/cookie、sessionStorage、localStorage区别.md",
     "00 Index/Eavent loop.md",
     "00 Index/map和forEach.md",
     "00 Index/this指向.md",
     "00 Index/call、apply、bind.md",
-    "工作台/各种面试题/各种面试题.md",
-    "工作台/各种面试题/各种面试题2.md",
     "00 Index/箭头函数.md",
     "00 Index/null和undefined.md",
     "00 Index/数组去重.md",
-    "00 Index/判断变量类型.md",
     "00 Index/跨域.md",
     "00 Index/未命名.md",
     "00 Index/测试.md",
     "00 Index/promise.md",
-    "00 Index/闭包.md",
-    "00 Index/js数据类型.md",
-    "00 Index/ajax、fetch等网络请求.md",
-    "00 Index/盒模型.md",
-    "00 Index/CSS尺寸单位.md",
-    "00 Index/HTML语义化.md",
     "工作台/各种面试题"
   ]
 }

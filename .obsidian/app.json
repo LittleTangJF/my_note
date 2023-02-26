@@ -3,5 +3,6 @@
   "newFileLocation": "folder",
   "newFileFolderPath": "00 Index",
   "attachmentFolderPath": "attrachment",
-  "strictLineBreaks": true
+  "strictLineBreaks": true,
+  "alwaysUpdateLinks": true
 }
