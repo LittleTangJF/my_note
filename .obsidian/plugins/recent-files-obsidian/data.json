@@ -1,36 +1,76 @@
 {
   "recentFiles": [
     {
-      "basename": "保持实时通信",
-      "path": "00 Index/保持实时通信.md"
+      "basename": "设置cookie",
+      "path": "00 Index/设置cookie.md"
     },
     {
       "basename": "面试题目录",
       "path": "工作台/面试题目录.md"
     },
     {
-      "basename": "浏览器渲染页面",
-      "path": "00 Index/浏览器渲染页面.md"
-    },
-    {
-      "basename": "各种面试题",
-      "path": "工作台/各种面试题/各种面试题.md"
+      "basename": "网络请求",
+      "path": "工作台/前端技术要点/浏览器知识要点/网络请求.md"
     },
     {
       "basename": "原型链和原型",
       "path": "00 Index/原型链和原型.md"
     },
     {
-      "basename": "js继承",
-      "path": "00 Index/js继承.md"
-    },
-    {
-      "basename": "判断变量类型",
-      "path": "00 Index/判断变量类型.md"
+      "basename": "保持实时通信",
+      "path": "00 Index/保持实时通信.md"
     },
     {
       "basename": "各种面试题2",
       "path": "工作台/各种面试题/各种面试题2.md"
+    },
+    {
+      "basename": "性能优化面试题",
+      "path": "工作台/性能优化面试题.md"
+    },
+    {
+      "basename": "网络问题",
+      "path": "工作台/前端技术要点/浏览器知识要点/网络问题.md"
+    },
+    {
+      "basename": "js继承",
+      "path": "00 Index/js继承.md"
+    },
+    {
+      "basename": "未命名",
+      "path": "未命名.canvas"
+    },
+    {
+      "basename": "浏览器渲染页面",
+      "path": "00 Index/浏览器渲染页面.md"
+    },
+    {
+      "basename": "回流（重排）和重绘",
+      "path": "00 Index/回流（重排）和重绘.md"
+    },
+    {
+      "basename": "nginx知识要点",
+      "path": "工作台/前端技术要点/浏览器知识要点/nginx知识要点.md"
+    },
+    {
+      "basename": "网络安全",
+      "path": "工作台/前端技术要点/浏览器知识要点/网络安全.md"
+    },
+    {
+      "basename": "路由",
+      "path": "工作台/前端技术要点/浏览器知识要点/路由.md"
+    },
+    {
+      "basename": "各种面试题",
+      "path": "工作台/各种面试题/各种面试题.md"
+    },
+    {
+      "basename": "说说BFC",
+      "path": "00 Index/说说BFC.md"
+    },
+    {
+      "basename": "判断变量类型",
+      "path": "00 Index/判断变量类型.md"
     },
     {
       "basename": "CSS尺寸单位",
@@ -47,10 +87,6 @@
     {
       "basename": "new",
       "path": "00 Index/new.md"
-    },
-    {
-      "basename": "回流（重排）和重绘",
-      "path": "00 Index/回流（重排）和重绘.md"
     },
     {
       "basename": "垃圾回收机制",
@@ -105,10 +141,6 @@
       "path": "00 Index/js数据类型.md"
     },
     {
-      "basename": "ajax、fetch等网络请求",
-      "path": "00 Index/ajax、fetch等网络请求.md"
-    },
-    {
       "basename": "盒模型",
       "path": "00 Index/盒模型.md"
     },
@@ -119,10 +151,6 @@
     {
       "basename": "样式优先级规则",
       "path": "00 Index/样式优先级规则.md"
-    },
-    {
-      "basename": "说说BFC",
-      "path": "00 Index/说说BFC.md"
     },
     {
       "basename": "面试技术难点",
@@ -141,16 +169,8 @@
       "path": "工作台/前端技术要点/react框架/react18新特性.md"
     },
     {
-      "basename": "nginx知识要点",
-      "path": "工作台/前端技术要点/浏览器知识要点/nginx知识要点.md"
-    },
-    {
       "basename": "安装和使用mobx",
       "path": "工作台/项目搭建/技术要点/安装和使用mobx.md"
-    },
-    {
-      "basename": "性能优化面试题",
-      "path": "工作台/性能优化面试题.md"
     },
     {
       "basename": "总结",
@@ -179,26 +199,6 @@
     {
       "basename": "从零到一实现react-redux",
       "path": "工作台/前端技术要点/组件库浅析/从零到一实现react-redux.md"
-    },
-    {
-      "basename": "hooks讲解",
-      "path": "工作台/前端技术要点/react框架/hooks讲解.md"
-    },
-    {
-      "basename": "token",
-      "path": "工作台/前端技术要点/浏览器知识要点/token.md"
-    },
-    {
-      "basename": "网络问题",
-      "path": "工作台/前端技术要点/浏览器知识要点/网络问题.md"
-    },
-    {
-      "basename": "网络安全",
-      "path": "工作台/前端技术要点/浏览器知识要点/网络安全.md"
-    },
-    {
-      "basename": "Ref常见用法",
-      "path": "工作台/前端技术要点/react框架/Ref常见用法.md"
     }
   ],
   "omittedPaths": [],
