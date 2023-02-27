@@ -8,25 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "577a9257cd9cc86b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "工作台/面试题目录.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "49a4acc053fa20f6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工作台/面试题目录.md",
+                "file": "00 Index/TCP.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -73,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -238,13 +225,13 @@
   },
   "active": "f6b70f5fbacb3b77",
   "lastOpenFiles": [
+    "00 Index/TCP.md",
+    "00 Index/ISO七层模型.md",
     "工作台/面试题目录.md",
-    "00 Index/缓存.md",
     "00 Index/输入url发生什么.md",
+    "00 Index/缓存.md",
     "00 Index/HTTP 1.0 1.1 2.0 HTTPS.md",
     "00 Index/浏览器渲染页面.md",
-    "00 Index/ISO七层模型.md",
-    "00 Index/TCP.md",
     "00 Index/设置cookie.md",
     "工作台/前端技术要点/浏览器知识要点/网络安全.md",
     "工作台/前端技术要点/浏览器知识要点/网络请求.md",
