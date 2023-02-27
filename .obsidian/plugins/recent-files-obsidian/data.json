@@ -5,6 +5,10 @@
       "path": "00 Index/输入url发生什么.md"
     },
     {
+      "basename": "浏览器渲染页面",
+      "path": "00 Index/浏览器渲染页面.md"
+    },
+    {
       "basename": "面试题目录",
       "path": "工作台/面试题目录.md"
     },
@@ -47,10 +51,6 @@
     {
       "basename": "未命名",
       "path": "未命名.canvas"
-    },
-    {
-      "basename": "浏览器渲染页面",
-      "path": "00 Index/浏览器渲染页面.md"
     },
     {
       "basename": "回流（重排）和重绘",

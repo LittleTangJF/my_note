@@ -34,6 +34,19 @@
             }
           },
           {
+            "id": "4611bed35660e5de",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00 Index/浏览器渲染页面.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "336ba083d48b8382",
             "type": "leaf",
             "state": {
@@ -212,10 +225,11 @@
   },
   "active": "f627c01586d7a627",
   "lastOpenFiles": [
+    "00 Index/浏览器渲染页面.md",
+    "00 Index/输入url发生什么.md",
     "工作台/面试题目录.md",
     "00 Index/设置cookie.md",
     "工作台/前端技术要点/浏览器知识要点/网络安全.md",
-    "00 Index/输入url发生什么.md",
     "工作台/前端技术要点/浏览器知识要点/网络请求.md",
     "00 Index/ajax、fetch等网络请求.md",
     "00 Index/原型链和原型.md",
@@ -225,7 +239,6 @@
     "工作台/前端技术要点/浏览器知识要点/网络问题.md",
     "00 Index/js继承.md",
     "未命名.canvas",
-    "00 Index/浏览器渲染页面.md",
     "00 Index/回流（重排）和重绘.md",
     "工作台/前端技术要点/浏览器知识要点/nginx知识要点.md",
     "工作台/前端技术要点/浏览器知识要点/路由.md",
