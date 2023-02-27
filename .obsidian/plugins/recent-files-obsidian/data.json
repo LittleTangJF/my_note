@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "面向对象编程",
-      "path": "00 Index/面向对象编程.md"
+      "basename": "react原理",
+      "path": "00 Index/react原理.md"
     },
     {
       "basename": "面试题目录",
       "path": "工作台/面试题目录.md"
+    },
+    {
+      "basename": "面向对象编程",
+      "path": "00 Index/面向对象编程.md"
     },
     {
       "basename": "promise",
@@ -195,10 +199,6 @@
     {
       "basename": "react18新特性",
       "path": "工作台/前端技术要点/react框架/react18新特性.md"
-    },
-    {
-      "basename": "安装和使用mobx",
-      "path": "工作台/项目搭建/技术要点/安装和使用mobx.md"
     }
   ],
   "omittedPaths": [],
