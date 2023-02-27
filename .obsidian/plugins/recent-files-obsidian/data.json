@@ -9,12 +9,24 @@
       "path": "工作台/面试题目录.md"
     },
     {
-      "basename": "面向对象编程",
-      "path": "00 Index/面向对象编程.md"
+      "basename": "TCP",
+      "path": "00 Index/TCP.md"
+    },
+    {
+      "basename": "网络安全",
+      "path": "工作台/前端技术要点/浏览器知识要点/网络安全.md"
+    },
+    {
+      "basename": "HTTP 1.0 1.1 2.0 HTTPS",
+      "path": "00 Index/HTTP 1.0 1.1 2.0 HTTPS.md"
     },
     {
       "basename": "promise",
       "path": "00 Index/promise.md"
+    },
+    {
+      "basename": "面向对象编程",
+      "path": "00 Index/面向对象编程.md"
     },
     {
       "basename": "cookie、sessionStorage、localStorage区别",
@@ -29,10 +41,6 @@
       "path": "00 Index/缓存.md"
     },
     {
-      "basename": "TCP",
-      "path": "00 Index/TCP.md"
-    },
-    {
       "basename": "ISO七层模型",
       "path": "00 Index/ISO七层模型.md"
     },
@@ -41,20 +49,12 @@
       "path": "00 Index/输入url发生什么.md"
     },
     {
-      "basename": "HTTP 1.0 1.1 2.0 HTTPS",
-      "path": "00 Index/HTTP 1.0 1.1 2.0 HTTPS.md"
-    },
-    {
       "basename": "浏览器渲染页面",
       "path": "00 Index/浏览器渲染页面.md"
     },
     {
       "basename": "设置cookie",
       "path": "00 Index/设置cookie.md"
-    },
-    {
-      "basename": "网络安全",
-      "path": "工作台/前端技术要点/浏览器知识要点/网络安全.md"
     },
     {
       "basename": "网络请求",

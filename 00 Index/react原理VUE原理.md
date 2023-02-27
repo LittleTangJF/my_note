@@ -6,11 +6,18 @@ diff 、vdom、jsx、组件本质、fiber、render(reconcile + schedule) + commi
 ## VUE
 
 - vue 的 template compiler 是自己实现的 --- vdom
-- Object.defineProperty、Proxy
+- Object.defineProperty、Proxy [参考](https://juejin.cn/post/7069397770766909476)
 	- Object.defineProperty弊端：初始对象里的属性有监听作用，而对新增的属性无效；Vue2中对象新增属性的修改需要使用`Vue.$set`
 		- 语法：Object.defineProperty(obj, prop, descriptor) 1、 要添加属性的对象2、 要定义或修改的属性的名称或 [`Symbol`]
-	- Proxy
-
+	- Proxy：
+		- 语法：new Proxy(target, handler)；target目标对象；handler:一个通常以函数作为属性的对象
+		- 内部除了get、set之外，还支持has、delete/getOwn/defineProperty\setPrototypeOf等13种拦截
+### 原理双向绑定
+ `数据劫持` + `发布者-订阅者模式`
+- 利用`Proxy`或`Object.defineProperty`生成的`Observer`针对对象/对象的属性进行"劫持"
+- 属性发生变化后通知订阅者
+- 解析器`Compile`解析模板中的`Directive`(指令)，收集指令所依赖的方法和数据,等待数据变化然后进行渲染
+- 1.  `Watcher`属于`Observer`和`Compile`桥梁,它将接收到的`Observer`产生的数据变化,并根据`Compile`提供的指令进行视图渲染,使得数据变化促使视图变化
 
 ## react [参考](https://juejin.cn/post/7117051812540055588)
 

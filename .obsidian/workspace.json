@@ -8,46 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "49a4acc053fa20f6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00 Index/TCP.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "f6b70f5fbacb3b77",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "工作台/面试题目录.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bd6403e51eee6b05",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "工作台/面试题目录.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9ca14fb70dff2a25",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -58,61 +19,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "8c67199b91465260",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00 Index/promise.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "91d27a4790c3438b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00 Index/promise.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "93842fb0ed8f8734",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00 Index/HTTP 1.0 1.1 2.0 HTTPS.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "336ba083d48b8382",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "工作台/前端技术要点/浏览器知识要点/网络安全.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -275,22 +183,22 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "9ca14fb70dff2a25",
+  "active": "f6b70f5fbacb3b77",
   "lastOpenFiles": [
     "工作台/面试题目录.md",
+    "00 Index/TCP.md",
+    "工作台/前端技术要点/浏览器知识要点/网络安全.md",
+    "00 Index/HTTP 1.0 1.1 2.0 HTTPS.md",
+    "00 Index/promise.md",
     "00 Index/react原理VUE原理.md",
     "00 Index/面向对象编程.md",
-    "00 Index/promise.md",
     "00 Index/cookie、sessionStorage、localStorage区别.md",
     "00 Index/深浅拷贝.md",
     "00 Index/缓存.md",
-    "00 Index/TCP.md",
     "00 Index/ISO七层模型.md",
     "00 Index/输入url发生什么.md",
-    "00 Index/HTTP 1.0 1.1 2.0 HTTPS.md",
     "00 Index/浏览器渲染页面.md",
     "00 Index/设置cookie.md",
-    "工作台/前端技术要点/浏览器知识要点/网络安全.md",
     "工作台/前端技术要点/浏览器知识要点/网络请求.md",
     "00 Index/ajax、fetch等网络请求.md",
     "00 Index/原型链和原型.md",
