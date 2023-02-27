@@ -1,8 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "面向对象编程",
+      "path": "00 Index/面向对象编程.md"
+    },
+    {
       "basename": "面试题目录",
       "path": "工作台/面试题目录.md"
+    },
+    {
+      "basename": "promise",
+      "path": "00 Index/promise.md"
+    },
+    {
+      "basename": "cookie、sessionStorage、localStorage区别",
+      "path": "00 Index/cookie、sessionStorage、localStorage区别.md"
+    },
+    {
+      "basename": "深浅拷贝",
+      "path": "00 Index/深浅拷贝.md"
     },
     {
       "basename": "缓存",
@@ -113,10 +129,6 @@
       "path": "00 Index/垃圾回收机制.md"
     },
     {
-      "basename": "cookie、sessionStorage、localStorage区别",
-      "path": "00 Index/cookie、sessionStorage、localStorage区别.md"
-    },
-    {
       "basename": "Eavent loop",
       "path": "00 Index/Eavent loop.md"
     },
@@ -147,10 +159,6 @@
     {
       "basename": "跨域",
       "path": "00 Index/跨域.md"
-    },
-    {
-      "basename": "promise",
-      "path": "00 Index/promise.md"
     },
     {
       "basename": "闭包",
@@ -191,14 +199,6 @@
     {
       "basename": "安装和使用mobx",
       "path": "工作台/项目搭建/技术要点/安装和使用mobx.md"
-    },
-    {
-      "basename": "总结",
-      "path": "工作台/前端技术要点/ts要点/总结.md"
-    },
-    {
-      "basename": "mobx浅析",
-      "path": "工作台/前端技术要点/组件库浅析/mobx浅析.md"
     }
   ],
   "omittedPaths": [],
