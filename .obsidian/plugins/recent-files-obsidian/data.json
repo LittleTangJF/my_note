@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "面试题目录",
+      "path": "工作台/面试题目录.md"
+    },
+    {
       "basename": "缓存",
       "path": "00 Index/缓存.md"
     },
@@ -11,10 +15,6 @@
     {
       "basename": "ISO七层模型",
       "path": "00 Index/ISO七层模型.md"
-    },
-    {
-      "basename": "面试题目录",
-      "path": "工作台/面试题目录.md"
     },
     {
       "basename": "输入url发生什么",
