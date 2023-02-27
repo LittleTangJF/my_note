@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "设置cookie",
-      "path": "00 Index/设置cookie.md"
+      "basename": "输入url发生什么",
+      "path": "00 Index/输入url发生什么.md"
     },
     {
       "basename": "面试题目录",
       "path": "工作台/面试题目录.md"
+    },
+    {
+      "basename": "设置cookie",
+      "path": "00 Index/设置cookie.md"
+    },
+    {
+      "basename": "网络安全",
+      "path": "工作台/前端技术要点/浏览器知识要点/网络安全.md"
     },
     {
       "basename": "网络请求",
@@ -51,10 +59,6 @@
     {
       "basename": "nginx知识要点",
       "path": "工作台/前端技术要点/浏览器知识要点/nginx知识要点.md"
-    },
-    {
-      "basename": "网络安全",
-      "path": "工作台/前端技术要点/浏览器知识要点/网络安全.md"
     },
     {
       "basename": "路由",
@@ -195,10 +199,6 @@
     {
       "basename": "通熟易懂React Fiber",
       "path": "工作台/前端技术要点/react框架/通熟易懂React Fiber.md"
-    },
-    {
-      "basename": "从零到一实现react-redux",
-      "path": "工作台/前端技术要点/组件库浅析/从零到一实现react-redux.md"
     }
   ],
   "omittedPaths": [],
