@@ -1,20 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "TCP",
-      "path": "00 Index/TCP.md"
+      "basename": "缓存",
+      "path": "00 Index/缓存.md"
+    },
+    {
+      "basename": "面试题目录",
+      "path": "工作台/面试题目录.md"
     },
     {
       "basename": "输入url发生什么",
       "path": "00 Index/输入url发生什么.md"
     },
     {
+      "basename": "HTTP 1.0 1.1 2.0 HTTPS",
+      "path": "00 Index/HTTP 1.0 1.1 2.0 HTTPS.md"
+    },
+    {
       "basename": "浏览器渲染页面",
       "path": "00 Index/浏览器渲染页面.md"
     },
     {
-      "basename": "面试题目录",
-      "path": "工作台/面试题目录.md"
+      "basename": "ISO七层模型",
+      "path": "00 Index/ISO七层模型.md"
+    },
+    {
+      "basename": "TCP",
+      "path": "00 Index/TCP.md"
     },
     {
       "basename": "设置cookie",
@@ -187,18 +199,6 @@
     {
       "basename": "mobx浅析",
       "path": "工作台/前端技术要点/组件库浅析/mobx浅析.md"
-    },
-    {
-      "basename": "webpack",
-      "path": "工作台/环境搭建/webpack.md"
-    },
-    {
-      "basename": "常见问题",
-      "path": "工作台/前端技术要点/react框架/常见问题.md"
-    },
-    {
-      "basename": "关键字",
-      "path": "工作台/前端技术要点/ts要点/关键字.md"
     }
   ],
   "omittedPaths": [],
