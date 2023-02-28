@@ -1,20 +1,44 @@
 {
   "recentFiles": [
     {
-      "basename": "in和indexOf和includes和findIndex",
-      "path": "00 Index/in和indexOf和includes和findIndex.md"
+      "basename": "节流和防抖",
+      "path": "00 Index/节流和防抖.md"
     },
     {
       "basename": "面试题目录",
       "path": "工作台/面试题目录.md"
     },
     {
-      "basename": "of 和in",
-      "path": "00 Index/of 和in.md"
+      "basename": "常见问题",
+      "path": "工作台/前端技术要点/react框架/常见问题.md"
+    },
+    {
+      "basename": "Flex布局",
+      "path": "工作台/前端技术要点/css要点/Flex布局.md"
+    },
+    {
+      "basename": "cookie、sessionStorage、localStorage区别",
+      "path": "00 Index/cookie、sessionStorage、localStorage区别.md"
+    },
+    {
+      "basename": "HTTP 1.0 1.1 2.0 HTTPS",
+      "path": "00 Index/HTTP 1.0 1.1 2.0 HTTPS.md"
     },
     {
       "basename": "面试技术难点",
       "path": "工作台/面试技术难点.md"
+    },
+    {
+      "basename": "网络请求",
+      "path": "工作台/前端技术要点/浏览器知识要点/网络请求.md"
+    },
+    {
+      "basename": "in和indexOf和includes和findIndex",
+      "path": "00 Index/in和indexOf和includes和findIndex.md"
+    },
+    {
+      "basename": "of 和in",
+      "path": "00 Index/of 和in.md"
     },
     {
       "basename": "promise",
@@ -33,16 +57,8 @@
       "path": "工作台/前端技术要点/浏览器知识要点/网络安全.md"
     },
     {
-      "basename": "HTTP 1.0 1.1 2.0 HTTPS",
-      "path": "00 Index/HTTP 1.0 1.1 2.0 HTTPS.md"
-    },
-    {
       "basename": "面向对象编程",
       "path": "00 Index/面向对象编程.md"
-    },
-    {
-      "basename": "cookie、sessionStorage、localStorage区别",
-      "path": "00 Index/cookie、sessionStorage、localStorage区别.md"
     },
     {
       "basename": "深浅拷贝",
@@ -67,10 +83,6 @@
     {
       "basename": "设置cookie",
       "path": "00 Index/设置cookie.md"
-    },
-    {
-      "basename": "网络请求",
-      "path": "工作台/前端技术要点/浏览器知识要点/网络请求.md"
     },
     {
       "basename": "原型链和原型",
@@ -187,18 +199,6 @@
     {
       "basename": "盒模型",
       "path": "00 Index/盒模型.md"
-    },
-    {
-      "basename": "HTML语义化",
-      "path": "00 Index/HTML语义化.md"
-    },
-    {
-      "basename": "样式优先级规则",
-      "path": "00 Index/样式优先级规则.md"
-    },
-    {
-      "basename": "映射类型",
-      "path": "工作台/前端技术要点/ts要点/映射类型.md"
     }
   ],
   "omittedPaths": [],
