@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00 Index/节流和防抖.md",
+                "file": "工作台/面试题目录.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00 Index/节流和防抖.md",
+                "file": "工作台/面试题目录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00 Index/节流和防抖.md",
+                "file": "工作台/面试题目录.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00 Index/节流和防抖.md"
+                "file": "工作台/面试题目录.md"
               }
             }
           },
@@ -212,8 +212,8 @@
   },
   "active": "2f0f4607cc2e5f31",
   "lastOpenFiles": [
-    "工作台/面试题目录.md",
     "00 Index/节流和防抖.md",
+    "工作台/面试题目录.md",
     "工作台/前端技术要点/react框架/常见问题.md",
     "工作台/前端技术要点/css要点/Flex布局.md",
     "00 Index/cookie、sessionStorage、localStorage区别.md",
