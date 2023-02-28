@@ -9,6 +9,17 @@
 
 promise是一种异步编程的解决方法,Promise是宏任务（同步执行），只有Promise的回调是异步微任务。解决了异步多层嵌套回调的问题，让代码的可读性更高，更容易维护
 
+## Promise A+规范
+
+1.  Promise 会有三种状态
+    -   Pending 等待
+    -   Fulfilled 完成
+    -   Rejected 失败
+- 状态只能由 Pending --> Fulfilled 或者 Pending --> Rejected，且一但发生改变便不可二次修改
+- Promise 中使用 resolve 和 reject 两个函数来更改状态
+
+## 实现 [参考](https://juejin.cn/post/6945319439772434469)
+
 ## 语法
 
 ```jsx
