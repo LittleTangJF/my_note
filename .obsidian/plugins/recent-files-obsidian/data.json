@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "生命周期详解",
+      "path": "工作台/前端技术要点/react框架/生命周期详解.md"
+    },
+    {
       "basename": "面试题目录",
       "path": "工作台/面试题目录.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "js数据类型",
       "path": "00 Index/js数据类型.md"
-    },
-    {
-      "basename": "盒模型",
-      "path": "00 Index/盒模型.md"
     }
   ],
   "omittedPaths": [],
