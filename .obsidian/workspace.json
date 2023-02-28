@@ -13,14 +13,41 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00 Index/promise.md",
+                "file": "工作台/面试题目录.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c6f8816f3350a9a0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00 Index/in和indexOf和includes和findIndex.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "def10089836d90e1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00 Index/of 和in.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00 Index/promise.md",
+                "file": "00 Index/in和indexOf和includes和findIndex.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00 Index/promise.md",
+                "file": "00 Index/in和indexOf和includes和findIndex.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -134,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00 Index/promise.md"
+                "file": "00 Index/in和indexOf和includes和findIndex.md"
               }
             }
           },
@@ -183,14 +210,17 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "f6b70f5fbacb3b77",
+  "active": "c6f8816f3350a9a0",
   "lastOpenFiles": [
     "工作台/面试题目录.md",
+    "00 Index/in和indexOf和includes和findIndex.md",
+    "00 Index/of 和in.md",
+    "工作台/面试技术难点.md",
+    "00 Index/promise.md",
     "00 Index/react原理VUE原理.md",
     "00 Index/TCP.md",
     "工作台/前端技术要点/浏览器知识要点/网络安全.md",
     "00 Index/HTTP 1.0 1.1 2.0 HTTPS.md",
-    "00 Index/promise.md",
     "00 Index/面向对象编程.md",
     "00 Index/cookie、sessionStorage、localStorage区别.md",
     "00 Index/深浅拷贝.md",
@@ -209,9 +239,6 @@
     "00 Index/js继承.md",
     "未命名.canvas",
     "00 Index/回流（重排）和重绘.md",
-    "工作台/前端技术要点/浏览器知识要点/nginx知识要点.md",
-    "工作台/前端技术要点/浏览器知识要点/路由.md",
-    "工作台/各种面试题/各种面试题.md",
     "工作台/各种面试题"
   ]
 }
