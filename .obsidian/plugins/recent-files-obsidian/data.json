@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "生命周期详解",
-      "path": "工作台/前端技术要点/react框架/生命周期详解.md"
-    },
-    {
       "basename": "面试题目录",
       "path": "工作台/面试题目录.md"
+    },
+    {
+      "basename": "产品解读",
+      "path": "00 Index/产品解读.md"
+    },
+    {
+      "basename": "生命周期详解",
+      "path": "工作台/前端技术要点/react框架/生命周期详解.md"
     },
     {
       "basename": "节流和防抖",
@@ -195,10 +199,6 @@
     {
       "basename": "闭包",
       "path": "00 Index/闭包.md"
-    },
-    {
-      "basename": "js数据类型",
-      "path": "00 Index/js数据类型.md"
     }
   ],
   "omittedPaths": [],
