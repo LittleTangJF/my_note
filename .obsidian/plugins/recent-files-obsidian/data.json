@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "HashRouter 和 HistoryRouter",
+      "path": "00 Index/HashRouter 和 HistoryRouter.md"
+    },
+    {
       "basename": "面试题目录",
       "path": "工作台/面试题目录.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "跨域",
       "path": "00 Index/跨域.md"
-    },
-    {
-      "basename": "闭包",
-      "path": "00 Index/闭包.md"
     }
   ],
   "omittedPaths": [],
