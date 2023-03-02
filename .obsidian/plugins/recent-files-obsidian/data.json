@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "面试题目录",
+      "path": "工作台/面试题目录.md"
+    },
+    {
       "basename": "HashRouter 和 HistoryRouter",
       "path": "00 Index/HashRouter 和 HistoryRouter.md"
     },
     {
-      "basename": "面试题目录",
-      "path": "工作台/面试题目录.md"
+      "basename": "浏览器内核",
+      "path": "00 Index/浏览器内核.md"
     },
     {
       "basename": "产品解读",
@@ -195,10 +199,6 @@
     {
       "basename": "数组去重",
       "path": "00 Index/数组去重.md"
-    },
-    {
-      "basename": "跨域",
-      "path": "00 Index/跨域.md"
     }
   ],
   "omittedPaths": [],
