@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "VUEX",
+      "path": "00 Index/VUEX.md"
+    },
+    {
       "basename": "面试题目录",
       "path": "工作台/面试题目录.md"
+    },
+    {
+      "basename": "前端的发展的演变",
+      "path": "工作台/前端技术要点/设计模式/前端的发展的演变.md"
     },
     {
       "basename": "HashRouter 和 HistoryRouter",
@@ -191,14 +199,6 @@
     {
       "basename": "箭头函数",
       "path": "00 Index/箭头函数.md"
-    },
-    {
-      "basename": "null和undefined",
-      "path": "00 Index/null和undefined.md"
-    },
-    {
-      "basename": "数组去重",
-      "path": "00 Index/数组去重.md"
     }
   ],
   "omittedPaths": [],

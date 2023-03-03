@@ -32,9 +32,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "793628af573140a1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00 Index/VUEX.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -108,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工作台/面试题目录.md",
+                "file": "00 Index/VUEX.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工作台/面试题目录.md",
+                "file": "00 Index/VUEX.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -148,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工作台/面试题目录.md"
+                "file": "00 Index/VUEX.md"
               }
             }
           },
@@ -197,10 +210,12 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "c6f8816f3350a9a0",
+  "active": "793628af573140a1",
   "lastOpenFiles": [
-    "00 Index/HashRouter 和 HistoryRouter.md",
     "工作台/面试题目录.md",
+    "00 Index/VUEX.md",
+    "工作台/前端技术要点/设计模式/前端的发展的演变.md",
+    "00 Index/HashRouter 和 HistoryRouter.md",
     "00 Index/浏览器内核.md",
     "00 Index/产品解读.md",
     "工作台/前端技术要点/react框架/生命周期详解.md",
@@ -223,8 +238,6 @@
     "00 Index/ISO七层模型.md",
     "00 Index/输入url发生什么.md",
     "00 Index/浏览器渲染页面.md",
-    "00 Index/设置cookie.md",
-    "00 Index/ajax、fetch等网络请求.md",
     "未命名.canvas",
     "工作台/各种面试题"
   ]
