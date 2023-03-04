@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工作台/面试题目录.md",
+                "file": "工作台/面试技术难点.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -60,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00 Index/简单请求和复杂请求.md",
+                "file": "工作台/面试技术难点.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00 Index/简单请求和复杂请求.md",
+                "file": "工作台/面试技术难点.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00 Index/简单请求和复杂请求.md"
+                "file": "工作台/面试技术难点.md"
               }
             }
           },
@@ -223,7 +223,7 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "93327b1d7e1fd5b4",
+  "active": "793628af573140a1",
   "lastOpenFiles": [
     "工作台/面试题目录.md",
     "00 Index/简单请求和复杂请求.md",
