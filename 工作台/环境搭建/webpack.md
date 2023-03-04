@@ -14,13 +14,18 @@ webpack运行流程是一个串行的过程，从启动到结束会依次执行�
 
 在以上过程中，`Webpack` 会在特定的时间点广播出特定的事件，插件在监听到感兴趣的事件后会执行特定的逻辑，并且插件可以调用 Webpack 提供的 API 改变 Webpack 的运行结果。
 
-## 处理第三方库
+## 分包策略
 
 处理第三方库有多种方式，externals、CommonsChunkPlugin、splitChunks、DllPlugin/DLLReferencePlugin 。我们先说说各种的优劣势
 
 -  externals： 操作不是很灵活，需要设置多步，并且会出现意想不到的情况。
 -  splitChunks： 使用SplitChunksPlugin是Webpack 4的默认行为
 -  DllPlugin/DLLReferencePlugin： 这个依赖库不会跟着你的业务代码一起被 重新打包，只有当依赖自身发生版本变化时才会重新打包。会有一些bug但是我在操作的时候遇到一个很奇葩的坑，element-ui被dllPlugins之后，el-table不生效，是的不生效，页面也么有报错，样式都还存在，但是就是页面展示不出来table。
+### splitChunks
+[地址](https://juejin.cn/post/6844904195737255943)
+- all ： 两个包含
+- async： 只抽离属于动态引入的文件。（异步）
+- initial：只从入口模块进行拆分（同步）
 ## source map## 是什么？生产环境怎么用？
 
 `source map` 是将编译、打包、压缩后的代码映射回源代码的过程。打包压缩后的代码不具备良好的可读性，想要调试源码就需要 soucre map。
