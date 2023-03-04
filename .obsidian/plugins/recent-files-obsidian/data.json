@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "简单请求和复杂请求",
+      "path": "00 Index/简单请求和复杂请求.md"
+    },
+    {
+      "basename": "面试题目录",
+      "path": "工作台/面试题目录.md"
+    },
+    {
       "basename": "面试技术难点",
       "path": "工作台/面试技术难点.md"
     },
     {
       "basename": "缓存",
       "path": "00 Index/缓存.md"
-    },
-    {
-      "basename": "面试题目录",
-      "path": "工作台/面试题目录.md"
     },
     {
       "basename": "网络请求",
@@ -195,10 +199,6 @@
     {
       "basename": "call、apply、bind",
       "path": "00 Index/call、apply、bind.md"
-    },
-    {
-      "basename": "箭头函数",
-      "path": "00 Index/箭头函数.md"
     }
   ],
   "omittedPaths": [],
