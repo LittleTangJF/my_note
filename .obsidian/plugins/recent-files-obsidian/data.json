@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "VUEX",
-      "path": "00 Index/VUEX.md"
+      "basename": "面试技术难点",
+      "path": "工作台/面试技术难点.md"
+    },
+    {
+      "basename": "缓存",
+      "path": "00 Index/缓存.md"
     },
     {
       "basename": "面试题目录",
       "path": "工作台/面试题目录.md"
+    },
+    {
+      "basename": "网络请求",
+      "path": "工作台/前端技术要点/浏览器知识要点/网络请求.md"
+    },
+    {
+      "basename": "VUEX",
+      "path": "00 Index/VUEX.md"
     },
     {
       "basename": "前端的发展的演变",
@@ -49,14 +61,6 @@
       "path": "00 Index/HTTP 1.0 1.1 2.0 HTTPS.md"
     },
     {
-      "basename": "面试技术难点",
-      "path": "工作台/面试技术难点.md"
-    },
-    {
-      "basename": "网络请求",
-      "path": "工作台/前端技术要点/浏览器知识要点/网络请求.md"
-    },
-    {
       "basename": "in和indexOf和includes和findIndex",
       "path": "00 Index/in和indexOf和includes和findIndex.md"
     },
@@ -87,10 +91,6 @@
     {
       "basename": "深浅拷贝",
       "path": "00 Index/深浅拷贝.md"
-    },
-    {
-      "basename": "缓存",
-      "path": "00 Index/缓存.md"
     },
     {
       "basename": "ISO七层模型",
