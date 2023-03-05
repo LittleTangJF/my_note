@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "部署流程",
+      "path": "00 Index/部署流程.md"
+    },
+    {
+      "basename": "面试题目录",
+      "path": "工作台/面试题目录.md"
+    },
+    {
       "basename": "面试技术难点",
       "path": "工作台/面试技术难点.md"
     },
     {
       "basename": "简单请求和复杂请求",
       "path": "00 Index/简单请求和复杂请求.md"
-    },
-    {
-      "basename": "面试题目录",
-      "path": "工作台/面试题目录.md"
     },
     {
       "basename": "webpack",
@@ -195,10 +199,6 @@
     {
       "basename": "map和forEach",
       "path": "00 Index/map和forEach.md"
-    },
-    {
-      "basename": "this指向",
-      "path": "00 Index/this指向.md"
     }
   ],
   "omittedPaths": [],
