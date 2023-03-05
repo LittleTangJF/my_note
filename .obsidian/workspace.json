@@ -34,46 +34,7 @@
             }
           },
           {
-            "id": "8750d5bb530ae820",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "工作台/环境搭建/webpack.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "93327b1d7e1fd5b4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00 Index/简单请求和复杂请求.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ed5bc6e353799d9b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "工作台/面试题目录.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f0637e3f45395764",
+            "id": "db7de71e6b8d908b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -86,7 +47,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -249,13 +210,14 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "f0637e3f45395764",
+  "active": "db7de71e6b8d908b",
   "lastOpenFiles": [
     "工作台/面试题目录.md",
+    "工作台/环境搭建/webpack.md",
+    "00 Index/简单请求和复杂请求.md",
+    "00 Index/git hooks.md",
     "00 Index/部署流程.md",
     "工作台/面试技术难点.md",
-    "00 Index/简单请求和复杂请求.md",
-    "工作台/环境搭建/webpack.md",
     "00 Index/缓存.md",
     "工作台/前端技术要点/浏览器知识要点/网络请求.md",
     "00 Index/VUEX.md",
@@ -276,7 +238,6 @@
     "00 Index/TCP.md",
     "工作台/前端技术要点/浏览器知识要点/网络安全.md",
     "00 Index/面向对象编程.md",
-    "00 Index/深浅拷贝.md",
     "未命名.canvas",
     "工作台/各种面试题"
   ]

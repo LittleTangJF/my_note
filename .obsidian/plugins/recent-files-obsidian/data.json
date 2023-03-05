@@ -9,16 +9,20 @@
       "path": "工作台/面试题目录.md"
     },
     {
-      "basename": "面试技术难点",
-      "path": "工作台/面试技术难点.md"
+      "basename": "webpack",
+      "path": "工作台/环境搭建/webpack.md"
     },
     {
       "basename": "简单请求和复杂请求",
       "path": "00 Index/简单请求和复杂请求.md"
     },
     {
-      "basename": "webpack",
-      "path": "工作台/环境搭建/webpack.md"
+      "basename": "git hooks",
+      "path": "00 Index/git hooks.md"
+    },
+    {
+      "basename": "面试技术难点",
+      "path": "工作台/面试技术难点.md"
     },
     {
       "basename": "缓存",
@@ -195,10 +199,6 @@
     {
       "basename": "Eavent loop",
       "path": "00 Index/Eavent loop.md"
-    },
-    {
-      "basename": "map和forEach",
-      "path": "00 Index/map和forEach.md"
     }
   ],
   "omittedPaths": [],
