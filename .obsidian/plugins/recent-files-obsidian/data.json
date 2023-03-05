@@ -9,16 +9,16 @@
       "path": "工作台/面试题目录.md"
     },
     {
+      "basename": "git hooks",
+      "path": "00 Index/git hooks.md"
+    },
+    {
       "basename": "webpack",
       "path": "工作台/环境搭建/webpack.md"
     },
     {
       "basename": "简单请求和复杂请求",
       "path": "00 Index/简单请求和复杂请求.md"
-    },
-    {
-      "basename": "git hooks",
-      "path": "00 Index/git hooks.md"
     },
     {
       "basename": "面试技术难点",
