@@ -1,28 +1,44 @@
 {
   "recentFiles": [
     {
-      "basename": "CICD",
-      "path": "CI/CICD.md"
+      "basename": "性能优化",
+      "path": "00 Index/性能优化.md"
+    },
+    {
+      "basename": "面试技术难点",
+      "path": "工作台/面试技术难点.md"
     },
     {
       "basename": "面试题目录",
       "path": "工作台/面试题目录.md"
     },
     {
-      "basename": "koa2和express",
-      "path": "00 Index/koa2和express.md"
+      "basename": "CDN",
+      "path": "00 Index/CDN.md"
     },
     {
-      "basename": "SSR",
-      "path": "00 Index/SSR.md"
+      "basename": "webpack",
+      "path": "工作台/环境搭建/webpack.md"
+    },
+    {
+      "basename": "CICD",
+      "path": "CI/CICD.md"
+    },
+    {
+      "basename": "node中间层",
+      "path": "00 Index/node中间层.md"
     },
     {
       "basename": "graghQl",
       "path": "00 Index/graghQl.md"
     },
     {
-      "basename": "node中间层",
-      "path": "00 Index/node中间层.md"
+      "basename": "SSR",
+      "path": "00 Index/SSR.md"
+    },
+    {
+      "basename": "koa2和express",
+      "path": "00 Index/koa2和express.md"
     },
     {
       "basename": "部署流程",
@@ -45,16 +61,8 @@
       "path": "工作台/物色公司.md"
     },
     {
-      "basename": "webpack",
-      "path": "工作台/环境搭建/webpack.md"
-    },
-    {
       "basename": "简单请求和复杂请求",
       "path": "00 Index/简单请求和复杂请求.md"
-    },
-    {
-      "basename": "面试技术难点",
-      "path": "工作台/面试技术难点.md"
     },
     {
       "basename": "缓存",
@@ -191,14 +199,6 @@
     {
       "basename": "各种面试题",
       "path": "工作台/各种面试题/各种面试题.md"
-    },
-    {
-      "basename": "说说BFC",
-      "path": "00 Index/说说BFC.md"
-    },
-    {
-      "basename": "判断变量类型",
-      "path": "00 Index/判断变量类型.md"
     }
   ],
   "omittedPaths": [],

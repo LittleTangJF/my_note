@@ -34,7 +34,10 @@ Gitlab + Gitlab Runner 、集成、 交付、部署、.gitlab-ci.yml、Pipeline
 - 检测到代码更新
 - 符合`.gitlab-ci.yml`触发规则 -  产生pipeline
 - stage - 定义 join： build stage  deploy stage  
-### 3、部署
+#### github actions实现
 
+#### docker compose实现
+### 3、部署
+- push到该静态服务器资源目录
 
 

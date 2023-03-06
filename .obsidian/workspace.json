@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "95e92d7165698e09",
+            "id": "34ff9ba5a4eb8c51",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CI/CICD.md",
+                "file": "工作台/面试技术难点.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,45 +21,20 @@
             }
           },
           {
-            "id": "6af4ad9557e75479",
+            "id": "635461c76e59f8ab",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00 Index/SSR.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e6ea3897f586f3cd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00 Index/graghQl.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "eec6da0e2d5d8c57",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00 Index/node中间层.md",
+                "file": "00 Index/性能优化.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -88,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "回流",
+                "query": "图片",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -113,7 +88,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -133,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CI/CICD.md",
+                "file": "00 Index/性能优化.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CI/CICD.md",
+                "file": "00 Index/性能优化.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -173,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CI/CICD.md"
+                "file": "00 Index/性能优化.md"
               }
             }
           },
@@ -222,23 +198,25 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "95e92d7165698e09",
+  "active": "635461c76e59f8ab",
   "lastOpenFiles": [
+    "工作台/面试技术难点.md",
+    "00 Index/性能优化.md",
     "工作台/面试题目录.md",
+    "00 Index/CDN.md",
+    "工作台/环境搭建/webpack.md",
     "CI/CICD.md",
+    "00 Index/node中间层.md",
+    "00 Index/graghQl.md",
+    "00 Index/SSR.md",
     "CI",
     "00 Index/koa2和express.md",
-    "00 Index/SSR.md",
-    "00 Index/graghQl.md",
-    "00 Index/node中间层.md",
     "00 Index/部署流程.md",
     "00 Index/git hooks.md",
     "工作台/前端技术要点/浏览器知识要点/网络请求.md",
     "00 Index/of 和in.md",
     "工作台/物色公司.md",
-    "工作台/环境搭建/webpack.md",
     "00 Index/简单请求和复杂请求.md",
-    "工作台/面试技术难点.md",
     "00 Index/缓存.md",
     "00 Index/VUEX.md",
     "工作台/前端技术要点/设计模式/前端的发展的演变.md",
@@ -249,8 +227,6 @@
     "00 Index/节流和防抖.md",
     "工作台/前端技术要点/react框架/常见问题.md",
     "工作台/前端技术要点/css要点/Flex布局.md",
-    "00 Index/cookie、sessionStorage、localStorage区别.md",
-    "00 Index/HTTP 1.0 1.1 2.0 HTTPS.md",
     "未命名.canvas",
     "工作台/各种面试题"
   ]
