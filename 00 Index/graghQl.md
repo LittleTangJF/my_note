@@ -12,4 +12,11 @@ express-graghQl 、 GrachQLSchema
 
 - 数据整合
 - 多次调用api问题
+- N + 1  dataloader -- 比如10次可以查询一次
+- APQ ： post请求--如何缓存  后端可以用redis控制某个字段是否缓存，和缓存时间
+	- 如何缓存？第一次post，第二次发hash 后端把前端发的hash字符串--> redis取出来，
+	- appllograghQl： apq
 - 
+## 特点
+
+所有请求都是post
