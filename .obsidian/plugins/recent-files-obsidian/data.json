@@ -1,12 +1,8 @@
 {
   "recentFiles": [
     {
-      "basename": "物色公司",
-      "path": "工作台/物色公司.md"
-    },
-    {
-      "basename": "of 和in",
-      "path": "00 Index/of 和in.md"
+      "basename": "node中间层",
+      "path": "00 Index/node中间层.md"
     },
     {
       "basename": "面试题目录",
@@ -19,6 +15,18 @@
     {
       "basename": "git hooks",
       "path": "00 Index/git hooks.md"
+    },
+    {
+      "basename": "网络请求",
+      "path": "工作台/前端技术要点/浏览器知识要点/网络请求.md"
+    },
+    {
+      "basename": "of 和in",
+      "path": "00 Index/of 和in.md"
+    },
+    {
+      "basename": "物色公司",
+      "path": "工作台/物色公司.md"
     },
     {
       "basename": "webpack",
@@ -35,10 +43,6 @@
     {
       "basename": "缓存",
       "path": "00 Index/缓存.md"
-    },
-    {
-      "basename": "网络请求",
-      "path": "工作台/前端技术要点/浏览器知识要点/网络请求.md"
     },
     {
       "basename": "VUEX",
@@ -195,10 +199,6 @@
     {
       "basename": "new",
       "path": "00 Index/new.md"
-    },
-    {
-      "basename": "垃圾回收机制",
-      "path": "00 Index/垃圾回收机制.md"
     }
   ],
   "omittedPaths": [],
