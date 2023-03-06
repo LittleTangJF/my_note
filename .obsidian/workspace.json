@@ -59,8 +59,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -134,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00 Index/SSR.md",
+                "file": "工作台/面试题目录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00 Index/SSR.md",
+                "file": "工作台/面试题目录.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -174,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00 Index/SSR.md"
+                "file": "工作台/面试题目录.md"
               }
             }
           },
@@ -223,8 +222,9 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "6af4ad9557e75479",
+  "active": "db7de71e6b8d908b",
   "lastOpenFiles": [
+    "00 Index/koa2和express.md",
     "工作台/面试题目录.md",
     "00 Index/SSR.md",
     "00 Index/graghQl.md",
@@ -250,7 +250,6 @@
     "00 Index/cookie、sessionStorage、localStorage区别.md",
     "00 Index/HTTP 1.0 1.1 2.0 HTTPS.md",
     "00 Index/in和indexOf和includes和findIndex.md",
-    "00 Index/promise.md",
     "未命名.canvas",
     "工作台/各种面试题"
   ]
