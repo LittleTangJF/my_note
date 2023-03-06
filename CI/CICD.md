@@ -22,6 +22,7 @@ Gitlab + Gitlab Runner 、集成、 交付、部署、.gitlab-ci.yml、Pipeline
 - jest单元测试
 - eslint+preterer 代码格式规范
 - git-hooks：pre-commit阶段lint-staged进行检查
+	- 如何跳过：git commit -no-vertify
 - pr阶段
 	- 根据api再跑一遍检查
 	- 检查时机：feature-** + pr
