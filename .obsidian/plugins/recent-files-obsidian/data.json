@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "CICD",
+      "path": "CI/CICD.md"
+    },
+    {
       "basename": "面试题目录",
       "path": "工作台/面试题目录.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "判断变量类型",
       "path": "00 Index/判断变量类型.md"
-    },
-    {
-      "basename": "CSS尺寸单位",
-      "path": "00 Index/CSS尺寸单位.md"
     }
   ],
   "omittedPaths": [],
