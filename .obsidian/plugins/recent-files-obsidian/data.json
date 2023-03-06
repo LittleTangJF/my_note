@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "graghQl",
-      "path": "00 Index/graghQl.md"
+      "basename": "SSR",
+      "path": "00 Index/SSR.md"
     },
     {
       "basename": "面试题目录",
       "path": "工作台/面试题目录.md"
+    },
+    {
+      "basename": "graghQl",
+      "path": "00 Index/graghQl.md"
     },
     {
       "basename": "node中间层",
@@ -195,10 +199,6 @@
     {
       "basename": "defer和async",
       "path": "00 Index/defer和async.md"
-    },
-    {
-      "basename": "伪数组和数组",
-      "path": "00 Index/伪数组和数组.md"
     }
   ],
   "omittedPaths": [],

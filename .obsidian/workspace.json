@@ -21,6 +21,19 @@
             }
           },
           {
+            "id": "6af4ad9557e75479",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00 Index/SSR.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "e6ea3897f586f3cd",
             "type": "leaf",
             "state": {
@@ -121,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00 Index/graghQl.md",
+                "file": "00 Index/SSR.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00 Index/graghQl.md",
+                "file": "00 Index/SSR.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -161,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00 Index/graghQl.md"
+                "file": "00 Index/SSR.md"
               }
             }
           },
@@ -210,9 +223,10 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "e6ea3897f586f3cd",
+  "active": "6af4ad9557e75479",
   "lastOpenFiles": [
     "工作台/面试题目录.md",
+    "00 Index/SSR.md",
     "00 Index/graghQl.md",
     "00 Index/node中间层.md",
     "00 Index/部署流程.md",
@@ -237,7 +251,6 @@
     "00 Index/HTTP 1.0 1.1 2.0 HTTPS.md",
     "00 Index/in和indexOf和includes和findIndex.md",
     "00 Index/promise.md",
-    "00 Index/react原理VUE原理.md",
     "未命名.canvas",
     "工作台/各种面试题"
   ]
