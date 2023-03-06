@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "部署流程",
-      "path": "00 Index/部署流程.md"
+      "basename": "物色公司",
+      "path": "工作台/物色公司.md"
+    },
+    {
+      "basename": "of 和in",
+      "path": "00 Index/of 和in.md"
     },
     {
       "basename": "面试题目录",
       "path": "工作台/面试题目录.md"
+    },
+    {
+      "basename": "部署流程",
+      "path": "00 Index/部署流程.md"
     },
     {
       "basename": "git hooks",
@@ -79,10 +87,6 @@
     {
       "basename": "in和indexOf和includes和findIndex",
       "path": "00 Index/in和indexOf和includes和findIndex.md"
-    },
-    {
-      "basename": "of 和in",
-      "path": "00 Index/of 和in.md"
     },
     {
       "basename": "promise",
@@ -195,10 +199,6 @@
     {
       "basename": "垃圾回收机制",
       "path": "00 Index/垃圾回收机制.md"
-    },
-    {
-      "basename": "Eavent loop",
-      "path": "00 Index/Eavent loop.md"
     }
   ],
   "omittedPaths": [],
