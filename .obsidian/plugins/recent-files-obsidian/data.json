@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "node中间层",
-      "path": "00 Index/node中间层.md"
+      "basename": "graghQl",
+      "path": "00 Index/graghQl.md"
     },
     {
       "basename": "面试题目录",
       "path": "工作台/面试题目录.md"
+    },
+    {
+      "basename": "node中间层",
+      "path": "00 Index/node中间层.md"
     },
     {
       "basename": "部署流程",
@@ -195,10 +199,6 @@
     {
       "basename": "伪数组和数组",
       "path": "00 Index/伪数组和数组.md"
-    },
-    {
-      "basename": "new",
-      "path": "00 Index/new.md"
     }
   ],
   "omittedPaths": [],
