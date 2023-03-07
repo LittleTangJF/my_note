@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "性能优化",
-      "path": "00 Index/性能优化.md"
+      "basename": "解题方法",
+      "path": "00 Index/解题方法.md"
     },
     {
       "basename": "面试题目录",
       "path": "工作台/面试题目录.md"
+    },
+    {
+      "basename": "面试技术难点",
+      "path": "工作台/面试技术难点.md"
+    },
+    {
+      "basename": "性能优化",
+      "path": "00 Index/性能优化.md"
     },
     {
       "basename": "nextTick",
@@ -19,10 +27,6 @@
     {
       "basename": "react原理VUE原理",
       "path": "00 Index/react原理VUE原理.md"
-    },
-    {
-      "basename": "面试技术难点",
-      "path": "工作台/面试技术难点.md"
     },
     {
       "basename": "babel转译jsx",
@@ -195,10 +199,6 @@
     {
       "basename": "面向对象编程",
       "path": "00 Index/面向对象编程.md"
-    },
-    {
-      "basename": "深浅拷贝",
-      "path": "00 Index/深浅拷贝.md"
     }
   ],
   "omittedPaths": [],
