@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工作台/面试技术难点.md",
+                "file": "00 Index/HTTP 1.0 1.1 2.0 HTTPS.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -33,8 +33,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -88,8 +87,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -109,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00 Index/性能优化.md",
+                "file": "00 Index/HTTP 1.0 1.1 2.0 HTTPS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00 Index/性能优化.md",
+                "file": "00 Index/HTTP 1.0 1.1 2.0 HTTPS.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -149,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00 Index/性能优化.md"
+                "file": "00 Index/HTTP 1.0 1.1 2.0 HTTPS.md"
               }
             }
           },
@@ -198,11 +196,25 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "635461c76e59f8ab",
+  "active": "34ff9ba5a4eb8c51",
   "lastOpenFiles": [
-    "工作台/面试技术难点.md",
-    "00 Index/性能优化.md",
     "工作台/面试题目录.md",
+    "工作台/面试技术难点.md",
+    "工作台/前端技术要点/ts要点/关键字.md",
+    "工作台/前端技术要点/ts要点/总结.md",
+    "工作台/前端技术要点/ts要点/映射类型.md",
+    "工作台/前端技术要点/浏览器知识要点/nginx知识要点.md",
+    "工作台/前端技术要点/浏览器知识要点/网络安全.md",
+    "工作台/前端技术要点/浏览器知识要点/路由.md",
+    "工作台/前端技术要点/组件库浅析/mobx浅析.md",
+    "工作台/前端技术要点/组件库浅析/redux浅析.md",
+    "工作台/前端技术要点/react框架/Ref常见用法.md",
+    "工作台/前端技术要点/react框架/react18新特性.md",
+    "工作台/前端技术要点/react框架/hooks讲解.md",
+    "工作台/前端技术要点/react框架/通熟易懂React Fiber.md",
+    "工作台/前端技术要点/react框架/生命周期详解.md",
+    "工作台/物色公司.md",
+    "00 Index/性能优化.md",
     "00 Index/CDN.md",
     "工作台/环境搭建/webpack.md",
     "CI/CICD.md",
@@ -213,20 +225,6 @@
     "00 Index/koa2和express.md",
     "00 Index/部署流程.md",
     "00 Index/git hooks.md",
-    "工作台/前端技术要点/浏览器知识要点/网络请求.md",
-    "00 Index/of 和in.md",
-    "工作台/物色公司.md",
-    "00 Index/简单请求和复杂请求.md",
-    "00 Index/缓存.md",
-    "00 Index/VUEX.md",
-    "工作台/前端技术要点/设计模式/前端的发展的演变.md",
-    "00 Index/HashRouter 和 HistoryRouter.md",
-    "00 Index/浏览器内核.md",
-    "00 Index/产品解读.md",
-    "工作台/前端技术要点/react框架/生命周期详解.md",
-    "00 Index/节流和防抖.md",
-    "工作台/前端技术要点/react框架/常见问题.md",
-    "工作台/前端技术要点/css要点/Flex布局.md",
     "未命名.canvas",
     "工作台/各种面试题"
   ]

@@ -101,7 +101,8 @@ import { useDispatch, useSelector } from "react-redux";
 
 ### 用法
 ```jsx
-// createStore的时候传入thunk中间件 const store = createStore(rootReducer, applyMiddleware(thunk));
+// createStore的时候传入thunk中间件 
+const store = createStore(rootReducer, applyMiddleware(thunk));
 ```
 
 ## react-saga
