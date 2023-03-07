@@ -1,16 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "HTTP 1.0 1.1 2.0 HTTPS",
-      "path": "00 Index/HTTP 1.0 1.1 2.0 HTTPS.md"
+      "basename": "babel转译jsx",
+      "path": "00 Index/babel转译jsx.md"
     },
     {
       "basename": "面试题目录",
       "path": "工作台/面试题目录.md"
     },
     {
+      "basename": "性能优化",
+      "path": "00 Index/性能优化.md"
+    },
+    {
       "basename": "面试技术难点",
       "path": "工作台/面试技术难点.md"
+    },
+    {
+      "basename": "物色公司",
+      "path": "工作台/物色公司.md"
+    },
+    {
+      "basename": "性能优化面试题",
+      "path": "工作台/性能优化面试题.md"
+    },
+    {
+      "basename": "HTTP 1.0 1.1 2.0 HTTPS",
+      "path": "00 Index/HTTP 1.0 1.1 2.0 HTTPS.md"
     },
     {
       "basename": "关键字",
@@ -63,14 +79,6 @@
     {
       "basename": "生命周期详解",
       "path": "工作台/前端技术要点/react框架/生命周期详解.md"
-    },
-    {
-      "basename": "物色公司",
-      "path": "工作台/物色公司.md"
-    },
-    {
-      "basename": "性能优化",
-      "path": "00 Index/性能优化.md"
     },
     {
       "basename": "CDN",
@@ -191,14 +199,6 @@
     {
       "basename": "输入url发生什么",
       "path": "00 Index/输入url发生什么.md"
-    },
-    {
-      "basename": "浏览器渲染页面",
-      "path": "00 Index/浏览器渲染页面.md"
-    },
-    {
-      "basename": "设置cookie",
-      "path": "00 Index/设置cookie.md"
     }
   ],
   "omittedPaths": [],
