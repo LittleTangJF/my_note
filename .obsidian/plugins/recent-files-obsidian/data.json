@@ -1,20 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "面试技术难点",
-      "path": "工作台/面试技术难点.md"
+      "basename": "性能优化",
+      "path": "00 Index/性能优化.md"
     },
     {
       "basename": "面试题目录",
       "path": "工作台/面试题目录.md"
     },
     {
-      "basename": "babel转译jsx",
-      "path": "00 Index/babel转译jsx.md"
+      "basename": "nextTick",
+      "path": "00 Index/nextTick.md"
     },
     {
-      "basename": "性能优化",
-      "path": "00 Index/性能优化.md"
+      "basename": "Vue双向绑定",
+      "path": "00 Index/Vue双向绑定.md"
+    },
+    {
+      "basename": "react原理VUE原理",
+      "path": "00 Index/react原理VUE原理.md"
+    },
+    {
+      "basename": "面试技术难点",
+      "path": "工作台/面试技术难点.md"
+    },
+    {
+      "basename": "babel转译jsx",
+      "path": "00 Index/babel转译jsx.md"
     },
     {
       "basename": "物色公司",
@@ -177,10 +189,6 @@
       "path": "00 Index/promise.md"
     },
     {
-      "basename": "react原理VUE原理",
-      "path": "00 Index/react原理VUE原理.md"
-    },
-    {
       "basename": "TCP",
       "path": "00 Index/TCP.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "深浅拷贝",
       "path": "00 Index/深浅拷贝.md"
-    },
-    {
-      "basename": "ISO七层模型",
-      "path": "00 Index/ISO七层模型.md"
-    },
-    {
-      "basename": "输入url发生什么",
-      "path": "00 Index/输入url发生什么.md"
     }
   ],
   "omittedPaths": [],
