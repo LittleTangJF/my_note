@@ -1,24 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "0.1+0.2",
-      "path": "00 Index/0.1+0.2.md"
-    },
-    {
-      "basename": "未命名",
-      "path": "00 Index/未命名.md"
-    },
-    {
       "basename": "面试题目录",
       "path": "工作台/面试题目录.md"
+    },
+    {
+      "basename": "ts对比js",
+      "path": "00 Index/ts对比js.md"
     },
     {
       "basename": "实现一个promise all",
       "path": "00 Index/实现一个promise all.md"
     },
     {
-      "basename": "ts对比js",
-      "path": "00 Index/ts对比js.md"
+      "basename": "0.1+0.2",
+      "path": "00 Index/0.1+0.2.md"
+    },
+    {
+      "basename": "未命名",
+      "path": "00 Index/未命名.md"
     },
     {
       "basename": "性能优化",
