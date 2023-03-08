@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "ts对比js",
-      "path": "00 Index/ts对比js.md"
+      "basename": "实现一个promise all",
+      "path": "00 Index/实现一个promise all.md"
     },
     {
       "basename": "面试题目录",
       "path": "工作台/面试题目录.md"
+    },
+    {
+      "basename": "ts对比js",
+      "path": "00 Index/ts对比js.md"
     },
     {
       "basename": "性能优化",
@@ -195,10 +199,6 @@
     {
       "basename": "cookie、sessionStorage、localStorage区别",
       "path": "00 Index/cookie、sessionStorage、localStorage区别.md"
-    },
-    {
-      "basename": "in和indexOf和includes和findIndex",
-      "path": "00 Index/in和indexOf和includes和findIndex.md"
     }
   ],
   "omittedPaths": [],
