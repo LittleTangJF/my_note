@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "0.1+0.2",
+      "path": "00 Index/0.1+0.2.md"
+    },
+    {
+      "basename": "未命名",
+      "path": "00 Index/未命名.md"
+    },
+    {
       "basename": "面试题目录",
       "path": "工作台/面试题目录.md"
     },
@@ -191,10 +199,6 @@
     {
       "basename": "常见问题",
       "path": "工作台/前端技术要点/react框架/常见问题.md"
-    },
-    {
-      "basename": "Flex布局",
-      "path": "工作台/前端技术要点/css要点/Flex布局.md"
     }
   ],
   "omittedPaths": [],
