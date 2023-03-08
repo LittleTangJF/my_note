@@ -1,40 +1,52 @@
 {
   "recentFiles": [
     {
-      "basename": "解题方法",
-      "path": "00 Index/解题方法.md"
+      "basename": "ts对比js",
+      "path": "00 Index/ts对比js.md"
     },
     {
       "basename": "面试题目录",
       "path": "工作台/面试题目录.md"
     },
     {
-      "basename": "面试技术难点",
-      "path": "工作台/面试技术难点.md"
-    },
-    {
       "basename": "性能优化",
       "path": "00 Index/性能优化.md"
     },
     {
-      "basename": "nextTick",
-      "path": "00 Index/nextTick.md"
-    },
-    {
-      "basename": "Vue双向绑定",
-      "path": "00 Index/Vue双向绑定.md"
+      "basename": "面试技术难点",
+      "path": "工作台/面试技术难点.md"
     },
     {
       "basename": "react原理VUE原理",
       "path": "00 Index/react原理VUE原理.md"
     },
     {
-      "basename": "babel转译jsx",
-      "path": "00 Index/babel转译jsx.md"
+      "basename": "Vue双向绑定",
+      "path": "00 Index/Vue双向绑定.md"
+    },
+    {
+      "basename": "nextTick",
+      "path": "00 Index/nextTick.md"
     },
     {
       "basename": "物色公司",
       "path": "工作台/物色公司.md"
+    },
+    {
+      "basename": "闭包",
+      "path": "00 Index/闭包.md"
+    },
+    {
+      "basename": "垃圾回收机制",
+      "path": "00 Index/垃圾回收机制.md"
+    },
+    {
+      "basename": "解题方法",
+      "path": "00 Index/解题方法.md"
+    },
+    {
+      "basename": "babel转译jsx",
+      "path": "00 Index/babel转译jsx.md"
     },
     {
       "basename": "性能优化面试题",
@@ -187,18 +199,6 @@
     {
       "basename": "in和indexOf和includes和findIndex",
       "path": "00 Index/in和indexOf和includes和findIndex.md"
-    },
-    {
-      "basename": "promise",
-      "path": "00 Index/promise.md"
-    },
-    {
-      "basename": "TCP",
-      "path": "00 Index/TCP.md"
-    },
-    {
-      "basename": "面向对象编程",
-      "path": "00 Index/面向对象编程.md"
     }
   ],
   "omittedPaths": [],
