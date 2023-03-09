@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "实现map",
-      "path": "00 Index/实现map.md"
+      "basename": "解题方法",
+      "path": "00 Index/解题方法.md"
     },
     {
       "basename": "面试题目录",
       "path": "工作台/面试题目录.md"
+    },
+    {
+      "basename": "实现map",
+      "path": "00 Index/实现map.md"
     },
     {
       "basename": "ts对比js",
@@ -55,10 +59,6 @@
     {
       "basename": "垃圾回收机制",
       "path": "00 Index/垃圾回收机制.md"
-    },
-    {
-      "basename": "解题方法",
-      "path": "00 Index/解题方法.md"
     },
     {
       "basename": "babel转译jsx",
