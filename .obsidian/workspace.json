@@ -13,7 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00 Index/解题方法.md",
+                "file": "工作台/面试题目录.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c68b91b69bc2be3c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00 Index/柯里化通用实现.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -33,7 +46,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -107,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00 Index/解题方法.md",
+                "file": "00 Index/柯里化通用实现.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00 Index/解题方法.md",
+                "file": "00 Index/柯里化通用实现.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -147,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00 Index/解题方法.md"
+                "file": "00 Index/柯里化通用实现.md"
               }
             }
           },
@@ -196,9 +210,12 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "635461c76e59f8ab",
+  "active": "c68b91b69bc2be3c",
   "lastOpenFiles": [
     "工作台/面试题目录.md",
+    "00 Index/柯里化通用实现.md",
+    "工作台/面试技术难点.md",
+    "00 Index/解题方法.md",
     "00 Index/实现map.md",
     "00 Index/ts对比js.md",
     "00 Index/实现一个promise all.md",
@@ -206,14 +223,12 @@
     "00 Index/未命名.md",
     "00 Index/().md",
     "00 Index/性能优化.md",
-    "工作台/面试技术难点.md",
     "00 Index/react原理VUE原理.md",
     "00 Index/Vue双向绑定.md",
     "00 Index/nextTick.md",
     "工作台/物色公司.md",
     "00 Index/闭包.md",
     "00 Index/垃圾回收机制.md",
-    "00 Index/解题方法.md",
     "00 Index/babel转译jsx.md",
     "工作台/性能优化面试题.md",
     "00 Index/HTTP 1.0 1.1 2.0 HTTPS.md",
@@ -223,7 +238,6 @@
     "工作台/前端技术要点/浏览器知识要点/nginx知识要点.md",
     "工作台/前端技术要点/浏览器知识要点/网络安全.md",
     "工作台/前端技术要点/浏览器知识要点/路由.md",
-    "工作台/前端技术要点/组件库浅析/mobx浅析.md",
     "CI",
     "未命名.canvas",
     "工作台/各种面试题"

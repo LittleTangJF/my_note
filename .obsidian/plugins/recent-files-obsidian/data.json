@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "解题方法",
-      "path": "00 Index/解题方法.md"
+      "basename": "柯里化通用实现",
+      "path": "00 Index/柯里化通用实现.md"
     },
     {
       "basename": "面试题目录",
       "path": "工作台/面试题目录.md"
+    },
+    {
+      "basename": "面试技术难点",
+      "path": "工作台/面试技术难点.md"
+    },
+    {
+      "basename": "解题方法",
+      "path": "00 Index/解题方法.md"
     },
     {
       "basename": "实现map",
@@ -31,10 +39,6 @@
     {
       "basename": "性能优化",
       "path": "00 Index/性能优化.md"
-    },
-    {
-      "basename": "面试技术难点",
-      "path": "工作台/面试技术难点.md"
     },
     {
       "basename": "react原理VUE原理",
@@ -195,10 +199,6 @@
     {
       "basename": "产品解读",
       "path": "00 Index/产品解读.md"
-    },
-    {
-      "basename": "节流和防抖",
-      "path": "00 Index/节流和防抖.md"
     }
   ],
   "omittedPaths": [],
