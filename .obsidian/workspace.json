@@ -19,8 +19,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "6d5414706956c253",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00 Index/实现map.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工作台/面试题目录.md",
+                "file": "00 Index/实现map.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工作台/面试题目录.md",
+                "file": "00 Index/实现map.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -134,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工作台/面试题目录.md"
+                "file": "00 Index/实现map.md"
               }
             }
           },
@@ -183,10 +197,11 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "635461c76e59f8ab",
+  "active": "6d5414706956c253",
   "lastOpenFiles": [
-    "00 Index/ts对比js.md",
     "工作台/面试题目录.md",
+    "00 Index/实现map.md",
+    "00 Index/ts对比js.md",
     "00 Index/实现一个promise all.md",
     "00 Index/0.1+0.2.md",
     "00 Index/未命名.md",
@@ -210,7 +225,6 @@
     "工作台/前端技术要点/浏览器知识要点/网络安全.md",
     "工作台/前端技术要点/浏览器知识要点/路由.md",
     "工作台/前端技术要点/组件库浅析/mobx浅析.md",
-    "工作台/前端技术要点/组件库浅析/redux浅析.md",
     "CI",
     "未命名.canvas",
     "工作台/各种面试题"

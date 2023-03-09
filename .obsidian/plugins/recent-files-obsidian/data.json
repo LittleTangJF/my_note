@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "实现map",
+      "path": "00 Index/实现map.md"
+    },
+    {
       "basename": "面试题目录",
       "path": "工作台/面试题目录.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "节流和防抖",
       "path": "00 Index/节流和防抖.md"
-    },
-    {
-      "basename": "常见问题",
-      "path": "工作台/前端技术要点/react框架/常见问题.md"
     }
   ],
   "omittedPaths": [],
