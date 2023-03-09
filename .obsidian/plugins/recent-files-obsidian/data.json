@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "离职原因",
+      "path": "00 Index/离职原因.md"
+    },
+    {
+      "basename": "达观智能",
+      "path": "00 Index/达观智能.md"
+    },
+    {
+      "basename": "物色公司",
+      "path": "工作台/物色公司.md"
+    },
+    {
       "basename": "柯里化通用实现",
       "path": "00 Index/柯里化通用实现.md"
     },
@@ -51,10 +63,6 @@
     {
       "basename": "nextTick",
       "path": "00 Index/nextTick.md"
-    },
-    {
-      "basename": "物色公司",
-      "path": "工作台/物色公司.md"
     },
     {
       "basename": "闭包",
@@ -191,14 +199,6 @@
     {
       "basename": "HashRouter 和 HistoryRouter",
       "path": "00 Index/HashRouter 和 HistoryRouter.md"
-    },
-    {
-      "basename": "浏览器内核",
-      "path": "00 Index/浏览器内核.md"
-    },
-    {
-      "basename": "产品解读",
-      "path": "00 Index/产品解读.md"
     }
   ],
   "omittedPaths": [],
