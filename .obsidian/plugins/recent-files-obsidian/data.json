@@ -1,24 +1,48 @@
 {
   "recentFiles": [
     {
-      "basename": "闭包",
-      "path": "00 Index/闭包.md"
+      "basename": "mobx浅析",
+      "path": "工作台/前端技术要点/组件库浅析/mobx浅析.md"
     },
     {
       "basename": "面试题目录",
       "path": "工作台/面试题目录.md"
     },
     {
+      "basename": "redux",
+      "path": "00 Index/redux.md"
+    },
+    {
       "basename": "达观智能",
       "path": "00 Index/达观智能.md"
+    },
+    {
+      "basename": "深浅拷贝",
+      "path": "00 Index/深浅拷贝.md"
+    },
+    {
+      "basename": "跨域",
+      "path": "00 Index/跨域.md"
+    },
+    {
+      "basename": "es6数组方法",
+      "path": "00 Index/es6数组方法.md"
+    },
+    {
+      "basename": "物色公司",
+      "path": "工作台/物色公司.md"
     },
     {
       "basename": "离职原因",
       "path": "00 Index/离职原因.md"
     },
     {
-      "basename": "物色公司",
-      "path": "工作台/物色公司.md"
+      "basename": "实现map",
+      "path": "00 Index/实现map.md"
+    },
+    {
+      "basename": "闭包",
+      "path": "00 Index/闭包.md"
     },
     {
       "basename": "柯里化通用实现",
@@ -31,10 +55,6 @@
     {
       "basename": "解题方法",
       "path": "00 Index/解题方法.md"
-    },
-    {
-      "basename": "实现map",
-      "path": "00 Index/实现map.md"
     },
     {
       "basename": "ts对比js",
@@ -109,14 +129,6 @@
       "path": "工作台/前端技术要点/浏览器知识要点/路由.md"
     },
     {
-      "basename": "mobx浅析",
-      "path": "工作台/前端技术要点/组件库浅析/mobx浅析.md"
-    },
-    {
-      "basename": "redux浅析",
-      "path": "工作台/前端技术要点/组件库浅析/redux浅析.md"
-    },
-    {
       "basename": "Ref常见用法",
       "path": "工作台/前端技术要点/react框架/Ref常见用法.md"
     },
@@ -183,22 +195,6 @@
     {
       "basename": "简单请求和复杂请求",
       "path": "00 Index/简单请求和复杂请求.md"
-    },
-    {
-      "basename": "缓存",
-      "path": "00 Index/缓存.md"
-    },
-    {
-      "basename": "VUEX",
-      "path": "00 Index/VUEX.md"
-    },
-    {
-      "basename": "前端的发展的演变",
-      "path": "工作台/前端技术要点/设计模式/前端的发展的演变.md"
-    },
-    {
-      "basename": "HashRouter 和 HistoryRouter",
-      "path": "00 Index/HashRouter 和 HistoryRouter.md"
     }
   ],
   "omittedPaths": [],

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工作台/面试题目录.md",
+                "file": "工作台/前端技术要点/组件库浅析/mobx浅析.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,25 +21,12 @@
             }
           },
           {
-            "id": "c68b91b69bc2be3c",
+            "id": "ee190062d088e9ef",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工作台/物色公司.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1cdc49dda3a81091",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "工作台/面试题目录.md",
+                "file": "00 Index/达观智能.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -71,22 +58,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "6d5414706956c253",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00 Index/实现map.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -160,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00 Index/闭包.md",
+                "file": "工作台/前端技术要点/组件库浅析/mobx浅析.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -177,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00 Index/闭包.md",
+                "file": "工作台/前端技术要点/组件库浅析/mobx浅析.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -200,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00 Index/闭包.md"
+                "file": "工作台/前端技术要点/组件库浅析/mobx浅析.md"
               }
             }
           },
@@ -249,16 +222,22 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "bfe6dc3b3f889ecb",
+  "active": "635461c76e59f8ab",
   "lastOpenFiles": [
     "工作台/面试题目录.md",
+    "工作台/前端技术要点/组件库浅析/redux浅析.md",
+    "00 Index/redux.md",
     "00 Index/达观智能.md",
-    "00 Index/离职原因.md",
+    "00 Index/深浅拷贝.md",
+    "00 Index/跨域.md",
+    "00 Index/es6数组方法.md",
     "工作台/物色公司.md",
+    "00 Index/离职原因.md",
+    "00 Index/实现map.md",
+    "00 Index/闭包.md",
     "00 Index/柯里化通用实现.md",
     "工作台/面试技术难点.md",
     "00 Index/解题方法.md",
-    "00 Index/实现map.md",
     "00 Index/ts对比js.md",
     "00 Index/实现一个promise all.md",
     "00 Index/0.1+0.2.md",
@@ -268,15 +247,9 @@
     "00 Index/react原理VUE原理.md",
     "00 Index/Vue双向绑定.md",
     "00 Index/nextTick.md",
-    "00 Index/闭包.md",
     "00 Index/垃圾回收机制.md",
     "00 Index/babel转译jsx.md",
     "工作台/性能优化面试题.md",
-    "00 Index/HTTP 1.0 1.1 2.0 HTTPS.md",
-    "工作台/前端技术要点/ts要点/关键字.md",
-    "工作台/前端技术要点/ts要点/总结.md",
-    "工作台/前端技术要点/ts要点/映射类型.md",
-    "工作台/前端技术要点/浏览器知识要点/nginx知识要点.md",
     "CI",
     "未命名.canvas",
     "工作台/各种面试题"
