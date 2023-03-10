@@ -35,7 +35,7 @@ diff 、vdom、jsx、组件本质、fiber、render(reconcile + schedule) + commi
 对产生 vdom 的逻辑的封装，函数的形式、option 对象的形式、class 的形式
 
 
-## 面试题
+## [面试题](https://juejin.cn/post/7144648542472044558)
 
 ### vue 和react 区别
 

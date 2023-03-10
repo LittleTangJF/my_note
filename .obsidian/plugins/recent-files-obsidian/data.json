@@ -1,16 +1,44 @@
 {
   "recentFiles": [
     {
+      "basename": "网络问题",
+      "path": "工作台/前端技术要点/浏览器知识要点/网络问题.md"
+    },
+    {
+      "basename": "网络请求",
+      "path": "工作台/前端技术要点/浏览器知识要点/网络请求.md"
+    },
+    {
       "basename": "达观智能",
       "path": "00 Index/达观智能.md"
+    },
+    {
+      "basename": "面试题目录",
+      "path": "工作台/面试题目录.md"
+    },
+    {
+      "basename": "useMemo和memo和usecallback",
+      "path": "00 Index/useMemo和memo和usecallback.md"
+    },
+    {
+      "basename": "hooks讲解",
+      "path": "工作台/前端技术要点/react框架/hooks讲解.md"
+    },
+    {
+      "basename": "常见问题",
+      "path": "工作台/前端技术要点/react框架/常见问题.md"
     },
     {
       "basename": "物色公司",
       "path": "工作台/物色公司.md"
     },
     {
-      "basename": "面试题目录",
-      "path": "工作台/面试题目录.md"
+      "basename": "setState是同步的还是异步的",
+      "path": "00 Index/setState是同步的还是异步的.md"
+    },
+    {
+      "basename": "离职原因",
+      "path": "00 Index/离职原因.md"
     },
     {
       "basename": "react原理VUE原理",
@@ -39,10 +67,6 @@
     {
       "basename": "es6数组方法",
       "path": "00 Index/es6数组方法.md"
-    },
-    {
-      "basename": "离职原因",
-      "path": "00 Index/离职原因.md"
     },
     {
       "basename": "实现map",
@@ -137,10 +161,6 @@
       "path": "工作台/前端技术要点/react框架/react18新特性.md"
     },
     {
-      "basename": "hooks讲解",
-      "path": "工作台/前端技术要点/react框架/hooks讲解.md"
-    },
-    {
       "basename": "通熟易懂React Fiber",
       "path": "工作台/前端技术要点/react框架/通熟易懂React Fiber.md"
     },
@@ -179,22 +199,6 @@
     {
       "basename": "部署流程",
       "path": "00 Index/部署流程.md"
-    },
-    {
-      "basename": "git hooks",
-      "path": "00 Index/git hooks.md"
-    },
-    {
-      "basename": "网络请求",
-      "path": "工作台/前端技术要点/浏览器知识要点/网络请求.md"
-    },
-    {
-      "basename": "of 和in",
-      "path": "00 Index/of 和in.md"
-    },
-    {
-      "basename": "简单请求和复杂请求",
-      "path": "00 Index/简单请求和复杂请求.md"
     }
   ],
   "omittedPaths": [],
