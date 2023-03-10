@@ -73,7 +73,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -147,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00 Index/权限管理.md",
+                "file": "00 Index/达观智能.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00 Index/权限管理.md",
+                "file": "00 Index/达观智能.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -187,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00 Index/权限管理.md"
+                "file": "00 Index/达观智能.md"
               }
             }
           },
@@ -236,7 +236,7 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "e3fb48f0df4e76ae",
+  "active": "ad6e5937ce636875",
   "lastOpenFiles": [
     "工作台/面试题目录.md",
     "00 Index/权限管理.md",
