@@ -1,8 +1,8 @@
 {
   "recentFiles": [
     {
-      "basename": "react原理VUE原理",
-      "path": "00 Index/react原理VUE原理.md"
+      "basename": "babel转译jsx",
+      "path": "00 Index/babel转译jsx.md"
     },
     {
       "basename": "面试题目录",
@@ -13,20 +13,28 @@
       "path": "00 Index/达观智能.md"
     },
     {
-      "basename": "vite",
-      "path": "00 Index/vite.md"
+      "basename": "路由",
+      "path": "工作台/前端技术要点/浏览器知识要点/路由.md"
     },
     {
       "basename": "权限管理",
       "path": "00 Index/权限管理.md"
     },
     {
-      "basename": "离职原因",
-      "path": "00 Index/离职原因.md"
+      "basename": "vite",
+      "path": "00 Index/vite.md"
     },
     {
-      "basename": "路由",
-      "path": "工作台/前端技术要点/浏览器知识要点/路由.md"
+      "basename": "AST",
+      "path": "00 Index/AST.md"
+    },
+    {
+      "basename": "react原理VUE原理",
+      "path": "00 Index/react原理VUE原理.md"
+    },
+    {
+      "basename": "离职原因",
+      "path": "00 Index/离职原因.md"
     },
     {
       "basename": "网络请求",
@@ -129,10 +137,6 @@
       "path": "00 Index/垃圾回收机制.md"
     },
     {
-      "basename": "babel转译jsx",
-      "path": "00 Index/babel转译jsx.md"
-    },
-    {
       "basename": "HTTP 1.0 1.1 2.0 HTTPS",
       "path": "00 Index/HTTP 1.0 1.1 2.0 HTTPS.md"
     },
@@ -191,14 +195,6 @@
     {
       "basename": "graghQl",
       "path": "00 Index/graghQl.md"
-    },
-    {
-      "basename": "SSR",
-      "path": "00 Index/SSR.md"
-    },
-    {
-      "basename": "koa2和express",
-      "path": "00 Index/koa2和express.md"
     }
   ],
   "omittedPaths": [],
