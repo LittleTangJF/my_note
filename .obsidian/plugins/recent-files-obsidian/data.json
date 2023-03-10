@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "离职原因",
-      "path": "00 Index/离职原因.md"
+      "basename": "闭包",
+      "path": "00 Index/闭包.md"
+    },
+    {
+      "basename": "面试题目录",
+      "path": "工作台/面试题目录.md"
     },
     {
       "basename": "达观智能",
       "path": "00 Index/达观智能.md"
+    },
+    {
+      "basename": "离职原因",
+      "path": "00 Index/离职原因.md"
     },
     {
       "basename": "物色公司",
@@ -15,10 +23,6 @@
     {
       "basename": "柯里化通用实现",
       "path": "00 Index/柯里化通用实现.md"
-    },
-    {
-      "basename": "面试题目录",
-      "path": "工作台/面试题目录.md"
     },
     {
       "basename": "面试技术难点",
@@ -63,10 +67,6 @@
     {
       "basename": "nextTick",
       "path": "00 Index/nextTick.md"
-    },
-    {
-      "basename": "闭包",
-      "path": "00 Index/闭包.md"
     },
     {
       "basename": "垃圾回收机制",
