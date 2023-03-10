@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "达观智能",
-      "path": "00 Index/达观智能.md"
+      "basename": "react原理VUE原理",
+      "path": "00 Index/react原理VUE原理.md"
     },
     {
       "basename": "面试题目录",
       "path": "工作台/面试题目录.md"
+    },
+    {
+      "basename": "达观智能",
+      "path": "00 Index/达观智能.md"
+    },
+    {
+      "basename": "vite",
+      "path": "00 Index/vite.md"
     },
     {
       "basename": "权限管理",
@@ -47,10 +55,6 @@
     {
       "basename": "setState是同步的还是异步的",
       "path": "00 Index/setState是同步的还是异步的.md"
-    },
-    {
-      "basename": "react原理VUE原理",
-      "path": "00 Index/react原理VUE原理.md"
     },
     {
       "basename": "mobx浅析",
@@ -195,10 +199,6 @@
     {
       "basename": "koa2和express",
       "path": "00 Index/koa2和express.md"
-    },
-    {
-      "basename": "部署流程",
-      "path": "00 Index/部署流程.md"
     }
   ],
   "omittedPaths": [],
