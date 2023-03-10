@@ -33,3 +33,27 @@ diff 、vdom、jsx、组件本质、fiber、render(reconcile + schedule) + commi
 ## 组件
 
 对产生 vdom 的逻辑的封装，函数的形式、option 对象的形式、class 的形式
+
+
+## 面试题
+
+### vue 和react 区别
+
+- 组件化 - jsx 、template
+- 虚拟DOM-
+	- 减少dom操作
+	- 跨平台--对接不同平台渲染逻辑
+	- 提升性能--数据变化的时候，生成新的DOM，对比新旧虚拟DOM的差异，将差异更新到真实DOM上
+- diff算法
+	- 同级比较
+	- key做唯一标识
+	- tag 变化了，认为是不同
+	- vue: Vue2的核心Diff算法采用了双端比较--新的新增，旧的删除，新旧比较更新
+	- react: React的Diff算法，两次遍历，第一次找更新的节点，第二次处理剩下的不属于更新的节点（移动、删除、新增）
+- 更新策略不同
+	- vue： set、get 跟踪依赖关系，不需要更改整个组件树
+	- react：组件树就会自顶向下的全diff, 重新render页面
+		- shouldcompononetupdate
+- 数据驱动视图
+	- 双向绑定
+	- 单向数据流 setState驱动

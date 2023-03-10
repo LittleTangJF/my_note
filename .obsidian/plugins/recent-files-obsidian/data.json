@@ -1,20 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "mobx浅析",
-      "path": "工作台/前端技术要点/组件库浅析/mobx浅析.md"
+      "basename": "达观智能",
+      "path": "00 Index/达观智能.md"
+    },
+    {
+      "basename": "物色公司",
+      "path": "工作台/物色公司.md"
     },
     {
       "basename": "面试题目录",
       "path": "工作台/面试题目录.md"
     },
     {
-      "basename": "redux",
-      "path": "00 Index/redux.md"
+      "basename": "react原理VUE原理",
+      "path": "00 Index/react原理VUE原理.md"
     },
     {
-      "basename": "达观智能",
-      "path": "00 Index/达观智能.md"
+      "basename": "mobx浅析",
+      "path": "工作台/前端技术要点/组件库浅析/mobx浅析.md"
+    },
+    {
+      "basename": "闭包",
+      "path": "00 Index/闭包.md"
+    },
+    {
+      "basename": "redux",
+      "path": "00 Index/redux.md"
     },
     {
       "basename": "深浅拷贝",
@@ -29,20 +41,12 @@
       "path": "00 Index/es6数组方法.md"
     },
     {
-      "basename": "物色公司",
-      "path": "工作台/物色公司.md"
-    },
-    {
       "basename": "离职原因",
       "path": "00 Index/离职原因.md"
     },
     {
       "basename": "实现map",
       "path": "00 Index/实现map.md"
-    },
-    {
-      "basename": "闭包",
-      "path": "00 Index/闭包.md"
     },
     {
       "basename": "柯里化通用实现",
@@ -75,10 +79,6 @@
     {
       "basename": "性能优化",
       "path": "00 Index/性能优化.md"
-    },
-    {
-      "basename": "react原理VUE原理",
-      "path": "00 Index/react原理VUE原理.md"
     },
     {
       "basename": "Vue双向绑定",
