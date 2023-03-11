@@ -1,20 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "babel转译jsx",
-      "path": "00 Index/babel转译jsx.md"
-    },
-    {
-      "basename": "总结",
-      "path": "工作台/前端技术要点/ts要点/总结.md"
+      "basename": "我的任务看板",
+      "path": "我的任务看板.md"
     },
     {
       "basename": "达观智能",
       "path": "00 Index/达观智能.md"
     },
     {
+      "basename": "面试题复习",
+      "path": "00 Index/面试题复习.md"
+    },
+    {
       "basename": "面试题目录",
       "path": "工作台/面试题目录.md"
+    },
+    {
+      "basename": "babel转译jsx",
+      "path": "00 Index/babel转译jsx.md"
+    },
+    {
+      "basename": "总结",
+      "path": "工作台/前端技术要点/ts要点/总结.md"
     },
     {
       "basename": "小程序链接",
@@ -187,16 +195,9 @@
     {
       "basename": "生命周期详解",
       "path": "工作台/前端技术要点/react框架/生命周期详解.md"
-    },
-    {
-      "basename": "CDN",
-      "path": "00 Index/CDN.md"
-    },
-    {
-      "basename": "webpack",
-      "path": "工作台/环境搭建/webpack.md"
     }
   ],
   "omittedPaths": [],
-  "maxLength": null
+  "maxLength": null,
+  "openType": "tab"
 }

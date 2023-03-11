@@ -4,27 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "b2657041385fd55e",
+        "id": "a55d8c7193568165",
         "type": "tabs",
         "children": [
           {
-            "id": "a8ed3b0792fd9288",
+            "id": "dba2f20691b90ff2",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "b210aaf012f09ebc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
+              "type": "kanban",
               "state": {
-                "file": "工作台/面试题目录.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
+                "file": "我的任务看板.md"
               }
             }
           }
@@ -102,6 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "我的任务看板.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,6 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "我的任务看板.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -139,7 +130,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "我的任务看板.md"
+              }
             }
           },
           {
@@ -171,29 +164,33 @@
       }
     ],
     "direction": "horizontal",
-    "width": 576.5
+    "width": 277.5
   },
   "left-ribbon": {
     "hiddenItems": {
       "canvas:新建白板": false,
-      "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false,
-      "templater-obsidian:Templater": false,
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "workspaces:管理工作区布局": false
+      "workspaces:管理工作区布局": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "a8ed3b0792fd9288",
+  "active": "1d2ac00dde8cbab7",
   "lastOpenFiles": [
+    "未命名.canvas",
+    "Excalidraw/Drawing 2022-10-30 23.20.33.excalidraw.md",
+    "我的任务看板.md",
+    "00 Index/达观智能.md",
+    "00 Index/面试题复习.md",
+    "工作台/面试题目录.md",
+    "00 Index/未命名.md",
     "00 Index/babel转译jsx.md",
     "工作台/前端技术要点/ts要点/总结.md",
-    "00 Index/达观智能.md",
-    "00 Index/未命名.md",
-    "工作台/面试题目录.md",
     "00 Index/小程序链接.md",
     "00 Index/离职原因.md",
     "00 Index/缓存.md",
@@ -211,12 +208,7 @@
     "工作台/性能优化面试题.md",
     "工作台/物色公司.md",
     "00 Index/useMemo和memo和usecallback.md",
-    "工作台/前端技术要点/react框架/常见问题.md",
-    "00 Index/setState是同步的还是异步的.md",
-    "工作台/前端技术要点/组件库浅析/mobx浅析.md",
-    "00 Index/闭包.md",
     "CI",
-    "未命名.canvas",
     "工作台/各种面试题"
   ]
 }
