@@ -16,7 +16,7 @@ window.onhashchange` `history.pushState ` `window.onpopstate
 - history的url没有'#'号
 - history会触发添加到浏览器历史记录栈
 - history需要后端配合，如果后端不配合刷新新页面会出现404
-	- #后面的hash值不会带入请求URL中，所以服务器觉得Hash模式下的URL是不变的
+	- 后面的hash值不会带入请求URL中，所以服务器觉得Hash模式下的URL是不变的
 	- 需要后端设置路由永远返回首页
 - `history.pushState `使用它做页面跳转不会触发页面刷新
 - 使用`window.onpopstate` 监听浏览器的前进和后退

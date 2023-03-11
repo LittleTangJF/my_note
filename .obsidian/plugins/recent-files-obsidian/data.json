@@ -5,28 +5,44 @@
       "path": "我的任务看板.md"
     },
     {
-      "basename": "达观智能",
-      "path": "00 Index/达观智能.md"
-    },
-    {
-      "basename": "面试题复习",
-      "path": "00 Index/面试题复习.md"
+      "basename": "小程序链接",
+      "path": "00 Index/小程序链接.md"
     },
     {
       "basename": "面试题目录",
       "path": "工作台/面试题目录.md"
     },
     {
-      "basename": "babel转译jsx",
-      "path": "00 Index/babel转译jsx.md"
+      "basename": "面试题",
+      "path": "00 Index/面试题.md"
+    },
+    {
+      "basename": "request封装",
+      "path": "Excalidraw/request封装.md"
+    },
+    {
+      "basename": "错误处理封装",
+      "path": "Excalidraw/错误处理封装.md"
+    },
+    {
+      "basename": "HashRouter 和 HistoryRouter",
+      "path": "00 Index/HashRouter 和 HistoryRouter.md"
     },
     {
       "basename": "总结",
       "path": "工作台/前端技术要点/ts要点/总结.md"
     },
     {
-      "basename": "小程序链接",
-      "path": "00 Index/小程序链接.md"
+      "basename": "笔记软件obsidian跨平台ios",
+      "path": "00 Index/笔记软件obsidian跨平台ios.md"
+    },
+    {
+      "basename": "babel转译jsx",
+      "path": "00 Index/babel转译jsx.md"
+    },
+    {
+      "basename": "达观智能",
+      "path": "00 Index/达观智能.md"
     },
     {
       "basename": "离职原因",
@@ -179,22 +195,6 @@
     {
       "basename": "网络安全",
       "path": "工作台/前端技术要点/浏览器知识要点/网络安全.md"
-    },
-    {
-      "basename": "Ref常见用法",
-      "path": "工作台/前端技术要点/react框架/Ref常见用法.md"
-    },
-    {
-      "basename": "react18新特性",
-      "path": "工作台/前端技术要点/react框架/react18新特性.md"
-    },
-    {
-      "basename": "通熟易懂React Fiber",
-      "path": "工作台/前端技术要点/react框架/通熟易懂React Fiber.md"
-    },
-    {
-      "basename": "生命周期详解",
-      "path": "工作台/前端技术要点/react框架/生命周期详解.md"
     }
   ],
   "omittedPaths": [],

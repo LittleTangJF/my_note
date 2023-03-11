@@ -4,16 +4,29 @@
     "type": "split",
     "children": [
       {
-        "id": "a55d8c7193568165",
+        "id": "d732c7a604b09310",
         "type": "tabs",
         "children": [
           {
-            "id": "dba2f20691b90ff2",
+            "id": "7c9747944cf0b7a5",
             "type": "leaf",
             "state": {
               "type": "kanban",
               "state": {
                 "file": "我的任务看板.md"
+              }
+            }
+          },
+          {
+            "id": "0c97d322bcec1cc2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00 Index/面试题.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
             }
           }
@@ -46,7 +59,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "取消请求",
+                "query": "tag:#excalidraw",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -160,7 +173,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -180,18 +193,24 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "1d2ac00dde8cbab7",
+  "active": "7c9747944cf0b7a5",
   "lastOpenFiles": [
-    "未命名.canvas",
-    "Excalidraw/Drawing 2022-10-30 23.20.33.excalidraw.md",
-    "我的任务看板.md",
-    "00 Index/达观智能.md",
-    "00 Index/面试题复习.md",
-    "工作台/面试题目录.md",
-    "00 Index/未命名.md",
-    "00 Index/babel转译jsx.md",
-    "工作台/前端技术要点/ts要点/总结.md",
     "00 Index/小程序链接.md",
+    "工作台/面试题目录.md",
+    "我的任务看板.md",
+    "00 Index/我的面试宝典.md",
+    "00 Index/面试题.md",
+    "Excalidraw/request封装.md",
+    "Excalidraw/错误处理封装.md",
+    "00 Index/HashRouter 和 HistoryRouter.md",
+    "未命名.canvas",
+    "工作台/前端技术要点/ts要点/总结.md",
+    "00 Index/笔记软件obsidian跨平台ios.md",
+    "00 Index/babel转译jsx.md",
+    "00 Index/面试题复习.md",
+    "Excalidraw/Drawing 2022-10-30 23.20.33.excalidraw.md",
+    "00 Index/达观智能.md",
+    "00 Index/未命名.md",
     "00 Index/离职原因.md",
     "00 Index/缓存.md",
     "00 Index/浏览器渲染页面.md",
@@ -203,11 +222,6 @@
     "00 Index/().md",
     "00 Index/react原理VUE原理.md",
     "工作台/前端技术要点/浏览器知识要点/网络请求.md",
-    "工作台/前端技术要点/react框架/hooks讲解.md",
-    "工作台/前端技术要点/浏览器知识要点/网络问题.md",
-    "工作台/性能优化面试题.md",
-    "工作台/物色公司.md",
-    "00 Index/useMemo和memo和usecallback.md",
     "CI",
     "工作台/各种面试题"
   ]
