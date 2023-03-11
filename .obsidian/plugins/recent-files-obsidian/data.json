@@ -1,8 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "babel转译jsx",
-      "path": "00 Index/babel转译jsx.md"
+      "basename": "缓存",
+      "path": "00 Index/缓存.md"
+    },
+    {
+      "basename": "输入url发生什么",
+      "path": "00 Index/输入url发生什么.md"
     },
     {
       "basename": "面试题目录",
@@ -11,6 +15,10 @@
     {
       "basename": "达观智能",
       "path": "00 Index/达观智能.md"
+    },
+    {
+      "basename": "babel转译jsx",
+      "path": "00 Index/babel转译jsx.md"
     },
     {
       "basename": "路由",
@@ -191,10 +199,6 @@
     {
       "basename": "node中间层",
       "path": "00 Index/node中间层.md"
-    },
-    {
-      "basename": "graghQl",
-      "path": "00 Index/graghQl.md"
     }
   ],
   "omittedPaths": [],
