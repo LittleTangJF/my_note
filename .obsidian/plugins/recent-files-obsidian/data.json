@@ -1,20 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "小程序链接",
-      "path": "00 Index/小程序链接.md"
+      "basename": "babel转译jsx",
+      "path": "00 Index/babel转译jsx.md"
+    },
+    {
+      "basename": "总结",
+      "path": "工作台/前端技术要点/ts要点/总结.md"
+    },
+    {
+      "basename": "达观智能",
+      "path": "00 Index/达观智能.md"
     },
     {
       "basename": "面试题目录",
       "path": "工作台/面试题目录.md"
     },
     {
-      "basename": "离职原因",
-      "path": "00 Index/离职原因.md"
+      "basename": "小程序链接",
+      "path": "00 Index/小程序链接.md"
     },
     {
-      "basename": "babel转译jsx",
-      "path": "00 Index/babel转译jsx.md"
+      "basename": "离职原因",
+      "path": "00 Index/离职原因.md"
     },
     {
       "basename": "缓存",
@@ -23,10 +31,6 @@
     {
       "basename": "浏览器渲染页面",
       "path": "00 Index/浏览器渲染页面.md"
-    },
-    {
-      "basename": "达观智能",
-      "path": "00 Index/达观智能.md"
     },
     {
       "basename": "输入url发生什么",
@@ -133,10 +137,6 @@
       "path": "00 Index/0.1+0.2.md"
     },
     {
-      "basename": "未命名",
-      "path": "00 Index/未命名.md"
-    },
-    {
       "basename": "性能优化",
       "path": "00 Index/性能优化.md"
     },
@@ -159,10 +159,6 @@
     {
       "basename": "关键字",
       "path": "工作台/前端技术要点/ts要点/关键字.md"
-    },
-    {
-      "basename": "总结",
-      "path": "工作台/前端技术要点/ts要点/总结.md"
     },
     {
       "basename": "映射类型",

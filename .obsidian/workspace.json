@@ -11,26 +11,8 @@
             "id": "a8ed3b0792fd9288",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00 Index/babel转译jsx.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ad6e5937ce636875",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00 Index/达观智能.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           },
           {
@@ -45,22 +27,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "ddf946dbe3dac3f0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00 Index/小程序链接.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -134,7 +102,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00 Index/小程序链接.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +118,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00 Index/小程序链接.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -173,9 +139,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "00 Index/小程序链接.md"
-              }
+              "state": {}
             }
           },
           {
@@ -207,7 +171,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 298.5
+    "width": 576.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -223,15 +187,17 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "ddf946dbe3dac3f0",
+  "active": "a8ed3b0792fd9288",
   "lastOpenFiles": [
+    "00 Index/babel转译jsx.md",
+    "工作台/前端技术要点/ts要点/总结.md",
+    "00 Index/达观智能.md",
+    "00 Index/未命名.md",
     "工作台/面试题目录.md",
     "00 Index/小程序链接.md",
     "00 Index/离职原因.md",
-    "00 Index/babel转译jsx.md",
     "00 Index/缓存.md",
     "00 Index/浏览器渲染页面.md",
-    "00 Index/达观智能.md",
     "00 Index/输入url发生什么.md",
     "工作台/前端技术要点/浏览器知识要点/路由.md",
     "00 Index/权限管理.md",
@@ -249,8 +215,6 @@
     "00 Index/setState是同步的还是异步的.md",
     "工作台/前端技术要点/组件库浅析/mobx浅析.md",
     "00 Index/闭包.md",
-    "工作台/前端技术要点/组件库浅析/redux浅析.md",
-    "00 Index/redux.md",
     "CI",
     "未命名.canvas",
     "工作台/各种面试题"
