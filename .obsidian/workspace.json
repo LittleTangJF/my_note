@@ -8,19 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7c9747944cf0b7a5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00 Index/小程序链接.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "0c97d322bcec1cc2",
             "type": "leaf",
             "state": {
@@ -87,7 +74,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -107,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00 Index/小程序链接.md",
+                "file": "00 Index/面试题.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00 Index/小程序链接.md",
+                "file": "00 Index/面试题.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -147,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00 Index/小程序链接.md"
+                "file": "00 Index/面试题.md"
               }
             }
           },
@@ -196,11 +184,12 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "7c9747944cf0b7a5",
+  "active": "0c97d322bcec1cc2",
   "lastOpenFiles": [
+    "00 Index/未命名.md",
+    "00 Index/小程序链接.md",
     "我的任务看板.md",
     "00 Index/笔记软件obsidian跨平台ios.md",
-    "00 Index/小程序链接.md",
     "工作台/面试题目录.md",
     "00 Index/我的面试宝典.md",
     "00 Index/面试题.md",
@@ -213,7 +202,6 @@
     "00 Index/面试题复习.md",
     "Excalidraw/Drawing 2022-10-30 23.20.33.excalidraw.md",
     "00 Index/达观智能.md",
-    "00 Index/未命名.md",
     "00 Index/离职原因.md",
     "00 Index/缓存.md",
     "00 Index/浏览器渲染页面.md",
