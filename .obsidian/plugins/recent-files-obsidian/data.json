@@ -1,24 +1,36 @@
 {
   "recentFiles": [
     {
-      "basename": "缓存",
-      "path": "00 Index/缓存.md"
-    },
-    {
-      "basename": "输入url发生什么",
-      "path": "00 Index/输入url发生什么.md"
+      "basename": "小程序链接",
+      "path": "00 Index/小程序链接.md"
     },
     {
       "basename": "面试题目录",
       "path": "工作台/面试题目录.md"
     },
     {
-      "basename": "达观智能",
-      "path": "00 Index/达观智能.md"
+      "basename": "离职原因",
+      "path": "00 Index/离职原因.md"
     },
     {
       "basename": "babel转译jsx",
       "path": "00 Index/babel转译jsx.md"
+    },
+    {
+      "basename": "缓存",
+      "path": "00 Index/缓存.md"
+    },
+    {
+      "basename": "浏览器渲染页面",
+      "path": "00 Index/浏览器渲染页面.md"
+    },
+    {
+      "basename": "达观智能",
+      "path": "00 Index/达观智能.md"
+    },
+    {
+      "basename": "输入url发生什么",
+      "path": "00 Index/输入url发生什么.md"
     },
     {
       "basename": "路由",
@@ -39,10 +51,6 @@
     {
       "basename": "react原理VUE原理",
       "path": "00 Index/react原理VUE原理.md"
-    },
-    {
-      "basename": "离职原因",
-      "path": "00 Index/离职原因.md"
     },
     {
       "basename": "网络请求",
@@ -191,14 +199,6 @@
     {
       "basename": "webpack",
       "path": "工作台/环境搭建/webpack.md"
-    },
-    {
-      "basename": "CICD",
-      "path": "CI/CICD.md"
-    },
-    {
-      "basename": "node中间层",
-      "path": "00 Index/node中间层.md"
     }
   ],
   "omittedPaths": [],
