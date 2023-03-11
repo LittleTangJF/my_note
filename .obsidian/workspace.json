@@ -11,9 +11,12 @@
             "id": "7c9747944cf0b7a5",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "我的任务看板.md"
+                "file": "00 Index/笔记软件obsidian跨平台ios.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
             }
           },
@@ -84,7 +87,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -104,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "我的任务看板.md",
+                "file": "00 Index/笔记软件obsidian跨平台ios.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "我的任务看板.md",
+                "file": "00 Index/笔记软件obsidian跨平台ios.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -144,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "我的任务看板.md"
+                "file": "00 Index/笔记软件obsidian跨平台ios.md"
               }
             }
           },
@@ -195,9 +199,9 @@
   },
   "active": "7c9747944cf0b7a5",
   "lastOpenFiles": [
+    "我的任务看板.md",
     "00 Index/小程序链接.md",
     "工作台/面试题目录.md",
-    "我的任务看板.md",
     "00 Index/我的面试宝典.md",
     "00 Index/面试题.md",
     "Excalidraw/request封装.md",

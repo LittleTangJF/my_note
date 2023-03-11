@@ -32,3 +32,10 @@ $ ssh -T git@github.com
 ```JS
 git config --global pack.threads 1
 ```
+
+
+### 克隆
+
+```js
+git clone --depth 1 
+```
