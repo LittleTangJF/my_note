@@ -23,7 +23,7 @@ diff 、vdom、jsx、组件本质、fiber、render(reconcile + schedule) + commi
 
 -  react 的 jsx 的编译器是 babel 实现的 --- vdom
 -  setState 的 api 触发状态更新
-- fiber 架构
+- [[fiber]] 架构
 	- 可打断，有优先级
 	- render和commit阶段
 		- reconcile（打增删改的标记）是可以打断的，由schdule调度
