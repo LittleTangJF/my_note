@@ -5,7 +5,7 @@
 ## 形成条件
 
 - float
-- position：absolute fixed
+- position：absolute fixedj
 - overflow： 不为visible
 - display：inline-block table-cell table-caption flex 
 
