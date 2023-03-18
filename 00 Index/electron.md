@@ -25,7 +25,12 @@ Chromium、Node、二进制、Fiddle、**Electron 进程**、**分发**、渲染
 - 
 - 
 - 
-- 
+
+### 主进程模块
+
+- 托盘模块 -- tray
+- 菜单模块 --- 原生不好用，自定义菜单
+- 异步处理模块 -- crashReporter
 ### 原生 API
 
 主进程也添加了自定义的 API 来与用户的作业系统进行交互。 Electron 有着多种控制原生桌面功能的模块，例如菜单、对话框以及托盘图标。
@@ -33,6 +38,12 @@ Chromium、Node、二进制、Fiddle、**Electron 进程**、**分发**、渲染
 ## 渲染器进程
 
 每个 Electron 应用都会为每个打开的 `BrowserWindow` ( 与每个网页嵌入 ) 生成一个单独的渲染器进程。
+
+### 渲染进程模块£
+
+- 静态资源--- cdn资源 、 本地获取
+- 数据储存  ----- Electron-store第三方库
+- 打包---注意要调整请求API代码， 因为本地资源，API前缀要区分本地和应用环境
 
 
 ## Preload 脚本
@@ -49,4 +60,53 @@ Chromium、Node、二进制、Fiddle、**Electron 进程**、**分发**、渲染
 - [`ipcMain`](https://www.electronjs.org/zh/docs/latest/api/ipc-main)
 - [`ipcRenderer`](https://www.electronjs.org/zh/docs/latest/api/ipc-renderer)
 这些通道是 **任意** （您可以随意命名它们）和 **双向** （您可以在两个模块中使用相同的通道名称）的。
+![[Pasted image 20230318174804.png]]
+### 同步和异步
 
+- 【异步】渲染进程->发送->主进程 --> send
+- 【同步】渲染进程->发送->主进程---> sendSync
+
+
+## 技术挑战™
+
+### 安全性问题
+
+- xss攻击、---electron主进程的nodeIntegration属性以及DOM Based-XSS和RCE攻击
+- 用户信息泄露、
+- 本地缓存明文读取问题
+
+### 发布构建流程
+
+### 应用更新问题
+
+- 全量更新
+- 增量更新
+
+#### 全量更新
+
+1. 打开app，请求json文件
+2. 本地和远程版本比较
+3. 不一致询问用户下载，是的话下载到指定文件夹，双击安装
+
+缺陷：只适用于更新频率慢的场景
+
+
+#### 增量更新
+
+electron-updater：**依赖新旧版本blockmap文件的对比来实现增量更新**，下载blockmap和本地作对比
+
+- 强更新--强制--不更新退出应用--下载完成才能关闭窗口
+- 弱更新--用户自主选择 --- 若更新可以最小化窗口
+
+##### 文件替换（热更新）
+
+- 版本号下载到本地，判断远程和本地版本号
+- 有更新，下载解压资源
+- http.get()获取js资源--有错误就出错回调
+- 以二进制形式在成功回调中返回
+- 写入压缩文件--失败（权限、资源占用）就更新失败提醒
+- 解压资源到指定目录，更新完成
+
+## 遇到问题
+- 硬件加速功能---判断是不是win7---app.disableHardwareAcceleration ()
+- 降低内存--disable-http-cache、reloadIgnoreCache、clearCodeCaches、资源禁止缓存
