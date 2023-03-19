@@ -29,3 +29,15 @@ npm config get cache
 
 ## 4.npx
 
+### 4.1 本地bin寻址
+
+我们知道，如果一个包配置了 bin后，当它被安装的时候，在项目的 node_modules/.bin下就会有相应的指令，方便执行。
+npx xxx执行过程
+- 看系统$PATH里有没有
+- 没有则找当前目录下node_modules里有没有
+- 如果没有则安装这个xxx
+
+```JS
+npm bin // 获取bin目录
+npm config get prefix // 获取当前的node目录
+```
