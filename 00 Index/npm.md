@@ -55,3 +55,32 @@ npm list name --depth=0
 npm list --depth=0 --global 
 yarn global list --depth=0
 ```
+
+## 6.重要创建命令
+
+npx xxx 和 npm init 和 yarn create 和npm create
+
+### 6.1 npx xxx 
+
+同4
+
+### 6.2 npm init 和 npm create
+
+用 `create-*` 包快速创建项目。和 `yarn create` 的作用和操作完全一样
+
+```js
+`npm init react-app my-app` 等同于 `yarn create react-app my-app`
+```
+
+### 6.3 yarn create
+
+用 `create-*` 的包快速创建项目。
+
+使用方式 `yarn create <starter-kit-package> [<args>]`
+
+`yarn create react-app my-app` 和下面的脚本等价
+
+```JS
+$ yarn global add create-react-app
+$ create-react-app my-app
+```
