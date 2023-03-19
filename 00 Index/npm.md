@@ -33,11 +33,25 @@ npm config get cache
 
 我们知道，如果一个包配置了 bin后，当它被安装的时候，在项目的 node_modules/.bin下就会有相应的指令，方便执行。
 npx xxx执行过程
-- 看系统$PATH里有没有
-- 没有则找当前目录下node_modules里有没有
-- 如果没有则安装这个xxx
+- 先在当前目录下找有没有xxx
+- 当前目录下node_modules里有没有
+- 没有看系统$PATH里有没有 xxx
+- 如果没有则从npm仓库安装这个xxx，过后卸载
+该依赖包会被存放在 `D:\node\node_cache\_npx` 目录下，当 `npx` 命令执行完完成之后,包就会自动删除了
 
 ```JS
 npm bin // 获取bin目录
 npm config get prefix // 获取当前的node目录
+```
+
+## 5.指令
+
+```js
+// 查看项目依赖指令
+npm list --depth=0
+// 查看某个依赖
+npm list name --depth=0
+// 查看全局依赖
+npm list --depth=0 --global 
+yarn global list --depth=0
 ```
