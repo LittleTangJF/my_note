@@ -65,7 +65,7 @@ yarn add css-minimizer-webpack-plugin -D //压缩css
 ### 2.8 react依赖
 
 ```js
-yarn add react react-dom
+yarn add react react-dom react-router-dom
 ```
 
 ### 2.9 安装babel
@@ -73,3 +73,40 @@ yarn add react react-dom
 ```js
 yarn add @babel/core @babel/preset-env @babel/preset-react @babel/polyfill babel-loader -D
 ```
+
+- `babel-loader`是webpack和Babel之间的桥梁，它将Babel与webpack集成。
+- `@babel/core`是Babel的核心库。
+- `@babel/preset-env`和`@babel/preset-react`是预设，用于指定Babel要如何转换代码
+
+### 3.0 配置别名
+
+### 3.1 分包splitChunks
+
+### 3.2 压缩Image
+
+```js
+const ImageminPlugin = require('imagemin-webpack-plugin').default;
+```
+
+### 3.3 代码质量
+
+```js
+npm install eslint eslint-config-prettier eslint-plugin-prettier prettier -D
+```
+
+- 新建`.eslintrc.js`文件
+- .prettierrc.js
+
+### 3.4 提交前校验lint-staged
+
+```js
+npx mrm lint-staged
+"lint-staged": { "*.{js,jsx,ts,tsx}": "eslint --fix" }
+```
+
+### 3.5 配置typescript
+
+```js
+yarn add typescript @babel/preset-typescript @types/react @types/react-dom -D
+```
+- 添加`tsconfig.json`文件
