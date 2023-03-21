@@ -84,3 +84,15 @@ npx xxx 和 npm init 和 yarn create 和npm create
 $ yarn global add create-react-app
 $ create-react-app my-app
 ```
+
+## 7 遇到问题
+
+### 7.1 某个版本依赖引入不同版本问题
+
+在默认安装**peerDependencies**。
+
+在很多情况下，这会导致版本冲突，从而[中断](https://so.csdn.net/so/search?q=%E4%B8%AD%E6%96%AD&spm=1001.2101.3001.7020)安装过程。
+
+```js
+npm install --legacy-peer-deps // 忽略目的是**绕过peerDependency自动安装**；它告诉NPM 忽略项目中引入的各个modules之间的相同modules但不同版本的问题并继续安装，保证各个引入的依赖之间对自身所使用的不同版本modules共存。
+```
