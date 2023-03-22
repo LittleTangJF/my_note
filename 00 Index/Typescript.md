@@ -1,6 +1,6 @@
 ## 关键词
 
-关键字、映射类型
+关键字、映射类型、 范型
 
 ## 1 映射类型
 
@@ -46,3 +46,33 @@ type CoordX = {
 ### 2.1 as
 
 断言
+
+
+## 3 范型
+
+使用场景
+
+### 3.1 范型变量
+
+```ts
+let output3: number = identityVar<number>(100);
+```
+### 3.2 范型函数
+
+```ts
+function identityFn<T>(arg: T): T { return arg; }
+```
+
+### 3.3 范型接口
+
+```ts
+// 泛型接口 
+interface GenericIdentityFn<T> { (arg: T): T; }
+```
+
+### 3.4 范型类
+
+```ts
+// 泛型类 
+class GenericNumber<T> { zeroValue: T; add: (x: T, y: T) => T; }
+```
