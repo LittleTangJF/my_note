@@ -40,3 +40,9 @@ type CoordX = {
 	x: number;
 }
 ```
+
+## 2 关键字
+
+### 2.1 as
+
+断言
