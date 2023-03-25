@@ -52,7 +52,7 @@
 
 ## [[Proxy&Reflect]]
 
-## [[promise]]
+## [[js es6 promise]]
 
 ## Symbol
 

@@ -83,7 +83,7 @@ useState的替代方案，当你涉及多个子值的复杂state逻辑时
 因此，`useMemo` 一定程度上可以替代 `useCallback`，等价条件：`useCallback(fn, deps) => useMemo(() => fn, deps)`
 
 ## useRef
-
+-  [[Ref常见用法]]
 返回一个可变的ref对象
 
 1. 不仅适用于DOM引用，它是一个通用的容器，其current值是可变的，可以保存任何可变值

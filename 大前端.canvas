@@ -1,0 +1,23 @@
+{
+	"nodes":[
+		{"type":"text","text":"[[javascript]]","id":"99a9e1b9b48f5d51","x":-680,"y":-340,"width":125,"height":60},
+		{"type":"text","text":"[[css]]","id":"f131a64b10f21f1d","x":-680,"y":-240,"width":125,"height":60},
+		{"type":"text","text":"[[react]]","id":"aba5d6c2fc7724ce","x":-680,"y":-140,"width":125,"height":60},
+		{"type":"text","text":"[[vue]]","id":"6efdde891dcf6127","x":-680,"y":-40,"width":125,"height":60},
+		{"type":"text","text":"[[工程化]]","id":"a533a5682a0f1921","x":-480,"y":-340,"width":160,"height":60},
+		{"type":"text","text":"[[性能优化]]","id":"63707249b223f286","x":-480,"y":-240,"width":160,"height":60},
+		{"type":"text","text":"[[CICD]]","id":"38aa1d0775f2fd3a","x":-480,"y":-140,"width":160,"height":60},
+		{"type":"text","text":"[[算法]]","id":"2dee1f58aa424fb3","x":-480,"y":-40,"width":160,"height":60},
+		{"type":"text","text":"[[设计模式]]","id":"d8d2c4a0eb0144e7","x":-280,"y":-340,"width":140,"height":60},
+		{"type":"text","text":"[[中台]]","id":"23be08e3e0c43159","x":-280,"y":-240,"width":140,"height":60},
+		{"type":"text","text":"[[浏览器]]","id":"40fcaf140a9a4fc1","x":-280,"y":-40,"width":140,"height":60},
+		{"type":"text","text":"[[计算机网络]]","id":"575828d88b9d63fa","x":-280,"y":-140,"width":140,"height":60},
+		{"type":"text","text":"[[项目开发相关]]","id":"79b89141624c4db2","x":-680,"y":60,"width":220,"height":60},
+		{"type":"text","text":"[[html]]","id":"f8a85134c66c61c8","x":-420,"y":60,"width":140,"height":60},
+		{"type":"text","text":"[[typescript]]","id":"df27fc516f7e2fd9","x":-265,"y":60,"width":125,"height":60},
+		{"type":"text","text":"[[node]]","id":"a51bce437fd72a12","x":-120,"y":-335,"width":135,"height":50},
+		{"type":"text","text":"[[electron]]","id":"b7100bb3bb28cf30","x":-680,"y":140,"width":160,"height":50},
+		{"id":"9d79553a5e4d5476","x":-480,"y":140,"width":130,"height":50,"type":"text","text":"[[其他]]"}
+	],
+	"edges":[]
+}

@@ -29,7 +29,7 @@ Gitlab + Gitlab Runner 、集成、 交付、部署、.gitlab-ci.yml、Pipeline
 - code-review
 ### 2、打包
 - webhooks平台提供： push、merge事件
-#### gitlab cicd实现
+#### [[gitlab ci]]
 - 基于runner：Runner 独立部署到新机器上
 - 检测到代码更新
 - 符合`.gitlab-ci.yml`触发规则 -  产生pipeline

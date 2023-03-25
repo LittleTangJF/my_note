@@ -76,3 +76,8 @@ interface GenericIdentityFn<T> { (arg: T): T; }
 // 泛型类 
 class GenericNumber<T> { zeroValue: T; add: (x: T, y: T) => T; }
 ```
+
+[[总结]]
+## 常见问题
+
+- [[type和interface]]

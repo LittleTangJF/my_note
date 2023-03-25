@@ -13,3 +13,5 @@ typeof、instanceof、Object.prototype.toString.call()、 constructor (用于�
 
 - 最好是用 `typeof` 来判断基本数据类型（包括`symbol`），避免对 null 的判断。
 - `instanceof` 也可以判断一个实例是否是其父类型或者祖先类型的实例。
+
+- [[判断空对象]]

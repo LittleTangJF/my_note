@@ -15,3 +15,7 @@ render、 reconcile、schdule、commit、silbing、 return
 
 -  reconcile 的时候把有 effectTag 的节点收集到一个队列里队列叫做 `effectList`
 - 会在 `commit` 阶段遍历 `effectList`，根据 `effectTag` 来增删改 `dom`
+
+## 详细过程
+
+- [[通熟易懂React Fiber]]

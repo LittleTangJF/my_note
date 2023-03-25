@@ -86,3 +86,9 @@ http模块可以开启一个http服务器
 - createServer : 创建一个 http 实例
 - listen :监听 8888 端口
 - writeHead: 指定头
+
+
+## 相关技术
+
+- [[brew - nginx安装]]
+- [[nginx知识要点]]
