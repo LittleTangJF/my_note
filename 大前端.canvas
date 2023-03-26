@@ -17,7 +17,8 @@
 		{"type":"text","text":"[[typescript]]","id":"df27fc516f7e2fd9","x":-265,"y":60,"width":125,"height":60},
 		{"type":"text","text":"[[node]]","id":"a51bce437fd72a12","x":-120,"y":-335,"width":135,"height":50},
 		{"type":"text","text":"[[electron]]","id":"b7100bb3bb28cf30","x":-680,"y":140,"width":160,"height":50},
-		{"id":"9d79553a5e4d5476","x":-480,"y":140,"width":130,"height":50,"type":"text","text":"[[其他]]"}
+		{"type":"text","text":"[[其他]]","id":"9d79553a5e4d5476","x":-480,"y":140,"width":130,"height":50},
+		{"id":"057d5dd4b21b8a27","x":-320,"y":140,"width":180,"height":50,"type":"text","text":"[[SSR]]"}
 	],
 	"edges":[]
 }
