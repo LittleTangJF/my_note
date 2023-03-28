@@ -16,4 +16,12 @@
 
 ### 2.2 条件渲染
 
-- 
+- 懒加载
+- 路由懒加载
+
+### 2.3 性能优化
+
+
+
+
+[项目地址](https://codesandbox.io/s/virtuallist-jc663l?file=/src/Hoc%E8%B7%AF%E7%94%B1%E6%87%92%E5%8A%A0%E8%BD%BD/index.tsx)
