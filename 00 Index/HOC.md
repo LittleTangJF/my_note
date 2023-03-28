@@ -35,3 +35,5 @@
 -高阶组件应该是**无副作用的纯函数**,所以不要在`render`中使用，且谨慎修改原型链
 
 [项目地址](https://codesandbox.io/s/virtuallist-jc663l?file=/src/Hoc%E8%B7%AF%E7%94%B1%E6%87%92%E5%8A%A0%E8%BD%BD/index.tsx)
+
+[参考链接](https://juejin.cn/post/7103345085089054727#heading-9)
