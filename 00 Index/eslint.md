@@ -27,3 +27,47 @@ git 提交时自动启动 eslint --fix
 // --fix : 该选项指示 ESLint 试图修复尽可能多的问题。修复只针对实际文件本身，而且剩下的未修复的问题才会输出。
 // `--quiet`：该选项允许你禁止报告警告。如果开启这个选项，ESLint 只会报告错误。
 ```
+
+### 3 配置eslint
+
+```js
+node_module/.bin/eslint --init
+
+"env": {
+
+"browser": true,
+
+"es2021": true
+
+},
+
+"extends": [
+
+"plugin:react/recommended",
+
+"airbnb"
+
+],
+
+"parser": "@typescript-eslint/parser",
+
+"parserOptions": {
+
+"ecmaFeatures": {
+
+"jsx": true
+
+},
+
+"ecmaVersion": 12,
+
+"sourceType": "module"
+
+},
+
+"plugins": [
+
+"react",
+
+"@typescript-eslint"
+```
