@@ -96,3 +96,23 @@ $ create-react-app my-app
 ```js
 npm install --legacy-peer-deps // 忽略目的是**绕过peerDependency自动安装**；它告诉NPM 忽略项目中引入的各个modules之间的相同modules但不同版本的问题并继续安装，保证各个引入的依赖之间对自身所使用的不同版本modules共存。
 ```
+
+## 8 发布流程
+
+### 8.1 个人账号
+
+- oldtom
+### 8.2 发布
+
+1. npm init -y
+2. npm config get registry   查看源 https://registry.npmmirror.com/
+3. npm config set registry  设置源 https://registry.npmjs.org/ 或者用nrm管理源
+	1. vscodee中坑：.npmc默认设置源，比如registry=https://registry.npmmirror.com
+4. npm login 登录
+	1. user：oldtom password：大小写  email： 163
+5. npm publish
+6. npm whoami   查看当前用户
+7. npm version patch  最后一位加1
+8. npm version minor  中间数字加1
+9. npm version major  第一位数字加1
+10. npm unpublish --force  卸载应用
