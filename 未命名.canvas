@@ -1,9 +1,9 @@
 {
 	"nodes":[
 		{"type":"text","text":"","id":"90a2c8eae9734a53","x":3,"y":-188,"width":250,"height":60},
-		{"type":"text","text":"### 我看看\n\n这个是测试","id":"a26ada21cee6ecc0","x":-400,"y":-280,"width":250,"height":130},
+		{"type":"text","text":"### 我看看\n\n这个所有任务\n```tasks\n\n```","id":"a26ada21cee6ecc0","x":-400,"y":-280,"width":250,"height":263},
 		{"type":"text","text":"这个是测试","id":"5f29289d568736aa","x":-240,"y":-80,"width":230,"height":125},
-		{"type":"text","text":"","id":"59afc212b3c0634e","x":-100,"y":-440,"width":250,"height":60}
+		{"type":"text","text":"- [ ] skdj ","id":"59afc212b3c0634e","x":-100,"y":-440,"width":250,"height":160}
 	],
 	"edges":[]
 }
