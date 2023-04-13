@@ -1,10 +1,9 @@
 {
 	"nodes":[
-		{"id":"48aad24c9eca98be","x":-222,"y":-270,"width":250,"height":60,"type":"text","text":""},
-		{"type":"text","text":"","id":"90a2c8eae9734a53","x":3,"y":-188,"width":250,"height":60},
-		{"type":"text","text":"这个是测试","id":"5f29289d568736aa","x":-240,"y":-188,"width":230,"height":233},
-		{"type":"text","text":"- [ ] skdj ","id":"59afc212b3c0634e","x":-100,"y":-440,"width":250,"height":160},
-		{"id":"b03f410c565136d9","x":-460,"y":-440,"width":250,"height":263,"type":"file","file":"00 Index/测试.md"}
+		{"type":"file","file":"00 Index/这是一给todo1.md","id":"8f7046340bfcd084","x":-200,"y":-520,"width":240,"height":220},
+		{"type":"file","file":"00 Index/todo.md","id":"5c4dc12ac8be1d72","x":-500,"y":-520,"width":250,"height":197},
+		{"type":"file","file":"00 Index/这是todo2.md","id":"dc9633a39fa50533","x":-500,"y":-280,"width":250,"height":240},
+		{"id":"604cf0751d92bf43","x":-200,"y":-260,"width":240,"height":220,"type":"file","file":"00 Index/这是todo3.md"}
 	],
 	"edges":[]
 }
