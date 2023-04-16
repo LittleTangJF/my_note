@@ -1,9 +1,0 @@
-{
-	"nodes":[
-		{"type":"file","file":"00 Index/这是一给todo1.md","id":"8f7046340bfcd084","x":-200,"y":-520,"width":240,"height":220},
-		{"type":"file","file":"00 Index/todo.md","id":"5c4dc12ac8be1d72","x":-500,"y":-520,"width":250,"height":197},
-		{"type":"file","file":"00 Index/这是todo2.md","id":"dc9633a39fa50533","x":-500,"y":-280,"width":250,"height":240},
-		{"id":"604cf0751d92bf43","x":-200,"y":-260,"width":240,"height":220,"type":"file","file":"00 Index/这是todo3.md"}
-	],
-	"edges":[]
-}
