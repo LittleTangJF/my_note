@@ -1,5 +1,8 @@
 # mac端配置
 
+## 环境搭建
+
+
 **1.生成ssh-key**
 
 ```bash
@@ -21,3 +24,16 @@ cat id_rsa.pub
 ```bash
 ssh -T git@github.com
 ```
+
+
+## 常用命令
+
+
+1. 对比差异
+
+```json
+git fetch
+git diff --stat --color remotes/main/master..origin/master // 对比本地和远程分支
+git diff <masterbranch_path> <remotebranch_path> // 对比两个远程分支diff
+```
+
