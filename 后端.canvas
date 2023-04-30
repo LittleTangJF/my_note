@@ -1,6 +1,6 @@
 {
 	"nodes":[
-		{"id":"7e28d250fc83bdce","x":-220,"y":-320,"width":250,"height":220,"type":"file","file":"大纲顺序.md"}
+		{"type":"file","file":"大纲顺序.md","id":"7e28d250fc83bdce","x":-320,"y":-380,"width":250,"height":220}
 	],
 	"edges":[]
 }
