@@ -3,8 +3,9 @@
 
 
 - 轻量
-- 更好的处理异步
+- 更好的处理异步 async await
 - 中间件
+- 洋葱模型
 
 ## 使用
 
@@ -32,6 +33,7 @@ app.listen(3000);
 4. multer: 文件上传
 5. ctx.respose.end
 6. ctx.body、ctx.query
+7. koa-static
 
 
 ## 路由
@@ -53,3 +55,28 @@ router.get('/', async (ctx, next) => {
 app.use(router.routes());
 app.use(router.allowedMethods()); // 返回405 Method Not Allowed
 ```
+
+## 错误处理
+
+
+>ctx.app: eventEmitter
+
+
+```js
+ctx.app.emit(err, code)
+app.on(err, (code)=>{
+
+})
+```
+
+## 洋葱模型
+
+
+从外往里-中间件处理 ---next()
+
+从里往外-next()后的代码处理
+
+## 链接
+
+
+[[koa源码]]
