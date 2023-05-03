@@ -133,3 +133,56 @@ mysql -u username -p  // 连接某个数据库
 - min
 - sum
 - count(\*)
+
+
+## 分组
+
+
+配合聚合函数使用，group by
+
+和group by配合使用的是having
+
+## 多表关系
+
+
+如果一张表保存的信息过于冗余，存在相同的信息，可建多表
+
+1.创建外键
+- foreign key(id) references table(id)
+
+2.外键更新和删除
+
+在有外键约束的情况下修改外键 on update \  on  delete
+- 默认restrict严格模式
+- cascade： 跟随
+- setnull：更新 删了就set  null
+
+
+## 多表查询
+
+
+表与表之间的连接
+
+ - 左连接：left [outer]  join table on 条件
+	 - 可以查询到有交集和没有交集的数据
+ - 右连接： right join 
+	 - 以右为主，没有就是null
+ - 内连接： cross/inner join on
+	 - 左右都要有数据
+ - 全连接： mysql没有，需要用union
+	 - (左连接) union (右连接)
+
+
+## 多对多表关系
+
+
+1.建立一张关系表
+
+- 用外键关联创建关系表
+- 插入数据，给关联的外键
+
+2.查询多对多表
+
+- 内连接： 有数据的情况
+- 左连接： 可查右边没数据的情况
+- 右连接：可查左边没数据的情况
