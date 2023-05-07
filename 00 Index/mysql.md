@@ -133,6 +133,7 @@ mysql -u username -p  // 连接某个数据库
 - min
 - sum
 - count(\*)
+- **JSON_ARRAYAGG**(): 将某些列转成json数组，配合group by可以将分组后的数据转化成数组
 
 
 ## 分组
@@ -141,6 +142,8 @@ mysql -u username -p  // 连接某个数据库
 配合聚合函数使用，group by
 
 和group by配合使用的是having
+
+使用场景： 把统一类型的放在一起
 
 ## 多表关系
 
@@ -163,7 +166,7 @@ mysql -u username -p  // 连接某个数据库
 
 表与表之间的连接
 
- - 左连接：left [outer]  join table on 条件
+ - 左连接：**left** [outer]  **join** table **on** 条件
 	 - 可以查询到有交集和没有交集的数据
  - 右连接： right join 
 	 - 以右为主，没有就是null
@@ -186,3 +189,29 @@ mysql -u username -p  // 连接某个数据库
 - 内连接： 有数据的情况
 - 左连接： 可查右边没数据的情况
 - 右连接：可查左边没数据的情况
+
+
+## 转json格式
+
+
+- **JSON_OBJECT**(key,value,key,vlaue) as name
+```mysql
+SELECT 
+    JSON_OBJECT(
+        'id', p.id,
+        'name', p.name,
+        'price', p.price,
+        'category', c.name
+    ) AS json_data
+FROM 
+    products p
+INNER JOIN 
+    product_categories pc ON p.id = pc.product_id
+INNER JOIN 
+    categories c ON c.id = pc.category_id
+WHERE 
+    p.price > 10
+ORDER BY 
+    p.price DESC;
+
+```
