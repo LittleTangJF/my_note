@@ -1,10 +1,13 @@
 ## 关键词
 
-关键字、映射类型、 范型
-## 目录
-### 一、映射类型
 
- 1. Record
+关键字、映射类型、 范型
+
+
+## 一、映射类型
+
+
+ ### 1.1 Record
 
 	把K的属性赋值给类型T，并返回新的类型
 
@@ -13,8 +16,7 @@ type Record<K extends keyof any, T> = { [P in K]: T; };
 type proxyKType = Record<K,T> // K 可以是联合类型 枚举类型 
 ```
 
-
-2. Partial
+### 1.2 Partial
 
 	将类型定义的所有属性都修改为可选。
 
@@ -28,7 +30,7 @@ type Coord = {
 }
 ```
 
-3. Pick
+### 1.3 Pick
 
 	从类型定义的属性中，选取指定一组属性，返回一个新的类型定义。
 
@@ -42,44 +44,57 @@ type CoordX = {
 }
 ```
 
-### 二、关键字
 
-1. as
+## 二、关键字
+
+
+### 2.1 as
 
 	断言
 
+### 2.2 typeof
 
-### 三、范型
+### 2.3 instanceof
+
+
+
+## 三、范型
+
 
 以下是范型的几个使用场景
 
-1. 范型变量
+### 3.1 范型变量
 
 ```ts
 let output3: number = identityVar<number>(100);
 ```
 
-2. 范型函数
+### 3.2 范型函数
 
 ```ts
 function identityFn<T>(arg: T): T { return arg; }
 ```
 
-3. 范型接口
+### 3.3 范型接口
 
 ```ts
 // 泛型接口 
 interface GenericIdentityFn<T> { (arg: T): T; }
 ```
 
-4. 范型类
+### 3.4 范型类
 
 ```ts
 // 泛型类 
 class GenericNumber<T> { zeroValue: T; add: (x: T, y: T) => T; }
 ```
 
-[[总结]]
+## 总结
+
+[[00 Index/typescript总结]]
+
+
 ## 常见问题
+
 
 	- [[type和interface]]
