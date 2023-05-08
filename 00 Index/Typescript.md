@@ -91,7 +91,7 @@ class GenericNumber<T> { zeroValue: T; add: (x: T, y: T) => T; }
 
 ## 总结
 
-[[00 Index/typescript总结]]
+[[typescript总结]]
 
 
 ## 常见问题
