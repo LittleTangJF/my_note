@@ -3,14 +3,8 @@
 
 遇到问题如下
 
-- [[umijs]]版本更新
-'visualList.type.variable': 'variable',
+- 版本更新国际化问题 -->[[umijs]]
 
-'visualList.type.filter': 'filter',
-
-'visualList.type.variable': '变量',
-
-'visualList.type.filter': '过滤器',
 ## 一、添加submodule
 
 
