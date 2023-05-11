@@ -32,3 +32,19 @@ docker-build:
   after_script:
     - pipline_notify.sh
 ```
+
+make命令用来执行项目目录下的Makefile文件内定义的脚本方法
+
+```js
+TAG = $(tag)
+
+localpush:
+	docker build -f Dockerfile . -t harbor.apulis.cn:8443/apulis-iqi/app/frontend-admin:$(TAG)
+	docker push harbor.apulis.cn:8443/apulis-iqi/app/frontend-admin:$(TAG)
+
+get-deps:
+	git submodule sync
+	git submodule sync --recursive
+	git submodule update --init --recursive
+
+```
