@@ -10,9 +10,13 @@
 
 以上是 DOM 中位置属性的基本用法，可以通过它们获取元素的位置信息，用于实现一些交互效果或者布局计算等功能。
 
+[codesendbox实现链接](https://codesandbox.io/s/htmlwei-zhi-7qu39c?file=/index.html)
+
 ## 应用场景
 
 比如在使用懒加载时用到 [[面试技术难点]]
 
 方案一：位置计算 + 滚动scroll + dataset
 公式：scrollHeight-scrollTop-offsetHeight< y
+
+[参考链接](https://juejin.cn/post/6844903488124633096)
