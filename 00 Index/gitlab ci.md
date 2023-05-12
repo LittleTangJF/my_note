@@ -43,8 +43,8 @@ localpush:
 	docker push harbor.apulis.cn:8443/apulis-iqi/app/frontend-admin:$(TAG)
 
 get-deps:
-	git submodule sync
-	git submodule sync --recursive
-	git submodule update --init --recursive
+	git submodule sync // 命令会将子模块的远程仓库 URL 更新为其 .gitmodules 文件中指定的 URL。
+	git submodule sync --recursive // 命令会递归更新所有子模块的远程仓库 URL。
+	git submodule update --init --recursive // 命令会将本地仓库的子模块更新到指定的版本，即更新子模块对应的 Git 仓库的代码。
 
 ```
