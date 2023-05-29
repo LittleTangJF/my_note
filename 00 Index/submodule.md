@@ -6,9 +6,11 @@ git submodule add -b dev git@gitlab.apulis.com.cn:groupname/reponame.git  src/su
 
 ## 二、更新
 
-// clone仓库后
+clone仓库后
+```js
 git submodule init
 git submodule update
+```
 
 
 ## 三、删除
