@@ -17,6 +17,7 @@ ssh-keygen -o -t rsa -b 4096 -C "18681268108@163.com"
 ```bash
 cd ~/.ssh
 cat id_rsa.pub
+pbcopy < ~/.ssh/id_rsa.pub  // 复制
 ```
 
 **3.测试是否连接**
