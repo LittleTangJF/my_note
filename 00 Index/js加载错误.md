@@ -41,4 +41,4 @@ if (tag.tagName === 'SCRIPT' && !(event instanceof ErrorEvent)) {
 
 ### 1.2 案例2
 
-umijs是如何解决js问题引起白屏问题
+umijs是如何解决js问题引起白屏问题 ---- 错误边界？
