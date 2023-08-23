@@ -1,0 +1,23 @@
+{
+	"nodes":[
+		{"type":"text","text":"main-modules-resentence创建隐藏推理窗口\n\n1. 窗口设置show:false隐藏\n2. 然后存储到windows\n3. 准备好后发送ipc事件saveProjects\n\nipcMain.on('createInferWindow'","id":"1e5c230dc0cce08a","x":-390,"y":-320,"width":240,"height":160,"color":"4"},
+		{"type":"text","text":"renderer-infer-app.tsx\n\nipc-startWatch\n","id":"328e5dc0286485ce","x":-140,"y":-320,"width":250,"height":60},
+		{"id":"fad8a90f49064f8c","x":-390,"y":-410,"width":240,"height":60,"color":"4","type":"text","text":"项目进入 rejedgment页面\n\n监控 projects"},
+		{"type":"text","text":"watch.ts\n\nexecuteStartWatch执行监听\n1. doWatch监听机种\n2. fetchNewTemplate获取机种\n3. executeUpdateTemplate：新模板，发给render处理\n\nhandleNewSnDir 解析处理新的sn目录参数\n\n监控addDir 文件目录生成","id":"eddc7bdcc8613edf","x":-390,"y":-140,"width":240,"height":340,"color":"4"},
+		{"id":"f452ccec49d21169","x":610,"y":-520,"width":320,"height":140,"type":"text","text":"遇到问题\n\n1. electron主-渲染进程之间的通信方式有哪些\n2. watchWorker 监听主进程的message通信"},
+		{"type":"text","text":"src/main/inferControler.ts\n\n主进程收到监控信息，handleStartWatch","id":"9c56406d38c7efa0","x":140,"y":-320,"width":250,"height":80},
+		{"type":"text","text":"src/main/modules/inferModules/watchMonitorPath.ts \n\n开始监听\nwatchWorker.postMessage(start-watch","id":"2eee40285808b632","x":420,"y":-320,"width":250,"height":140},
+		{"id":"fbe16004f60a80f9","x":-140,"y":-140,"width":290,"height":220,"type":"text","text":"doWatch\n\n1. 开启监控，降之前的字worker和机种遍历关闭\n2. 定时获取新的机种fetchNewTemplate\n3. chokidar： 监听文件和目录变化的库，使用主要方法addDir,监控目录中有子目录被创建时被触发\n4. 当子目录更新时，执行监听executeWatch\n"},
+		{"id":"5ec598f6ab9d7a4e","x":460,"y":80,"width":259,"height":299,"type":"text","text":"src/main/inferModules/watchMonitorPatch.ts\n\nsaveWatch\n->\n开始监听handleSaveWatch\n->\ndoSaveWatch\n->\n读数据库\n1. 入队\n2. 出队\n3. 第一条记录"},
+		{"id":"a9bf729e1b363025","x":170,"y":80,"width":250,"height":196,"type":"text","text":"getSnParams\n\n解析sn参数，根据不同的产线区别解析预参数"},
+		{"id":"30e4ea044ff2cd3e","x":-139,"y":80,"width":288,"height":150,"type":"text","text":"handleNewSnDir\n\n1. getSnParams： 获取sn参数\n2. getProductSN： 根据文件夹获取SN信息\n3. 给watchWorker发送信息：saveWatch\n4. "}
+	],
+	"edges":[
+		{"id":"e7f415c361c7fe1e","fromNode":"fad8a90f49064f8c","fromSide":"bottom","toNode":"1e5c230dc0cce08a","toSide":"top"},
+		{"id":"ffe6c6ac00761ece","fromNode":"1e5c230dc0cce08a","fromSide":"bottom","toNode":"eddc7bdcc8613edf","toSide":"top"},
+		{"id":"fcb3af518eec6399","fromNode":"328e5dc0286485ce","fromSide":"right","toNode":"9c56406d38c7efa0","toSide":"left"},
+		{"id":"83f3f56bd2006f47","fromNode":"9c56406d38c7efa0","fromSide":"right","toNode":"2eee40285808b632","toSide":"left"},
+		{"id":"fb50958c7da09e09","fromNode":"30e4ea044ff2cd3e","fromSide":"right","toNode":"a9bf729e1b363025","toSide":"left"},
+		{"id":"c71ba931e45b79a5","fromNode":"a9bf729e1b363025","fromSide":"right","toNode":"5ec598f6ab9d7a4e","toSide":"left"}
+	]
+}
