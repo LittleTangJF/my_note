@@ -1,6 +1,6 @@
 {
 	"nodes":[
-		{"id":"03d5d706a19a3fed","x":-125,"y":-30,"width":250,"height":60,"color":"4","type":"text","text":"js"},
+		{"id":"03d5d706a19a3fed","x":-125,"y":-30,"width":250,"height":60,"color":"4","type":"text","text":"javascript"},
 		{"id":"f78976865ed3b7dd","x":-400,"y":-120,"width":250,"height":50,"type":"text","text":"语法"}
 	],
 	"edges":[]
