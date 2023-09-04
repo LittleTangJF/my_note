@@ -1,5 +1,6 @@
 {
 	"nodes":[
+		{"id":"48ac73695f98a507","x":-97,"y":-111,"width":250,"height":60,"type":"text","text":""},
 		{"type":"text","text":"[[javascript]]","id":"99a9e1b9b48f5d51","x":-680,"y":-340,"width":125,"height":60},
 		{"type":"text","text":"[[css]]","id":"f131a64b10f21f1d","x":-680,"y":-240,"width":125,"height":60},
 		{"type":"text","text":"[[react]]","id":"aba5d6c2fc7724ce","x":-680,"y":-140,"width":125,"height":60},
@@ -19,7 +20,7 @@
 		{"type":"text","text":"[[electron]]","id":"b7100bb3bb28cf30","x":-680,"y":140,"width":160,"height":50},
 		{"type":"text","text":"[[其他]]","id":"9d79553a5e4d5476","x":-480,"y":140,"width":130,"height":50},
 		{"type":"text","text":"[[SSR]]","id":"057d5dd4b21b8a27","x":-320,"y":140,"width":180,"height":50},
-		{"id":"93a1b4f5218498fd","x":-120,"y":-240,"width":135,"height":50,"type":"text","text":"[[手撕开源工具]]\n"}
+		{"type":"text","text":"[[手撕开源工具]]\n","id":"93a1b4f5218498fd","x":-120,"y":-240,"width":135,"height":50}
 	],
 	"edges":[]
 }
