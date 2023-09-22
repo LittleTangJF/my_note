@@ -14,7 +14,7 @@
 		{"type":"text","text":"src/renderer/infer/app.tsx\n\n监听执行推理请求\nexecuteInferQueue\n\n1. executeQueue  执行推理请求相关逻辑\n","id":"3c5acd2d4c467851","x":880,"y":80,"width":360,"height":260},
 		{"id":"5d1e8b29bf174453","x":1300,"y":80,"width":300,"height":340,"type":"text","text":"src/renderer/infer/app.tsx\n\nexecuteQueue方法\n\n1. fetchInterRecord: 拿数据库待推理的一条数据\n2. generatePostInferParams: 生成推理请求的params\n2. 发送推理请求 postInfer\n3. 处理请求成功结果 handleRequestResult\n4. 分别处理错误和成功结果\n\t5. handleRequestError\n\t6. handleRequestSuccess\n5. handleRequestSuccess:保存推理参数到数据库saveSuccessRetrials\n"},
 		{"id":"e0ece9c085d8954c","x":1700,"y":80,"width":340,"height":170,"type":"text","text":"\nsrc/renderer/infer/utils/inferFns/heliInfer.tx\n\n1. getSuccessRetrials: 获取推理请求结果\n\nsrc/renderer/infer/app.txt\n\n2. savaSuccessRetrials: 保存推理参数结果到数据库"},
-		{"id":"2cf1c892e89e7754","x":2160,"y":80,"width":250,"height":60,"type":"text","text":"src/main/contriller.ts\n\nenRetrialQueue: 入队"}
+		{"id":"2cf1c892e89e7754","x":2160,"y":80,"width":250,"height":150,"type":"text","text":"src/main/controller.ts\n\nenRetrialQueue: 入队"}
 	],
 	"edges":[
 		{"id":"e7f415c361c7fe1e","fromNode":"fad8a90f49064f8c","fromSide":"bottom","toNode":"1e5c230dc0cce08a","toSide":"top"},
