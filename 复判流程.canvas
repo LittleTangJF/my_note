@@ -11,7 +11,8 @@
 		{"type":"text","text":"src/main/inferModules/watchMonitorPatch.ts\n\nsaveWatch\n->\n开始监听handleSaveWatch\n->\ndoSaveWatch\n->\n读数据库\n1. 入队（handleExecuteInfer-->executeInferQueue）\n2. 出队\n3. 第一条记录","id":"5ec598f6ab9d7a4e","x":460,"y":80,"width":360,"height":300},
 		{"type":"text","text":"src/main/watch/formatSnParams.ts\n\ngetSnParams\n\n解析sn参数，根据不同的产线区别解析预参数\n\n举例： LED线\n\n1. 读errpic图片信息 到fileNames\n2. 读errEeport.log发送insertImgTemplate\n3. return {images: errReportInfo, fovSizeInfo}","id":"a9bf729e1b363025","x":170,"y":80,"width":250,"height":340},
 		{"type":"text","text":"handleNewSnDir\n\n1. getSnParams： 获取sn参数\n2. getProductSN： 根据文件夹获取SN信息\n3. 给watchWorker发送信息：saveWatch\n4. ","id":"30e4ea044ff2cd3e","x":-139,"y":80,"width":288,"height":150},
-		{"id":"3c5acd2d4c467851","x":880,"y":80,"width":300,"height":220,"type":"text","text":"src/renderer/infer/app.tsx\n\n监听执行推理请求\nexecuteInferQueue\n\n1. executeQueue \n2. 发送推理请求 postInfer\n3. 处理请求成功结果 handleRequestResult\n4. 分别处理错误和成功结果\n5. 保存推理参数到数据库saveSuccessRetrials"}
+		{"type":"text","text":"src/renderer/infer/app.tsx\n\n监听执行推理请求\nexecuteInferQueue\n\n1. executeQueue  执行推理请求相关逻辑\n","id":"3c5acd2d4c467851","x":880,"y":80,"width":360,"height":260},
+		{"id":"5d1e8b29bf174453","x":1300,"y":80,"width":300,"height":340,"type":"text","text":"src/renderer/infer/app.tsx\n\nexecuteQueue方法\n\n1. fetchInterRecord: 拿数据库待推理的一条数据\n2. generatePostInferParams: 生成推理请求的params\n2. 发送推理请求 postInfer\n3. 处理请求成功结果 handleRequestResult\n4. 分别处理错误和成功结果\n5. 保存推理参数到数据库saveSuccessRetrials\n"}
 	],
 	"edges":[
 		{"id":"e7f415c361c7fe1e","fromNode":"fad8a90f49064f8c","fromSide":"bottom","toNode":"1e5c230dc0cce08a","toSide":"top"},
@@ -19,6 +20,8 @@
 		{"id":"fcb3af518eec6399","fromNode":"328e5dc0286485ce","fromSide":"right","toNode":"9c56406d38c7efa0","toSide":"left"},
 		{"id":"83f3f56bd2006f47","fromNode":"9c56406d38c7efa0","fromSide":"right","toNode":"2eee40285808b632","toSide":"left"},
 		{"id":"fb50958c7da09e09","fromNode":"30e4ea044ff2cd3e","fromSide":"right","toNode":"a9bf729e1b363025","toSide":"left"},
-		{"id":"c71ba931e45b79a5","fromNode":"a9bf729e1b363025","fromSide":"right","toNode":"5ec598f6ab9d7a4e","toSide":"left"}
+		{"id":"c71ba931e45b79a5","fromNode":"a9bf729e1b363025","fromSide":"right","toNode":"5ec598f6ab9d7a4e","toSide":"left"},
+		{"id":"6b64042488b2ca9a","fromNode":"5ec598f6ab9d7a4e","fromSide":"right","toNode":"3c5acd2d4c467851","toSide":"left"},
+		{"id":"862a1016b8c5b64e","fromNode":"3c5acd2d4c467851","fromSide":"right","toNode":"5d1e8b29bf174453","toSide":"left"}
 	]
 }
