@@ -8,26 +8,31 @@
 		{"type":"text","text":"src/main/inferControler.ts\n\n主进程收到监控信息，handleStartWatch","id":"9c56406d38c7efa0","x":140,"y":-320,"width":250,"height":80},
 		{"type":"text","text":"src/main/modules/inferModules/watchMonitorPath.ts \n\n开始监听\nwatchWorker.postMessage(start-watch","id":"2eee40285808b632","x":420,"y":-320,"width":250,"height":140},
 		{"type":"text","text":"doWatch\n\n1. 开启监控，降之前的字worker和机种遍历关闭\n2. 定时获取新的机种fetchNewTemplate\n3. **[[chokidar]]**： 监听文件和目录变化的库，使用主要方法addDir,监控目录中有子目录被创建时被触发\n4. 当子目录更新时，执行监听executeWatch\n","id":"fbe16004f60a80f9","x":-140,"y":-140,"width":290,"height":220},
-		{"type":"text","text":"src/main/inferModules/watchMonitorPatch.ts\n\nsaveWatch\n->\n开始监听handleSaveWatch\n->\ndoSaveWatch\n->\n读数据库\n1. 入队（handleExecuteInfer-->executeInferQueue）\n2. 出队\n3. 第一条记录","id":"5ec598f6ab9d7a4e","x":460,"y":80,"width":360,"height":300},
-		{"type":"text","text":"src/main/watch/formatSnParams.ts\n\ngetSnParams\n\n解析sn参数，根据不同的产线区别解析预参数\n\n举例： LED线\n\n1. 读errpic图片信息 到fileNames\n2. 读errEeport.log发送insertImgTemplate\n3. return {images: errReportInfo, fovSizeInfo}","id":"a9bf729e1b363025","x":170,"y":80,"width":250,"height":340},
-		{"type":"text","text":"handleNewSnDir\n\n1. getSnParams： 获取sn参数\n2. getProductSN： 根据文件夹获取SN信息\n3. 给watchWorker发送信息：saveWatch\n4. ","id":"30e4ea044ff2cd3e","x":-139,"y":80,"width":288,"height":150},
-		{"type":"text","text":"src/renderer/infer/app.tsx\n\n监听执行推理请求\nexecuteInferQueue\n\n1. executeQueue  执行推理请求相关逻辑\n","id":"3c5acd2d4c467851","x":880,"y":80,"width":360,"height":260},
-		{"id":"5d1e8b29bf174453","type":"text","text":"src/renderer/infer/app.tsx\n\nexecuteQueue方法\n\n1. fetchInterRecord: 拿数据库待推理的一条数据\n2. generatePostInferParams: 生成推理请求的params\n2. 发送推理请求 postInfer\n3. 处理请求成功结果 handleRequestResult\n4. 分别处理错误和成功结果\n\t5. handleRequestError\n\t6. handleRequestSuccess\n5. handleRequestSuccess:保存推理参数到数据库saveSuccessRetrials\n","x":1300,"y":80,"width":300,"height":340},
-		{"id":"e0ece9c085d8954c","type":"text","text":"\nsrc/renderer/infer/utils/inferFns/heliInfer.tx\n\n1. getSuccessRetrials: 获取推理请求结果\n\nsrc/renderer/infer/app.txt\n\n2. savaSuccessRetrials: 保存推理参数结果到数据库","x":1700,"y":80,"width":340,"height":170},
-		{"id":"2cf1c892e89e7754","type":"text","text":"src/main/controller.ts\n\nenRetrialQueue: 入队","x":2160,"y":80,"width":250,"height":150},
-		{"id":"00e6cb3ddab2c382","x":74,"y":-476,"width":250,"height":60,"type":"text","text":"监控如何切换？"},
-		{"id":"fdf5ff046126c88f","x":335,"y":-478,"width":250,"height":68,"type":"text","text":"port.on('message')用法"}
+		{"id":"00e6cb3ddab2c382","type":"text","text":"监控如何切换？","x":74,"y":-476,"width":250,"height":60},
+		{"id":"fdf5ff046126c88f","type":"text","text":"port.on('message')用法","x":335,"y":-478,"width":250,"height":68},
+		{"id":"b770db7eae04f51b","x":770,"y":-320,"width":250,"height":60,"type":"text","text":"执行executeStartWatch"},
+		{"id":"e0ece9c085d8954c","type":"text","text":"\nsrc/renderer/infer/utils/inferFns/heliInfer.tx\n\n1. getSuccessRetrials: 获取推理请求结果\n\nsrc/renderer/infer/app.txt\n\n2. savaSuccessRetrials: 保存推理参数结果到数据库","x":2158,"y":-30,"width":340,"height":170},
+		{"id":"2cf1c892e89e7754","type":"text","text":"src/main/controller.ts\n\nenRetrialQueue: 入队","x":2618,"y":-30,"width":250,"height":150},
+		{"type":"text","text":"handleNewSnDir\n\n1. getSnParams： 获取sn参数\n2. getProductSN： 根据文件夹获取SN信息\n3. 给watchWorker发送信息：saveWatch\n","id":"30e4ea044ff2cd3e","x":320,"y":-10,"width":288,"height":150},
+		{"type":"text","text":"src/main/watch/formatSnParams.ts\n\ngetSnParams\n\n解析sn参数，根据不同的产线区别解析预参数\n\n举例： LED线\n\n1. 读errpic图片信息 到fileNames\n2. 读errEeport.log发送insertImgTemplate\n3. return {images: errReportInfo, fovSizeInfo}","id":"a9bf729e1b363025","x":335,"y":180,"width":250,"height":340},
+		{"type":"text","text":"src/main/inferModules/watchMonitorPatch.ts\n\nsaveWatch\n->\n开始监听handleSaveWatch\n->\ndoSaveWatch\n->\n读数据库\n1. 入队（handleExecuteInfer-->executeInferQueue）\n2. 出队\n3. 第一条记录","id":"5ec598f6ab9d7a4e","x":750,"y":-10,"width":360,"height":300},
+		{"type":"text","text":"src/renderer/infer/app.tsx\n\n监听执行推理请求\nexecuteInferQueue\n\n1. executeQueue  执行推理请求相关逻辑\n","id":"3c5acd2d4c467851","x":1280,"y":10,"width":360,"height":260},
+		{"id":"5d1e8b29bf174453","type":"text","text":"src/renderer/infer/app.tsx\n\nexecuteQueue方法\n\n1. fetchInterRecord: 拿数据库待推理的一条数据\n2. generatePostInferParams: 生成推理请求的params\n2. 发送推理请求 postInfer\n3. 处理请求成功结果 handleRequestResult\n4. 分别处理错误和成功结果\n\t5. handleRequestError\n\t6. handleRequestSuccess\n5. handleRequestSuccess:保存推理参数到数据库saveSuccessRetrials\n","x":1720,"y":-10,"width":300,"height":340},
+		{"id":"94f1123bd408f3d0","x":750,"y":350,"width":347,"height":127,"type":"text","text":"1. 开始入队enQueueRecord(snParams)\n2. 储存推理的sn\n"}
 	],
 	"edges":[
 		{"id":"e7f415c361c7fe1e","fromNode":"fad8a90f49064f8c","fromSide":"bottom","toNode":"1e5c230dc0cce08a","toSide":"top"},
 		{"id":"ffe6c6ac00761ece","fromNode":"1e5c230dc0cce08a","fromSide":"bottom","toNode":"eddc7bdcc8613edf","toSide":"top"},
 		{"id":"fcb3af518eec6399","fromNode":"328e5dc0286485ce","fromSide":"right","toNode":"9c56406d38c7efa0","toSide":"left"},
 		{"id":"83f3f56bd2006f47","fromNode":"9c56406d38c7efa0","fromSide":"right","toNode":"2eee40285808b632","toSide":"left"},
-		{"id":"fb50958c7da09e09","fromNode":"30e4ea044ff2cd3e","fromSide":"right","toNode":"a9bf729e1b363025","toSide":"left"},
-		{"id":"c71ba931e45b79a5","fromNode":"a9bf729e1b363025","fromSide":"right","toNode":"5ec598f6ab9d7a4e","toSide":"left"},
 		{"id":"6b64042488b2ca9a","fromNode":"5ec598f6ab9d7a4e","fromSide":"right","toNode":"3c5acd2d4c467851","toSide":"left"},
 		{"id":"862a1016b8c5b64e","fromNode":"3c5acd2d4c467851","fromSide":"right","toNode":"5d1e8b29bf174453","toSide":"left"},
 		{"id":"63e06b45a09ee861","fromNode":"5d1e8b29bf174453","fromSide":"right","toNode":"e0ece9c085d8954c","toSide":"left"},
-		{"id":"5103bfbc9d0a5f85","fromNode":"e0ece9c085d8954c","fromSide":"right","toNode":"2cf1c892e89e7754","toSide":"left"}
+		{"id":"5103bfbc9d0a5f85","fromNode":"e0ece9c085d8954c","fromSide":"right","toNode":"2cf1c892e89e7754","toSide":"left"},
+		{"id":"b068b89467c0db94","fromNode":"2eee40285808b632","fromSide":"right","toNode":"b770db7eae04f51b","toSide":"left"},
+		{"id":"d09fede3d3683107","fromNode":"fbe16004f60a80f9","fromSide":"right","toNode":"30e4ea044ff2cd3e","toSide":"left"},
+		{"id":"83706e7584482c24","fromNode":"30e4ea044ff2cd3e","fromSide":"bottom","toNode":"a9bf729e1b363025","toSide":"top"},
+		{"id":"d1dd170776777918","fromNode":"30e4ea044ff2cd3e","fromSide":"right","toNode":"5ec598f6ab9d7a4e","toSide":"left"},
+		{"id":"adb6905d0d588bc0","fromNode":"5ec598f6ab9d7a4e","fromSide":"bottom","toNode":"94f1123bd408f3d0","toSide":"top"}
 	]
 }
