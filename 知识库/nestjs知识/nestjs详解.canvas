@@ -1,7 +1,9 @@
 {
 	"nodes":[
-		{"id":"62d25e0861ec9ccb","x":-440,"y":-87,"width":250,"height":60,"type":"text","text":"Nest.js"},
-		{"id":"0ece8a5ccfd0962b","x":-180,"y":-240,"width":250,"height":60,"type":"text","text":"Controller"}
+		{"id":"0ece8a5ccfd0962b","x":-180,"y":-240,"width":250,"height":60,"color":"4","type":"text","text":"Controller"},
+		{"id":"62d25e0861ec9ccb","x":-540,"y":-80,"width":250,"height":60,"color":"1","type":"text","text":"Nest.js"}
 	],
-	"edges":[]
+	"edges":[
+		{"id":"f7f8fc4eb284101d","fromNode":"62d25e0861ec9ccb","fromSide":"right","toNode":"0ece8a5ccfd0962b","toSide":"left"}
+	]
 }
